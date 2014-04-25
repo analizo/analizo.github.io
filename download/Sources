@@ -1,0 +1,56 @@
+Package: doxyparse
+Binary: doxyparse
+Version: 1.5.9-1
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Build-Depends: cdbs, debhelper (>= 7), autotools-dev, flex, bison, libqt4-dev, g++-4.6
+Architecture: any
+Standards-Version: 3.9.3
+Format: 1.0
+Files:
+ 2c9fa4ab34ad45a674cfc10fe1e19496 1227 doxyparse_1.5.9-1.dsc
+ 47973ffbdc18332f05832f64f7c1cc20 3273859 doxyparse_1.5.9.orig.tar.gz
+ 9d80a3035ca551b78f54e182b1c0f77d 526 doxyparse_1.5.9-1.diff.gz
+Homepage: http://analizo.org/Site/Doxyparse
+Vcs-Browser: http://gitorious.org/analizo/doxyparse/trees/master
+Vcs-Git: git://gitorious.org/analizo/doxyparse.git
+Package-List:
+ doxyparse deb devel extra
+Checksums-Sha1:
+ 7d4064eeb7d9ee47d70c282fc9876ac3ae1ec5a9 1227 doxyparse_1.5.9-1.dsc
+ 0742052022667453e630037858566f49f35d99d7 3273859 doxyparse_1.5.9.orig.tar.gz
+ b6a7d1639a298f33a3cad88064bca59205bd6bac 526 doxyparse_1.5.9-1.diff.gz
+Checksums-Sha256:
+ e8a218fa89dc22f1ac298fbbcf458e8df446b8f77636b0a42ade36b7e4c05340 1227 doxyparse_1.5.9-1.dsc
+ 1e4c18a9643bdfb25d06ea61ee476d85e2e44be5bbe3f13b53ccecebe775e105 3273859 doxyparse_1.5.9.orig.tar.gz
+ 9ae22a6c4bf2656b5b4049a68ea6796a857e747dbb4484e92e204bfed2cf4470 526 doxyparse_1.5.9-1.diff.gz
+Checksums-Sha512:
+ ef6403e8481671803452c730c4cf34e644a4e84447cf1799d1a1a505fcfe0e0799eeef47b44966bb8926f565adc0e26d7f194702d9eeaa60467eecdaeee131ec 1227 doxyparse_1.5.9-1.dsc
+ 55723e3edb99902e494560a11effaea1a635bc7cc909f078b39b0ab809d13bb56d6fae6b06cdc4ac0e47a88d79fe70da3679e7cd8af6d541baf03a97ff194bbc 3273859 doxyparse_1.5.9.orig.tar.gz
+ 34398505fba7f45916c189f2185bc922ba79b2a76508ef9c721deadb8c38dcaabed34215e4e2392ce65adf329107803ef893f6e911f437b5cbf4e98304100505 526 doxyparse_1.5.9-1.diff.gz
+
+Package: analizo
+Binary: analizo
+Version: 1.17.0
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Build-Depends: debhelper (>= 7.0.50~)
+Build-Depends-Indep: cucumber, rake, ruby-rspec, libtest-class-perl, libtest-exception-perl, libtest-mockmodule-perl, libtest-mockobject-perl, doxyparse (>= 1.5.8-12~), git, ruby, sloccount, libclass-accessor-perl, libdbd-sqlite3-perl, libdbi-perl, libdigest-sha-perl, libfile-copy-recursive-perl, libgraph-perl, libjson-perl, liblist-compare-perl, libstatistics-descriptive-perl, libstatistics-online-perl, libyaml-perl, libzeromq-perl, sqlite3
+Architecture: all
+Standards-Version: 3.9.1
+Format: 3.0 (native)
+Files:
+ 466518488987831ebc70140774d7ee1b 1286 analizo_1.17.0.dsc
+ fefcf3299efae14923b8834faf4da1a8 106889 analizo_1.17.0.tar.gz
+Dm-Upload-Allowed: yes
+Homepage: http://softwarelivre.org/mezuro/analizo
+Package-List:
+ analizo deb devel extra
+Checksums-Sha1:
+ a49ce275f68b92bac0a91024277a094f114b1976 1286 analizo_1.17.0.dsc
+ 4e7b613aa4f556740519646ea49b93322217d0f1 106889 analizo_1.17.0.tar.gz
+Checksums-Sha256:
+ 47d30350166e8fa7a6768dcfa53cbc10248da4e66314ae591f636d247a39df13 1286 analizo_1.17.0.dsc
+ 3960a9f6b8c383d6fe0583a34039335fa802a9480292f6b33bda36c71d427435 106889 analizo_1.17.0.tar.gz
+Checksums-Sha512:
+ 40ca2a8b0e903180ef2d73f13c12382fcca6cc042006e0028fd63b3f30c3ca14e431f8dbc51dc73526bc6c16de2bfa0a5be7ca3bf9c595da740b5cd98ffccf9d 1286 analizo_1.17.0.dsc
+ c96a823c3b54e663f5fd1595862dde1ecdf14b6a4fa114e1a6d65acbded1e33633dc4e9e41c34d6bb92a216b31566c7396aa8d310447fb4b016f3dffb46df1ce 106889 analizo_1.17.0.tar.gz
+

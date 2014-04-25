@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 21 Jan 2013 21:09:24 -0300
+Source: doxyparse
+Binary: doxyparse
+Architecture: i386
+Version: 1.5.9-1
+Distribution: unstable
+Urgency: low
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Changed-By: Joenio Costa <joenio@colivre.coop.br>
+Description: 
+ doxyparse  - multi-language source code analyzer
+Changes: 
+ doxyparse (1.5.9-1) unstable; urgency=low
+ .
+   [ Antonio Terceiro ]
+   * Allow simulateneously running doxyparse instances
+   * print full file name
+Checksums-Sha1: 
+ c85e0a905d276048b5ae8247a4c942c32ad6d405 1796398 doxyparse_1.5.9-1_i386.deb
+Checksums-Sha256: 
+ 643121b12600f25f04cd0d7144db2a3c9cf86a665b9f5a1ce59ab9f2bbe7ad9e 1796398 doxyparse_1.5.9-1_i386.deb
+Files: 
+ 2fd3afae18ca28580bd95851f1c9b3f1 1796398 devel extra doxyparse_1.5.9-1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iEYEARECAAYFAlEKYH4ACgkQKpd5+dVgnL6gmwCfezN9/+HqI+APzfdkdGKga+s/
+KGgAmwe/r7GS2pRlPfkZ6ar1QDCT/GeD
+=xUFu
+-----END PGP SIGNATURE-----

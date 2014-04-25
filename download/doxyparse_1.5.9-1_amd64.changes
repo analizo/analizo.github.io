@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 21 Jan 2013 21:09:24 -0300
+Source: doxyparse
+Binary: doxyparse
+Architecture: source amd64
+Version: 1.5.9-1
+Distribution: unstable
+Urgency: low
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Changed-By: Joenio Costa <joenio@colivre.coop.br>
+Description: 
+ doxyparse  - multi-language source code analyzer
+Changes: 
+ doxyparse (1.5.9-1) unstable; urgency=low
+ .
+   [ Antonio Terceiro ]
+   * Allow simulateneously running doxyparse instances
+   * print full file name
+Checksums-Sha1: 
+ 7d4064eeb7d9ee47d70c282fc9876ac3ae1ec5a9 1227 doxyparse_1.5.9-1.dsc
+ 0742052022667453e630037858566f49f35d99d7 3273859 doxyparse_1.5.9.orig.tar.gz
+ b6a7d1639a298f33a3cad88064bca59205bd6bac 526 doxyparse_1.5.9-1.diff.gz
+ 883970cfb0d5d0eb2f28c7d4a3f0ab3a5e8d7380 1866752 doxyparse_1.5.9-1_amd64.deb
+Checksums-Sha256: 
+ e8a218fa89dc22f1ac298fbbcf458e8df446b8f77636b0a42ade36b7e4c05340 1227 doxyparse_1.5.9-1.dsc
+ 1e4c18a9643bdfb25d06ea61ee476d85e2e44be5bbe3f13b53ccecebe775e105 3273859 doxyparse_1.5.9.orig.tar.gz
+ 9ae22a6c4bf2656b5b4049a68ea6796a857e747dbb4484e92e204bfed2cf4470 526 doxyparse_1.5.9-1.diff.gz
+ 369822ac2d654ba5b6ec4cf74b503acdaf22a2c9d9511f1fb52d3d34ac7e6cb3 1866752 doxyparse_1.5.9-1_amd64.deb
+Files: 
+ 2c9fa4ab34ad45a674cfc10fe1e19496 1227 devel extra doxyparse_1.5.9-1.dsc
+ 47973ffbdc18332f05832f64f7c1cc20 3273859 devel extra doxyparse_1.5.9.orig.tar.gz
+ 9d80a3035ca551b78f54e182b1c0f77d 526 devel extra doxyparse_1.5.9-1.diff.gz
+ a5980da7674ad53d91752765f9507728 1866752 devel extra doxyparse_1.5.9-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iEYEARECAAYFAlEKW9kACgkQKpd5+dVgnL5iCACeLiCkTygtoc9MW9GnoAECLcQN
+PhYAn1LgOdUnoPwOp8nWTg5FPhVSsmRu
+=5O5m
+-----END PGP SIGNATURE-----

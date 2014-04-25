@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Thu, 31 Jan 2013 13:52:08 +0000
+Source: analizo
+Binary: analizo
+Architecture: source all
+Version: 1.17.0
+Distribution: unstable
+Urgency: low
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Changed-By: Joenio Costa <joenio@colivre.coop.br>
+Description: 
+ analizo    - multi-language source code analysis toolkit
+Changes: 
+ analizo (1.17.0) unstable; urgency=low
+ .
+   [ Antonio Terceiro ]
+   * Depend on doxyparse >= 1.5.8-12~ for module-to-filename mapping support
+ .
+   [ Joenio Costa ]
+   * Removing dependency libclass-accessor-fast-perl in favor of libclass-accessor-perl
+   * sqlite3 is required for building/release process
+Checksums-Sha1: 
+ a49ce275f68b92bac0a91024277a094f114b1976 1286 analizo_1.17.0.dsc
+ 4e7b613aa4f556740519646ea49b93322217d0f1 106889 analizo_1.17.0.tar.gz
+ f19723a4caa2e5b349c4f848a8745bfef88fe0f8 56370 analizo_1.17.0_all.deb
+Checksums-Sha256: 
+ 47d30350166e8fa7a6768dcfa53cbc10248da4e66314ae591f636d247a39df13 1286 analizo_1.17.0.dsc
+ 3960a9f6b8c383d6fe0583a34039335fa802a9480292f6b33bda36c71d427435 106889 analizo_1.17.0.tar.gz
+ 3af22f3d5936ee375a2882483706cd1940f9a014048310804ad5101f204d0e72 56370 analizo_1.17.0_all.deb
+Files: 
+ 466518488987831ebc70140774d7ee1b 1286 devel extra analizo_1.17.0.dsc
+ fefcf3299efae14923b8834faf4da1a8 106889 devel extra analizo_1.17.0.tar.gz
+ 3a05b947da5fd8b28846c6ddf99c14d1 56370 devel extra analizo_1.17.0_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iEYEARECAAYFAlEKevgACgkQKpd5+dVgnL5f+gCgga0DF6CEYN3kaa/6w1iAhEuT
+dNwAn3M1Jtuu6RkCyWylc/DZsXI+mQ1S
+=GgAT
+-----END PGP SIGNATURE-----
