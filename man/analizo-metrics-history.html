@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+		<title>analizo-metrics-history — Analizo</title>
+
+		<link href="../bootstrap/css/bootstrap.min.css" rel='stylesheet'/>
+		<link href="../bootswatch/cosmo/bootstrap.min.css" rel='stylesheet'/>
+		<link href="../site.css" rel='stylesheet'/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+						<a class="navbar-brand" href="..">&nbsp;</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+					<div class="navbar-collapse collapse navbar-right" id="navbar-main">
+						<ul class="nav navbar-nav">
+							<li><a href="../features.html">Features</a></li>
+							<li><a href="../documentation.html">Documentation</a></li>
+							<li><a href="../download.html">Download</a></li>
+							<li><a href="../community.html">Community</a></li>
+						</ul>
+					</div>
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container" id='body'>
+				<h1>analizo-metrics-history</h1>
+
+
+
+<h1 id="NAME">NAME</h1>
+
+<p>analizo metrics-history - processes a Git repository collection metrics</p>
+
+<h1 id="USAGE">USAGE</h1>
+
+<pre><code>  analizo metrics-history [OPTIONS] [&lt;input&gt;]</code></pre>
+
+<h1 id="DESCRIPTION">DESCRIPTION</h1>
+
+<p>Processes a Git repository collection metrics for every single revision.</p>
+
+<p><b>analizo metrics-history</b> will process <i>input</i>, a Git repository with a working copy of the source code (i.e. not a bare git repository), checkout every relevant commit and run <b>analizo metrics</b> on it. The metrics for all of the revisions will be accumulated in a file called <i>metrics.csv</i> inside <i>input</i>. If <i>input</i> is ommitted, the current directory (.) s assumed.</p>
+
+<h1 id="RELEVANT-COMMITS">RELEVANT COMMITS</h1>
+
+<p><b>analizo metrics-history</b> considers as relevant the commits that changed at least one source code file. Consequently, it skips all the commits where no source code file was changed, such as documentation, translations, build system changes, etc.</p>
+
+<p>Currently we support C, C++ and Java projects, and therefore files considered source code are the ones terminated in <i>.c</i>, <i>.h</i>, <i>.cpp</i>, <i>.cxx</i>, <i>.cc</i>, <i>.hpp</i>, and <i>.java</i>.</p>
+
+<h1 id="OPTIONS">OPTIONS</h1>
+
+<dl>
+
+<dt id="parallel-N--p-N">--parallel N, -p N</dt>
+<dd>
+
+<p>Activates support for parallel processing, using <i>N</i> concurrent worker processes. Usually you will want N to be less than or equal to the number of CPUs in your machine.</p>
+
+<p>Note that analizo metrics extraction is a CPU-intensive process, so setting N as the exacty number of CPUs you have may bring your machine to an unusable state.</p>
+
+</dd>
+<dt id="language-LANGUAGE---exclude-DIRECTORY">--language LANGUAGE, --exclude DIRECTORY</dt>
+<dd>
+
+<p>Use programming language and directory exclusion filters. See <b>analizo-metrics(1)</b> for a description of these options.</p>
+
+</dd>
+<dt id="output-file--o-file">--output &lt;file&gt;, -o &lt;file&gt;</dt>
+<dd>
+
+<p>Make the output be written to <i>file</i>. The default value and valid values depend on the output format, see &quot;Output formats&quot; below.</p>
+
+</dd>
+<dt id="format-FORMAT--f-FORMAT">--format FORMAT, -f FORMAT</dt>
+<dd>
+
+<p>Specifies with output driver, and consequently the output format, to use. See &quot;Output Formats&quot; below for a description of the available output drivers.</p>
+
+</dd>
+<dt id="list--l">--list, -l</dt>
+<dd>
+
+<p>Instead of actually processing the history, just print out the ids of the commits that would be processed.</p>
+
+</dd>
+<dt id="progressbar--b">--progressbar, -b</dt>
+<dd>
+
+<p>Displays a progress bar during the execution, so that you know aproximately how long analizo is going to take to finish.</p>
+
+</dd>
+</dl>
+
+<h1 id="Output-formats">Output formats</h1>
+
+<p>Using the <i>--format</i> option, you can use the following output drivers:</p>
+
+<h2 id="csv">csv</h2>
+
+<p>This is the default output driver. By default, the output will be written to the standard output. If can direct the output to a file using the <i>--output</i> option.</p>
+
+<h2 id="db">db</h2>
+
+<p>Stores the extracted data in a relational database.</p>
+
+<p>When you use this driver, you can specify where exactly to store the data using the <i>--output</i> option. If you do not specify an explicit target, analizo will write to a SQLite database in a file called <i>output.sqlite3</i> in the current directory. If you pass a filename, and analizo will store the data in a SQLite database that will be created on that file. You can direct the output to any other database by using <i>--output DSN</i>, where <i>DSN</i> is a DBI Data Source Name.</p>
+
+<p>You can check <b>DBI</b>(3pm) for details. Note that if you a database other than SQLite, you must make sure that you have the correponsing DBI driver installed.</p>
+
+<p>Examples:</p>
+
+<p><b>$ analizo metrics-history -f db -o history.db</b></p>
+
+<p>Writes the output to a SQLite database called <i>history.db</i>.</p>
+
+<p><b>$ analizo metrics-history -f db -o &#39;dbi:Pg:dbname=pgdb&#39;</b></p>
+
+<p>Writes the data to a PostgreSQL database called <i>pgdb</i>. This requires the <i>DBI::Pg</i> Perl module.</p>
+
+<p>analizo was not tested with MySQL yet.</p>
+
+<h1 id="SEE-ALSO">SEE ALSO</h1>
+
+<p><b>analizo-metrics(1)</b></p>
+
+<h1 id="COPYRIGHT-AND-AUTHORS">COPYRIGHT AND AUTHORS</h1>
+
+<p>See <b>analizo(1)</b>.</p>
+
+
+
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+		<script type="text/javascript" src="../jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

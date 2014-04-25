@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+		<title>analizo-evolution-matrix — Analizo</title>
+
+		<link href="../bootstrap/css/bootstrap.min.css" rel='stylesheet'/>
+		<link href="../bootswatch/cosmo/bootstrap.min.css" rel='stylesheet'/>
+		<link href="../site.css" rel='stylesheet'/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+						<a class="navbar-brand" href="..">&nbsp;</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+					<div class="navbar-collapse collapse navbar-right" id="navbar-main">
+						<ul class="nav navbar-nav">
+							<li><a href="../features.html">Features</a></li>
+							<li><a href="../documentation.html">Documentation</a></li>
+							<li><a href="../download.html">Download</a></li>
+							<li><a href="../community.html">Community</a></li>
+						</ul>
+					</div>
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container" id='body'>
+				<h1>analizo-evolution-matrix</h1>
+
+
+
+<h1 id="NAME">NAME</h1>
+
+<p>analizo evolution-matrix - generates an evolution matrix from analizo .yml metric files</p>
+
+<h1 id="USAGE">USAGE</h1>
+
+<pre><code>  analizo evolution-matrix [OPTIONS] &lt;ymlfile&gt; [&lt;ymlfile&gt; [&lt;ymlfile&gt;...]]</code></pre>
+
+<h1 id="DESCRIPTION">DESCRIPTION</h1>
+
+<p><b>analizo evolution-matrix</b> generates evolution matrices from project metrics data.</p>
+
+<p>The evolution matrix is a techinique for software evolution analysis introduced in <i>Lanza, M. 2001. The evolution matrix: recovering software evolution using software visualization techniques. In Proceedings of the 4th international Workshop on Principles of Software Evolution (Vienna, Austria, September 10 - 11, 2001). IWPSE &#39;01. ACM, New York, NY, 37-42. DOI= http://doi.acm.org/10.1145/602461.602467</i>. Please refer to that paper for a very nice explanation of the uses for an evolution matrix.</p>
+
+<p><b>analizo evolution-matrix</b> will process the YML files passed in the command line and generate an evolution matrix. To do that we assume that the YML files are name as project-name-<i>X.Y.X</i>.yml, where <i>X.Y.Z</i> represents the version numbers of different versions of the same project.</p>
+
+<p>The output is HTML code corresponding to the evolution matrix of the # project, considering all the versions passed in the command line. By default the output is trown in the standard output, but once can override that with the <b>-o</b> option.</p>
+
+<h1 id="OPTIONS">OPTIONS</h1>
+
+<dl>
+
+<dt id="width-metric--w-metric">--width &lt;metric&gt;, -w &lt;metric&gt;</dt>
+<dd>
+
+<p>Uses &lt;metric&gt; as width of the matrix cells. Available metrics can be checked with `analizo metrics --list`, in the &quot;Module metrics&quot; section.</p>
+
+</dd>
+<dt id="height-metric--h-metric">--height &lt;metric&gt;, -h &lt;metric&gt;</dt>
+<dd>
+
+<p>Uses &lt;metric&gt; as height of the matrix cells. Available metrics can be checked with `analizo metrics --list`, in the &quot;Module metrics&quot; section.</p>
+
+</dd>
+<dt id="name-name--n-name">--name &lt;name&gt;, -n &lt;name&gt;</dt>
+<dd>
+
+<p>Sets the name of the project being analysed. Used in the generated report.</p>
+
+</dd>
+<dt id="output-file--o-file">--output &lt;file&gt;, -o &lt;file&gt;</dt>
+<dd>
+
+<p>Writes output to &lt;file&gt; instead of to standard output.</p>
+
+</dd>
+</dl>
+
+<h1 id="COPYRIGHT-AND-AUTHORS">COPYRIGHT AND AUTHORS</h1>
+
+<p>See <b>analizo(1)</b>.</p>
+
+
+
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+		<script type="text/javascript" src="../jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

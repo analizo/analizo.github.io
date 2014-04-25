@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-		<title>Analizo</title>
+		<title>Download — Analizo</title>
 
 		<link href="./bootstrap/css/bootstrap.min.css" rel='stylesheet'/>
 		<link href="./bootswatch/cosmo/bootstrap.min.css" rel='stylesheet'/>
@@ -48,16 +48,35 @@
 
       <!-- Begin page content -->
       <div class="container" id='body'>
-				<div class="jumbotron">
-<p>
-  
-Analizo is a free, multi-language, extensible source code analysis and visualization toolkit. It supports the extraction and calculation of a fair number of source code metrics, generation of dependency graphs, and software evolution analysis.
-</p>
-
-<div class="button-bar">
-<a class='btn btn-success' href='download.html'>Download</a> <a class='btn btn-primary' href='documentation.html'>Documentation</a>
-</div>
-</div>
+				<h1 id="download">Download</h1>
+<p>Analizo current version is <strong>1.17.0</strong>. You have more than one choice of download, see below.</p>
+<h2 id="source-code">Source code</h2>
+<p>Analizo source code can be obtained by downloading <a href="http://analizo.org/download/analizo_1.17.0.tar.gz">analizo_1.17.0.tar.gz</a> To perform the installation, check the <a href="installation.html">installation instructions</a>.</p>
+<h2 id="debian-package">Debian package</h2>
+<p>Analizo is readily available as a Debian package. This package migth work with Ubuntu as well. Installing the Debian package has the following advantages:</p>
+<ul>
+<li>you do not have to compile anything</li>
+<li>all dependencies are installed automatically</li>
+<li>new versions will be made available automatically and you can upgrade using standard Debian tools</li>
+</ul>
+<p>You will find the instructions to install Analizo Debian package below. All of the steps must be performed as =root= user.</p>
+<ol style="list-style-type: decimal">
+<li>Create a file <code>/etc/apt/sources.list.d/analizo.list</code> file with the following contents:</li>
+</ol>
+<pre><code>deb http://analizo.org/download/ ./
+deb-src http://analizo.org/download/ ./</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Add the repository signing key to your list of trusted keys:</li>
+</ol>
+<pre><code># wget -O - http://analizo.org/download/signing-key.asc | apt-key add -</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>Update your package lists:</li>
+</ol>
+<pre><code># apt-get update</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>Install analizo:</li>
+</ol>
+<pre><code># apt-get install analizo</code></pre>
 
       </div>
     </div>
@@ -69,3 +88,4 @@ Analizo is a free, multi-language, extensible source code analysis and visualiza
 		<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
+

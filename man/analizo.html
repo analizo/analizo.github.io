@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+		<title>analizo — Analizo</title>
+
+		<link href="../bootstrap/css/bootstrap.min.css" rel='stylesheet'/>
+		<link href="../bootswatch/cosmo/bootstrap.min.css" rel='stylesheet'/>
+		<link href="../site.css" rel='stylesheet'/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+						<a class="navbar-brand" href="..">&nbsp;</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+					<div class="navbar-collapse collapse navbar-right" id="navbar-main">
+						<ul class="nav navbar-nav">
+							<li><a href="../features.html">Features</a></li>
+							<li><a href="../documentation.html">Documentation</a></li>
+							<li><a href="../download.html">Download</a></li>
+							<li><a href="../community.html">Community</a></li>
+						</ul>
+					</div>
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container" id='body'>
+				<h1>analizo</h1>
+
+
+
+<h1 id="NAME">NAME</h1>
+
+<p>analizo - a source code analysis suite</p>
+
+<h1 id="USAGE">USAGE</h1>
+
+<pre><code>  analizo &lt;tool&gt; [tool-options] &lt;toolargs&gt; [&lt;tool-args&gt; ...]
+  analizo &lt;option&gt;</code></pre>
+
+<h1 id="DESCRIPTION">DESCRIPTION</h1>
+
+<p>analizo is a suite of source code analysis tools, aimed at being language-independent and extensible. The &#39;analizo&#39; program is a wrapper for the analizo tools, which do the real work, so most of the time you&#39;ll be using one specific tool among the available ones. See TOOLS below for more information.</p>
+
+<h1 id="TOOLS">TOOLS</h1>
+
+<p>analizo has several individual tools that share a core infrastructure, but do different analysis and produce different output. They are normally invoked like this:</p>
+
+<pre><code>  analizo &lt;tool&gt; [tool-options] &lt;tool-args&gt; [&lt;tool-args&gt; ...]</code></pre>
+
+<p>Although you can invoke analizo tools against one or few files inside a project, normally it only makes sense to run it against the entire source tree (e.g. passing &quot;.&quot; or &quot;./src&quot; as input directories).</p>
+
+<p>The options and output are specific to each tool, so make sure to read the corresponding manual for the tool(s) you want.</p>
+
+<p>Run <b>analizo</b> withtout any command line arguments to see the list of available tools.</p>
+
+<h1 id="OPTIONS">OPTIONS</h1>
+
+<p>The following are the options for the wrapper analizo script. The options for each tools are documented in the respective tool&#39;s manual page.</p>
+
+<dl>
+
+<dt id="version">--version</dt>
+<dd>
+
+<p>Displays version information and exits.</p>
+
+</dd>
+<dt id="help">--help</dt>
+<dd>
+
+<p>Displays the manpage for the &#39;analizo&#39; script or any analizo &#39;tool&#39;.</p>
+
+</dd>
+<dt id="usage">--usage</dt>
+<dd>
+
+<p>Displays the only usage of the named tool, instead of display its manpage.</p>
+
+</dd>
+</dl>
+
+<h1 id="CONFIGURATION-FILE">CONFIGURATION FILE</h1>
+
+<p>Analizo can be configured in a per-project way by means of a file called <i>.analizo</i> in the current directory. The syntax for this file is: one line per tool, each line has the tool name, a colon and one or more command line options:</p>
+
+<pre><code>  &lt;tool-name&gt;: OPTIONS</code></pre>
+
+<p>When you run an analizo tool from inside that directory, it will load <i>.analizo</i> and act as if the options specified there were actually passed to it in the command line. Note that options in the command line will override any options in configuration files, though.</p>
+
+<p>Example:</p>
+
+<pre><code>  metrics: --language cpp
+  graph: --modules</code></pre>
+
+<p>You can store a file like that in the root directory of your project. Every time you run <b>analizo metrics</b> from that directory, it will only consider C++ code. When you run <b>analizo graph</b> from that directory it will use the <i>--modules</i> option.</p>
+
+<h1 id="HISTORY">HISTORY</h1>
+
+<p>Analizo started as a modified version of egypt, by Andreas Gustafsson (available at http://www.gson.org/egypt/ as of the time this is being written). But since then so many features were added (and removed) that at some point during October 2009 it felt like it wasn&#39;t egypt anymore, and a new name was needed. The project was then renamed to Analizo, which means &quot;analysis&quot; in Esperanto.</p>
+
+<p>It was also relicensed under the GPL version 3. This relicensing was possible because the license of the original egypt allows that: &quot;the same terms as Perl itself&quot; mean either Artistic License or GPL version 1 or later.</p>
+
+<h1 id="COPYRIGHT">COPYRIGHT</h1>
+
+<dl>
+
+<dt id="Copyright-c-1994-2006-Andreas-Gustafsson">Copyright (c) 1994-2006 Andreas Gustafsson</dt>
+<dd>
+
+</dd>
+<dt id="Copyright-c-2008-2009-Antonio-Terceiro">Copyright (c) 2008-2009 Antonio Terceiro</dt>
+<dd>
+
+</dd>
+</dl>
+
+<p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>
+
+<h1 id="AUTHORS">AUTHORS</h1>
+
+<p>Andreas Gustafsson wrote the original version of analizo. Since them several people contributed to analizo&#39;s development. See the AUTHORS file for a complete list.</p>
+
+
+
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+		<script type="text/javascript" src="../jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

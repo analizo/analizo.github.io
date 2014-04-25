@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+		<title>analizo-graph — Analizo</title>
+
+		<link href="../bootstrap/css/bootstrap.min.css" rel='stylesheet'/>
+		<link href="../bootswatch/cosmo/bootstrap.min.css" rel='stylesheet'/>
+		<link href="../site.css" rel='stylesheet'/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+						<a class="navbar-brand" href="..">&nbsp;</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+					<div class="navbar-collapse collapse navbar-right" id="navbar-main">
+						<ul class="nav navbar-nav">
+							<li><a href="../features.html">Features</a></li>
+							<li><a href="../documentation.html">Documentation</a></li>
+							<li><a href="../download.html">Download</a></li>
+							<li><a href="../community.html">Community</a></li>
+						</ul>
+					</div>
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container" id='body'>
+				<h1>analizo-graph</h1>
+
+
+
+<h1 id="NAME">NAME</h1>
+
+<p>analizo graph - dependency graph generator</p>
+
+<h1 id="USAGE">USAGE</h1>
+
+<pre><code>  analizo graph [OPTIONS] &lt;input&gt; [&lt;input&gt; [&lt;input&gt; ...]]</code></pre>
+
+<h1 id="DESCRIPTION">DESCRIPTION</h1>
+
+<p>analizo graph reads the dependency information from one or more source code directories passed as arguments, and produces as output the graph of dependencies between the modules of the software in the graphviz(1) format.</p>
+
+<p>analizo graph is part of the analizo suite.</p>
+
+<h1 id="REQUIRED-ARGUMENTS">REQUIRED ARGUMENTS</h1>
+
+<dl>
+
+<dt id="input">&lt;input&gt;...</dt>
+<dd>
+
+<p>The input directories (or files) with source code to be processed.</p>
+
+<p>Although you can pass individual files as input, this tool is more useful if you pass entire source directories. If you pass just a couple of files, their dependencies on modules that are not declared and/or implemented in those files will not be calculated.</p>
+
+</dd>
+</dl>
+
+<h1 id="OPTIONS">OPTIONS</h1>
+
+<dl>
+
+<dt id="omit-functions">--omit &lt;functions&gt;</dt>
+<dd>
+
+<p>Omit the given functions from the call graph. Multiple function names may be given separated by commas.</p>
+
+</dd>
+<dt id="cluster">--cluster</dt>
+<dd>
+
+<p>Cluster the functions into files, so you can see in which files are the calling and called functions.</p>
+
+</dd>
+<dt id="modules">--modules</dt>
+<dd>
+
+<p>Group the functions by modules(files), and only represent calls between modules. This is useful to see the dependencies between the modules of the program, intead of focusing on specific functions. The arrows between the modules will be labelled with a number that represents the number of different places in which the calling module calls functions in the called module (i.e. how many times module A calls module B).</p>
+
+<p>It doesn&#39;t make much sense to use --modules together with --cluster.</p>
+
+</dd>
+<dt id="extractor-extractor">--extractor &lt;extractor&gt;</dt>
+<dd>
+
+<p>Define wich extractor method use to analise source code. Currenly &quot;Doxyparse&quot; is the only extractor available. Default is Doxyparse.</p>
+
+</dd>
+<dt id="output-file--o-file">--output &lt;file&gt;, -o &lt;file&gt;</dt>
+<dd>
+
+<p>Use a file as output</p>
+
+</dd>
+</dl>
+
+<h1 id="VIEWING-THE-GRAPH">VIEWING THE GRAPH</h1>
+
+<p>To view the generated graph, pipe analizo&#39;s output to one of the Graphiz tools. You can use <b>dotty(1)</b> to display the graph in a X11 window:</p>
+
+<pre><code>  $ analizo graph src/ | dotty -</code></pre>
+
+<p>You can also generate a file to print or include in a document by using the <b>dot(1)</b>.</p>
+
+<p>To generate a PNG image called <i>graph.png</i>:</p>
+
+<pre><code>  $ analizo graph src/ | dot -Tpng -ograph.png -</code></pre>
+
+<p>To generate a PostScript version of the dependency graph for printing, you can also use the <b>dot</b>. For example, to generate a dependency graph in the file <i>graph.ps</i> fitting everything on a US letter size page in landscape mode, try</p>
+
+<pre><code>  $ analizo graph src/ | dot -Grotate=90 -Gsize=11,8.5 -Tps -o graph.ps</code></pre>
+
+<p>Sometimes, the graph will fit better if the dependencies arrows go from left to right instead of top to bottom. The <b>dot</b> option <b>-Grankdir=LR</b> will do that:</p>
+
+<pre><code>  $ analizo graph src/ | dot -Gsize=8.5,11 -Grankdir=LR -Tps -o graph.ps</code></pre>
+
+<p>For large software, the graph may end up too small to comfortably read. If that happens, try N-up printing:</p>
+
+<pre><code>  $ analizo graph src/ | dot -Gpage=8.5,11 -Tps -o graph.ps</code></pre>
+
+<p>You can also try playing with other <b>dot</b> options such as <b>-Gratio</b>, or for a different style of graph, try using <b>neato</b> instead of <b>dot</b>. See the Graphwiz documentation for more information about the various options available for customizing the style of the graph.</p>
+
+<h1 id="READING-THE-GRAPH">READING THE GRAPH</h1>
+
+<p>When generating a graph in the function level (i.g. without the <i>--modules</i> option), function calls are displayed as solid arrows. A dotted arrow means that the function the arrow points from takes the address of the function the arrow points to; this typically indicates that the latter function is being used as a callback.</p>
+
+<p>When the <i>--modules</i> option is on, then there are only solid arrows. An arrow from <i>A</i> to <i>B</i> means that <i>A</i> depends on <i>B</i>.</p>
+
+<h1 id="SEE-ALSO">SEE ALSO</h1>
+
+<p><b>dotty(1)</b>, <b>dot(1)</b>, <b>neato(1)</b>, <b>analizo(1)</b></p>
+
+<h1 id="COPYRIGHT-AND-AUTHORS">COPYRIGHT AND AUTHORS</h1>
+
+<p>See <b>analizo(1)</b>.</p>
+
+
+
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+		<script type="text/javascript" src="../jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
