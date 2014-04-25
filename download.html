@@ -6,11 +6,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-		<title>Download — Analizo</title>
+    <title>Download — Analizo</title>
 
-		<link href="./bootstrap/css/bootstrap.min.css" rel='stylesheet'/>
-		<link href="./bootswatch/cosmo/bootstrap.min.css" rel='stylesheet'/>
-		<link href="./site.css" rel='stylesheet'/>
+    <link href="./bootstrap/css/bootstrap.min.css" rel='stylesheet'/>
+    <link href="./bootswatch/cosmo/bootstrap.min.css" rel='stylesheet'/>
+    <link href="./site.css" rel='stylesheet'/>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -28,30 +28,30 @@
       <div class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
-						<a class="navbar-brand" href=".">&nbsp;</a>
+            <a class="navbar-brand" href=".">&nbsp;</a>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
           </div>
-					<div class="navbar-collapse collapse navbar-right" id="navbar-main">
-						<ul class="nav navbar-nav">
-							<li><a href="./features.html">Features</a></li>
-							<li><a href="./documentation.html">Documentation</a></li>
-							<li><a href="./download.html">Download</a></li>
-							<li><a href="./community.html">Community</a></li>
-						</ul>
-					</div>
+          <div class="navbar-collapse collapse navbar-right" id="navbar-main">
+            <ul class="nav navbar-nav">
+              <li><a href="./features.html">Features</a></li>
+              <li><a href="./documentation.html">Documentation</a></li>
+              <li><a href="./download.html">Download</a></li>
+              <li><a href="./community.html">Community</a></li>
+            </ul>
+          </div>
         </div>
       </div>
 
       <!-- Begin page content -->
       <div class="container" id='body'>
-				<h1 id="download">Download</h1>
+        <h1 id="download">Download</h1>
 <p>Analizo current version is <strong>1.17.0</strong>. You have more than one choice of download, see below.</p>
 <h2 id="source-code">Source code</h2>
-<p>Analizo source code can be obtained by downloading <a href="http://analizo.org/download/analizo_1.17.0.tar.gz">analizo_1.17.0.tar.gz</a> To perform the installation, check the <a href="installation.html">installation instructions</a>.</p>
+<p>Analizo source code can be obtained by downloading <a href="download/analizo_1.17.0.tar.gz">analizo_1.17.0.tar.gz</a> To perform the installation, check the <a href="installation.html">installation instructions</a>.</p>
 <h2 id="debian-package">Debian package</h2>
 <p>Analizo is readily available as a Debian package. This package migth work with Ubuntu as well. Installing the Debian package has the following advantages:</p>
 <ul>
@@ -63,12 +63,12 @@
 <ol style="list-style-type: decimal">
 <li>Create a file <code>/etc/apt/sources.list.d/analizo.list</code> file with the following contents:</li>
 </ol>
-<pre><code>deb http://analizo.org/download/ ./
+<pre class="repository"><code>deb http://analizo.org/download/ ./
 deb-src http://analizo.org/download/ ./</code></pre>
 <ol start="2" style="list-style-type: decimal">
 <li>Add the repository signing key to your list of trusted keys:</li>
 </ol>
-<pre><code># wget -O - http://analizo.org/download/signing-key.asc | apt-key add -</code></pre>
+<pre class="repository"><code># wget -O - http://analizo.org/download/signing-key.asc | apt-key add -</code></pre>
 <ol start="3" style="list-style-type: decimal">
 <li>Update your package lists:</li>
 </ol>
@@ -84,8 +84,9 @@ deb-src http://analizo.org/download/ ./</code></pre>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-		<script type="text/javascript" src="./jquery/jquery.min.js"></script>
-		<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./site.js"></script>
   </body>
 </html>
 
