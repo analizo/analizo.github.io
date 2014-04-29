@@ -1,0 +1,24 @@
+#!/bin/sh
+
+DEBSIGN_KEYID=DEADBEEF
+
+ARCHIVETOOL=apt-ftparchive
+
+compress() {
+  cat "${1}" | gzip - > "${1}.gz"
+  cat "${1}" | bzip2 - > "${1}.bz2"
+}
+
+# generate index files
+${ARCHIVETOOL} packages . > Packages
+compress Packages
+${ARCHIVETOOL} sources . > Sources
+compress Sources
+
+# generate and sign Release file
+${ARCHIVETOOL} release . > Release
+rm -f Release.gpg
+gpg --use-agent --local-user ${DEBSIGN_KEYID} -abs -o Release.gpg Release
+
+# Publish the signing key
+gpg --use-agent --armor --export-options export-minimal --export ${DEBSIGN_KEYID} > signing-key.asc
