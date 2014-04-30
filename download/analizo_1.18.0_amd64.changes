@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Fri, 25 Apr 2014 20:12:31 +0000
+Source: analizo
+Binary: analizo
+Architecture: source all
+Version: 1.18.0
+Distribution: unstable
+Urgency: low
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Changed-By: Alexandre <alexandreab@live.com>
+Description: 
+ analizo    - multi-language source code analysis toolkit
+Changes: 
+ analizo (1.18.0) unstable; urgency=low
+ .
+   [ Alexandre Barbosa ] [ Lucas Kanashiro ]
+ .
+   * New release
+   * Removing dependency cucumber in faver of Test::BDD:Cucumber
+   * Adding new extractor for security metrics:
+     + 21 new security metrics
+   * Adding new dependencies:
+     + gcc
+     + clang
+Checksums-Sha1: 
+ 7bb30fa9c69ae8fbaeac2f80ec081cce59721e1a 1350 analizo_1.18.0.dsc
+ 255034e538337287487bbd33ddb7688c10f2ac76 7470184 analizo_1.18.0.tar.xz
+ 9cac37b29001a14d8d9ea2198446a4f0bddbc787 63968 analizo_1.18.0_all.deb
+Checksums-Sha256: 
+ de75819006bcbe49454f7adfbcb7fba4ffacc51bd97441934cf69272e5c3110c 1350 analizo_1.18.0.dsc
+ 20f639893ce4ca8a2a7eb53e949c97f7943310406b0c9f4a96dbadc1579a53b0 7470184 analizo_1.18.0.tar.xz
+ f78c21e294cf97c1d73ab16547d0b84d0e375732edaba1ea98de3d62d24ad612 63968 analizo_1.18.0_all.deb
+Files: 
+ 1f4143b5a94459cb67a1f9cc09c185c2 1350 devel extra analizo_1.18.0.dsc
+ e9af897425bacc89e77f9c7070d074fc 7470184 devel extra analizo_1.18.0.tar.xz
+ 1bd4b360b097fde4b8571f8ecd6c4f60 63968 devel extra analizo_1.18.0_all.deb

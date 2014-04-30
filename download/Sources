@@ -1,3 +1,29 @@
+Package: analizo
+Binary: analizo
+Version: 1.17.0
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Build-Depends: debhelper (>= 7.0.50~)
+Build-Depends-Indep: cucumber, rake, ruby-rspec, libtest-class-perl, libtest-exception-perl, libtest-mockmodule-perl, libtest-mockobject-perl, doxyparse (>= 1.5.8-12~), git, ruby, sloccount, libclass-accessor-perl, libdbd-sqlite3-perl, libdbi-perl, libdigest-sha-perl, libfile-copy-recursive-perl, libgraph-perl, libjson-perl, liblist-compare-perl, libstatistics-descriptive-perl, libstatistics-online-perl, libyaml-perl, libzeromq-perl, sqlite3
+Architecture: all
+Standards-Version: 3.9.1
+Format: 3.0 (native)
+Files:
+ 466518488987831ebc70140774d7ee1b 1286 analizo_1.17.0.dsc
+ fefcf3299efae14923b8834faf4da1a8 106889 analizo_1.17.0.tar.gz
+Dm-Upload-Allowed: yes
+Homepage: http://softwarelivre.org/mezuro/analizo
+Package-List:
+ analizo deb devel extra
+Checksums-Sha1:
+ a49ce275f68b92bac0a91024277a094f114b1976 1286 analizo_1.17.0.dsc
+ 4e7b613aa4f556740519646ea49b93322217d0f1 106889 analizo_1.17.0.tar.gz
+Checksums-Sha256:
+ 47d30350166e8fa7a6768dcfa53cbc10248da4e66314ae591f636d247a39df13 1286 analizo_1.17.0.dsc
+ 3960a9f6b8c383d6fe0583a34039335fa802a9480292f6b33bda36c71d427435 106889 analizo_1.17.0.tar.gz
+Checksums-Sha512:
+ 40ca2a8b0e903180ef2d73f13c12382fcca6cc042006e0028fd63b3f30c3ca14e431f8dbc51dc73526bc6c16de2bfa0a5be7ca3bf9c595da740b5cd98ffccf9d 1286 analizo_1.17.0.dsc
+ c96a823c3b54e663f5fd1595862dde1ecdf14b6a4fa114e1a6d65acbded1e33633dc4e9e41c34d6bb92a216b31566c7396aa8d310447fb4b016f3dffb46df1ce 106889 analizo_1.17.0.tar.gz
+
 Package: doxyparse
 Binary: doxyparse
 Version: 1.5.9-1
@@ -30,27 +56,26 @@ Checksums-Sha512:
 
 Package: analizo
 Binary: analizo
-Version: 1.17.0
+Version: 1.18.0
 Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
 Build-Depends: debhelper (>= 7.0.50~)
-Build-Depends-Indep: cucumber, rake, ruby-rspec, libtest-class-perl, libtest-exception-perl, libtest-mockmodule-perl, libtest-mockobject-perl, doxyparse (>= 1.5.8-12~), git, ruby, sloccount, libclass-accessor-perl, libdbd-sqlite3-perl, libdbi-perl, libdigest-sha-perl, libfile-copy-recursive-perl, libgraph-perl, libjson-perl, liblist-compare-perl, libstatistics-descriptive-perl, libstatistics-online-perl, libyaml-perl, libzeromq-perl, sqlite3
+Build-Depends-Indep: clang-3.5, rake, ruby-rspec, libfile-copy-recursive-perl, libfile-libmagic-perl, libfile-slurp-perl, libmethod-signatures-perl, libtest-bdd-cucumber-perl, libtest-class-perl, libtest-exception-perl, libtest-mockmodule-perl, libtest-mockobject-perl, doxyparse (>= 1.5.8-12~), g++ (>= 4.8~), gcc (>= 4.8~), git, man, ruby, sloccount, sqlite3, libapp-cmd-perl, libchi-perl, libclass-accessor-perl, libclass-inspector-perl, libdbd-sqlite3-perl, libdbi-perl, libdigest-sha-perl, libfile-homedir-perl, libfile-share-perl, libfile-sharedir-perl, libfindbin-libs-perl, libgraph-perl, libgraph-writer-dsm-perl (>= 0.005), libjson-perl, liblist-compare-perl, libmojolicious-perl, libstatistics-descriptive-perl, libterm-progressbar-perl, libyaml-perl, libyaml-tiny-perl, libzeromq-perl
 Architecture: all
 Standards-Version: 3.9.1
 Format: 3.0 (native)
 Files:
- 466518488987831ebc70140774d7ee1b 1286 analizo_1.17.0.dsc
- fefcf3299efae14923b8834faf4da1a8 106889 analizo_1.17.0.tar.gz
-Dm-Upload-Allowed: yes
-Homepage: http://softwarelivre.org/mezuro/analizo
+ be4c899cea46684ebcb85e312ba5ca25 1888 analizo_1.18.0.dsc
+ d05a941756b1556f48ddc95570f8b861 7859621 analizo_1.18.0.tar.gz
+Homepage: http://analizo.org
 Package-List:
  analizo deb devel extra
 Checksums-Sha1:
- a49ce275f68b92bac0a91024277a094f114b1976 1286 analizo_1.17.0.dsc
- 4e7b613aa4f556740519646ea49b93322217d0f1 106889 analizo_1.17.0.tar.gz
+ 819dfe86a80672b0288436ff8d9e6b580c785232 1888 analizo_1.18.0.dsc
+ 1a8ddbbec834a6057c7ca6e5442bd9be1f3eea81 7859621 analizo_1.18.0.tar.gz
 Checksums-Sha256:
- 47d30350166e8fa7a6768dcfa53cbc10248da4e66314ae591f636d247a39df13 1286 analizo_1.17.0.dsc
- 3960a9f6b8c383d6fe0583a34039335fa802a9480292f6b33bda36c71d427435 106889 analizo_1.17.0.tar.gz
+ 80fb34e3f9fd82d594f3f197a2d557b1286687d9270478c743f0de5ffb4d3e7d 1888 analizo_1.18.0.dsc
+ 794f6f96d76ebfa70f767469e951643cfe3a2b5926d93c243513c6f0234e03fe 7859621 analizo_1.18.0.tar.gz
 Checksums-Sha512:
- 40ca2a8b0e903180ef2d73f13c12382fcca6cc042006e0028fd63b3f30c3ca14e431f8dbc51dc73526bc6c16de2bfa0a5be7ca3bf9c595da740b5cd98ffccf9d 1286 analizo_1.17.0.dsc
- c96a823c3b54e663f5fd1595862dde1ecdf14b6a4fa114e1a6d65acbded1e33633dc4e9e41c34d6bb92a216b31566c7396aa8d310447fb4b016f3dffb46df1ce 106889 analizo_1.17.0.tar.gz
+ c5c604396a2daf8633b9dc3797f5d1f93ac25f0b16048fdb59688f408a184a0d270df5b09c5371bb7397388ec416cedcb35b425cd9e08149ab9c85f57edf4dfe 1888 analizo_1.18.0.dsc
+ 581451498abaa5bc123b7067fa69cae935a6e3af4403c59cadbdea472df1b97d0739eccba3d1953a23145eb7a4b6d10100f8ec76de756d5e866a18d91c0c8616 7859621 analizo_1.18.0.tar.gz
 

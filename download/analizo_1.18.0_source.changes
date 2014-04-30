@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 25 Apr 2014 20:12:31 +0000
+Source: analizo
+Binary: analizo
+Architecture: source
+Version: 1.18.0
+Distribution: unstable
+Urgency: low
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Changed-By: Alexandre <alexandreab@live.com>
+Description: 
+ analizo    - multi-language source code analysis toolkit
+Changes: 
+ analizo (1.18.0) unstable; urgency=low
+ .
+   [ Alexandre Barbosa ] [ Lucas Kanashiro ]
+ .
+   * New release
+   * Removing dependency cucumber in faver of Test::BDD:Cucumber
+   * Adding new extractor for security metrics:
+     + 21 new security metrics
+   * Adding new dependencies:
+     + gcc
+     + clang
+Checksums-Sha1: 
+ 819dfe86a80672b0288436ff8d9e6b580c785232 1888 analizo_1.18.0.dsc
+ 1a8ddbbec834a6057c7ca6e5442bd9be1f3eea81 7859621 analizo_1.18.0.tar.gz
+Checksums-Sha256: 
+ 80fb34e3f9fd82d594f3f197a2d557b1286687d9270478c743f0de5ffb4d3e7d 1888 analizo_1.18.0.dsc
+ 794f6f96d76ebfa70f767469e951643cfe3a2b5926d93c243513c6f0234e03fe 7859621 analizo_1.18.0.tar.gz
+Files: 
+ be4c899cea46684ebcb85e312ba5ca25 1888 devel extra analizo_1.18.0.dsc
+ d05a941756b1556f48ddc95570f8b861 7859621 devel extra analizo_1.18.0.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJTYVi2AAoJEJD7DDLofZ5DpksH/i2CZJNiSPuJyKDXpL2NJNzI
+wWTmk3JncDU8egnjANbKNf1upX4/6emTJU1AztxNMrN4yl+dMxo+1YdTQnTR6Hly
+RoSUDGY1il4yG+UkmSGXe/PHI+Ge/BlxKD/EYpQh1ir2mHDNPcRbQaXmv+aF0GBV
+PglOJE+5DSQg/6rDgnld2FGH+nCJV4OD9K8hxxOMusTKA4MliXQDzlMkwBU//oXZ
+Ue39lLEtCRzOjPWVBHb3kjhLVub7OXPTP0sENcJ9h+umujcshlSxsV/rAixKXrEO
+F/PM2TNnj9kV/bDwmf78xCaBXQdZ1m9q9juOurpDQ53LOrasQT7Mr209J9xzfME=
+=YClS
+-----END PGP SIGNATURE-----

@@ -1,29 +1,25 @@
-Package: doxyparse
+Package: analizo
 Priority: extra
 Section: devel
-Installed-Size: 5086
+Installed-Size: 196
 Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
-Architecture: amd64
-Version: 1.5.9-1
-Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
-Filename: ./doxyparse_1.5.9-1_amd64.deb
-Size: 1866752
-MD5sum: a5980da7674ad53d91752765f9507728
-SHA1: 883970cfb0d5d0eb2f28c7d4a3f0ab3a5e8d7380
-SHA256: 369822ac2d654ba5b6ec4cf74b503acdaf22a2c9d9511f1fb52d3d34ac7e6cb3
-SHA512: 6e8de76f30fe84ef33d877af1e8dd923a4289bb43d29edc8ea31333433b8ffc77414bd18cb4fbafc55bda4e13e38b7b676adf24c92ca91dbc546232143026386
-Description: multi-language source code analyzer
- doxyparse builts on doxygen's great source code parsing infrastructure and
- provides a command-line tool that can be used to obtain informatin from source
- code, such as:
+Architecture: all
+Version: 1.17.0
+Depends: perl, doxyparse (>= 1.5.8-12~), git, ruby, sloccount, libclass-accessor-perl, libdbd-sqlite3-perl, libdbi-perl, libdigest-sha-perl, libfile-copy-recursive-perl, libgraph-perl, libjson-perl, liblist-compare-perl, libstatistics-descriptive-perl, libstatistics-online-perl, libyaml-perl, libzeromq-perl
+Recommends: graphviz, sqlite3
+Filename: ./analizo_1.17.0_all.deb
+Size: 56370
+MD5sum: 3a05b947da5fd8b28846c6ddf99c14d1
+SHA1: f19723a4caa2e5b349c4f848a8745bfef88fe0f8
+SHA256: 3af22f3d5936ee375a2882483706cd1940f9a014048310804ad5101f204d0e72
+SHA512: 4d57265117aff8e68318648e4767a12797b78413322d04d4765260e8e3afc78cbcdae462f9ee8f29ab0fdb0dbd83377244bcae005775ecde0f84669f61119ca3
+Description: multi-language source code analysis toolkit
+ Analizo parses source code in multiple languages and report useful information
+ about it, such as module dependency, source code metrics and more.
  .
-  * which functions/methods and variables/attributes a module/class contains
-  * which functions/methods calls/uses which functions/methods/variables
-  * etc
- .
- doxyparses's main goal is to be used by higher-level source code analyzis
- tools.
-Homepage: http://analizo.org/Site/Doxyparse
+ Analizo uses doxyparse to parse the source code, and is currently tested and
+ expected to work well with C, C++ and Java source code.
+Homepage: http://softwarelivre.org/mezuro/analizo
 
 Package: doxyparse
 Priority: extra
@@ -55,23 +51,50 @@ Homepage: http://analizo.org/Site/Doxyparse
 Package: analizo
 Priority: extra
 Section: devel
-Installed-Size: 196
+Installed-Size: 274
 Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
 Architecture: all
-Version: 1.17.0
-Depends: perl, doxyparse (>= 1.5.8-12~), git, ruby, sloccount, libclass-accessor-perl, libdbd-sqlite3-perl, libdbi-perl, libdigest-sha-perl, libfile-copy-recursive-perl, libgraph-perl, libjson-perl, liblist-compare-perl, libstatistics-descriptive-perl, libstatistics-online-perl, libyaml-perl, libzeromq-perl
-Recommends: graphviz, sqlite3
-Filename: ./analizo_1.17.0_all.deb
-Size: 56370
-MD5sum: 3a05b947da5fd8b28846c6ddf99c14d1
-SHA1: f19723a4caa2e5b349c4f848a8745bfef88fe0f8
-SHA256: 3af22f3d5936ee375a2882483706cd1940f9a014048310804ad5101f204d0e72
-SHA512: 4d57265117aff8e68318648e4767a12797b78413322d04d4765260e8e3afc78cbcdae462f9ee8f29ab0fdb0dbd83377244bcae005775ecde0f84669f61119ca3
+Version: 1.18.0
+Depends: perl, doxyparse (>= 1.5.8-12~), g++ (>= 4.8~), gcc (>= 4.8~), git, man, ruby, sloccount, sqlite3, libapp-cmd-perl, libchi-perl, libclass-accessor-perl, libclass-inspector-perl, libdbd-sqlite3-perl, libdbi-perl, libdigest-sha-perl, libfile-copy-recursive-perl, libfile-homedir-perl, libfile-share-perl, libfile-sharedir-perl, libfindbin-libs-perl, libgraph-perl, libgraph-writer-dsm-perl (>= 0.005), libjson-perl, liblist-compare-perl, libmojolicious-perl, libstatistics-descriptive-perl, libterm-progressbar-perl, libyaml-perl, libyaml-tiny-perl, libzeromq-perl
+Recommends: graphviz
+Filename: ./analizo_1.18.0_all.deb
+Size: 63968
+MD5sum: 1bd4b360b097fde4b8571f8ecd6c4f60
+SHA1: 9cac37b29001a14d8d9ea2198446a4f0bddbc787
+SHA256: f78c21e294cf97c1d73ab16547d0b84d0e375732edaba1ea98de3d62d24ad612
+SHA512: e680b9cdcb70872e92b2fa0c29032212192f0fa0fd41c58ada016d0166d26f4e769ed90fe93c253200bddc4aa190dc4f7824cfe8715c30d020eac6e9746da0ed
 Description: multi-language source code analysis toolkit
  Analizo parses source code in multiple languages and report useful information
  about it, such as module dependency, source code metrics and more.
  .
  Analizo uses doxyparse to parse the source code, and is currently tested and
  expected to work well with C, C++ and Java source code.
-Homepage: http://softwarelivre.org/mezuro/analizo
+Homepage: http://analizo.org
+
+Package: doxyparse
+Priority: extra
+Section: devel
+Installed-Size: 5086
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Architecture: amd64
+Version: 1.5.9-1
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Filename: ./doxyparse_1.5.9-1_amd64.deb
+Size: 1866752
+MD5sum: a5980da7674ad53d91752765f9507728
+SHA1: 883970cfb0d5d0eb2f28c7d4a3f0ab3a5e8d7380
+SHA256: 369822ac2d654ba5b6ec4cf74b503acdaf22a2c9d9511f1fb52d3d34ac7e6cb3
+SHA512: 6e8de76f30fe84ef33d877af1e8dd923a4289bb43d29edc8ea31333433b8ffc77414bd18cb4fbafc55bda4e13e38b7b676adf24c92ca91dbc546232143026386
+Description: multi-language source code analyzer
+ doxyparse builts on doxygen's great source code parsing infrastructure and
+ provides a command-line tool that can be used to obtain informatin from source
+ code, such as:
+ .
+  * which functions/methods and variables/attributes a module/class contains
+  * which functions/methods calls/uses which functions/methods/variables
+  * etc
+ .
+ doxyparses's main goal is to be used by higher-level source code analyzis
+ tools.
+Homepage: http://analizo.org/Site/Doxyparse
 
