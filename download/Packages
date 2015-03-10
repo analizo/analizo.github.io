@@ -1,25 +1,25 @@
 Package: analizo
 Priority: extra
 Section: devel
-Installed-Size: 196
+Installed-Size: 274
 Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
 Architecture: all
-Version: 1.17.0
-Depends: perl, doxyparse (>= 1.5.8-12~), git, ruby, sloccount, libclass-accessor-perl, libdbd-sqlite3-perl, libdbi-perl, libdigest-sha-perl, libfile-copy-recursive-perl, libgraph-perl, libjson-perl, liblist-compare-perl, libstatistics-descriptive-perl, libstatistics-online-perl, libyaml-perl, libzeromq-perl
-Recommends: graphviz, sqlite3
-Filename: ./analizo_1.17.0_all.deb
-Size: 56370
-MD5sum: 3a05b947da5fd8b28846c6ddf99c14d1
-SHA1: f19723a4caa2e5b349c4f848a8745bfef88fe0f8
-SHA256: 3af22f3d5936ee375a2882483706cd1940f9a014048310804ad5101f204d0e72
-SHA512: 4d57265117aff8e68318648e4767a12797b78413322d04d4765260e8e3afc78cbcdae462f9ee8f29ab0fdb0dbd83377244bcae005775ecde0f84669f61119ca3
+Version: 1.18.1
+Depends: perl, clang-3.5 (>= 3.5), doxyparse (>= 1.5.8-12~), g++ (>= 4.8~), gcc (>= 4.8~), git, man, ruby, sloccount, sqlite3, libapp-cmd-perl, libchi-perl, libclass-accessor-perl, libclass-inspector-perl, libdbd-sqlite3-perl, libdbi-perl, libdigest-sha-perl, libfile-copy-recursive-perl, libfile-homedir-perl, libfile-share-perl, libfile-sharedir-perl, libfindbin-libs-perl, libgraph-perl, libgraph-writer-dsm-perl (>= 0.005), libjson-perl, liblist-compare-perl, libmojolicious-perl, libstatistics-descriptive-perl, libterm-progressbar-perl, libyaml-perl, libyaml-tiny-perl, libzeromq-perl
+Recommends: graphviz
+Filename: ./analizo_1.18.1_all.deb
+Size: 63990
+MD5sum: b1ed84da5a12212bd9b39fbce31fd4f6
+SHA1: 8cfe9a768d2989a4b06ba5e66f2c55671418daef
+SHA256: 651050091a8800acf757a790f084d090f6ee16a5f4ee8c09d5f2bda2f67822d5
+SHA512: 408e2e78eace904320aac9ecf1ec99cea3dafb7b74c4758d3decaf673d651b18afcf1608f7d4a8b81b88e812b671fb702c19d74cd7af2f31e9b21b0747b16654
 Description: multi-language source code analysis toolkit
  Analizo parses source code in multiple languages and report useful information
  about it, such as module dependency, source code metrics and more.
  .
  Analizo uses doxyparse to parse the source code, and is currently tested and
  expected to work well with C, C++ and Java source code.
-Homepage: http://softwarelivre.org/mezuro/analizo
+Homepage: http://analizo.org
 
 Package: doxyparse
 Priority: extra
@@ -70,6 +70,29 @@ Description: multi-language source code analysis toolkit
  Analizo uses doxyparse to parse the source code, and is currently tested and
  expected to work well with C, C++ and Java source code.
 Homepage: http://analizo.org
+
+Package: analizo
+Priority: extra
+Section: devel
+Installed-Size: 196
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Architecture: all
+Version: 1.17.0
+Depends: perl, doxyparse (>= 1.5.8-12~), git, ruby, sloccount, libclass-accessor-perl, libdbd-sqlite3-perl, libdbi-perl, libdigest-sha-perl, libfile-copy-recursive-perl, libgraph-perl, libjson-perl, liblist-compare-perl, libstatistics-descriptive-perl, libstatistics-online-perl, libyaml-perl, libzeromq-perl
+Recommends: graphviz, sqlite3
+Filename: ./analizo_1.17.0_all.deb
+Size: 56370
+MD5sum: 3a05b947da5fd8b28846c6ddf99c14d1
+SHA1: f19723a4caa2e5b349c4f848a8745bfef88fe0f8
+SHA256: 3af22f3d5936ee375a2882483706cd1940f9a014048310804ad5101f204d0e72
+SHA512: 4d57265117aff8e68318648e4767a12797b78413322d04d4765260e8e3afc78cbcdae462f9ee8f29ab0fdb0dbd83377244bcae005775ecde0f84669f61119ca3
+Description: multi-language source code analysis toolkit
+ Analizo parses source code in multiple languages and report useful information
+ about it, such as module dependency, source code metrics and more.
+ .
+ Analizo uses doxyparse to parse the source code, and is currently tested and
+ expected to work well with C, C++ and Java source code.
+Homepage: http://softwarelivre.org/mezuro/analizo
 
 Package: doxyparse
 Priority: extra
