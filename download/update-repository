@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DEBSIGN_KEYID=012B7D54
+DEBSIGN_KEYID=D5609CBE
 
 ARCHIVETOOL=apt-ftparchive
 
@@ -18,7 +18,7 @@ compress Sources
 # generate and sign Release file
 ${ARCHIVETOOL} release . > Release
 rm -f Release.gpg
-gpg --use-agent --local-user ${DEBSIGN_KEYID} -abs -o Release.gpg Release
+gpg --no-use-agent --local-user ${DEBSIGN_KEYID} -abs -o Release.gpg Release
 
 # Publish the signing key
-gpg --use-agent --armor --export-options export-minimal --export ${DEBSIGN_KEYID} > signing-key.asc
+gpg --no-use-agent --armor --export-options export-minimal --export ${DEBSIGN_KEYID} > signing-key.asc
