@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Thu, 18 Feb 2016 11:25:21 -0200
+Source: analizo
+Binary: analizo
+Architecture: source all
+Version: 1.19.0
+Distribution: unstable
+Urgency: low
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Changed-By: Joenio Costa <joenio@colivre.coop.br>
+Description:
+ analizo    - multi-language source code analysis toolkit
+Changes:
+ analizo (1.19.0) unstable; urgency=low
+ .
+   * Depend on doxyparse >= 1.8.11 to compute Abstract Class (issue #6)
+Checksums-Sha1:
+ ee56161e9a407c78da8828ff7d302e2a0e96af1f 1606 analizo_1.19.0.dsc
+ 9286f4e437ebfc613ca2ace683ac6e0c5d58ea5d 1961128 analizo_1.19.0.tar.xz
+ 3917eeabf94fbe8fa381557d739da7c454d425a6 57712 analizo_1.19.0_all.deb
+Checksums-Sha256:
+ 6b88c3cfab454c0d078ea01f80f8d570e49f2f733b05fb96cc0fb2983d85a454 1606 analizo_1.19.0.dsc
+ 1c094049d872de6830ff254127aa6fe8d8b2a2773100b5857ace1b2ecee34cbf 1961128 analizo_1.19.0.tar.xz
+ d6ce1b6d383f3aea296516119315f496102dcce421dc2fd1b3ce9c4bfc2e4469 57712 analizo_1.19.0_all.deb
+Files:
+ ff54086cba8941f36aa00dda8d013106 1606 devel extra analizo_1.19.0.dsc
+ 6f696e31c41e5e6c325ce57c95b15ea3 1961128 devel extra analizo_1.19.0.tar.xz
+ 0c0b0340716c0979f1b72439bac0d795 57712 devel extra analizo_1.19.0_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlbF1tUACgkQKpd5+dVgnL74JwCfWcPCqMbtXas8BvbxitRlU3v9
+GTEAnAlqrIN/8q6XwUouyhekxvpAkFhp
+=45tq
+-----END PGP SIGNATURE-----
