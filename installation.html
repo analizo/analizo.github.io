@@ -56,7 +56,7 @@
 <li>all dependencies are installed automatically for you</li>
 <li>new versions will be automatically available for upgrading the version on your system.</li>
 </ol>
-<p>You will find the instructions to install Analizo Debian package below. All of the steps must be performed as root user:</p>
+<p>You will find the instructions to install Analizo Debian package below. All of the steps must be performed as =root= user:</p>
 <ol style="list-style-type: decimal">
 <li>Create a file /etc/apt/sources.list.d/analizo.list file with the following contents:</li>
 </ol>
@@ -65,7 +65,7 @@ deb-src http://analizo.org/download/ ./</code></pre>
 <ol start="2" style="list-style-type: decimal">
 <li>Add the repository signing key to your list of trusted keys:</li>
 </ol>
-<pre class="repository"><code>$ wget -O - http://analizo.org/download/signing-key.asc | apt-key add -</code></pre>
+<pre class="repository"><code># wget -O - http://analizo.org/download/signing-key.asc | apt-key add -</code></pre>
 <ol start="3" style="list-style-type: decimal">
 <li>Update your package lists:</li>
 </ol>

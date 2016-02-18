@@ -66,6 +66,8 @@
 
 <p><b>analizo metrics-history</b> will process <i>input</i>, a Git repository with a working copy of the source code (i.e. not a bare git repository), checkout every relevant commit and run <b>analizo metrics</b> on it. The metrics for all of the revisions will be accumulated in a file called <i>metrics.csv</i> inside <i>input</i>. If <i>input</i> is ommitted, the current directory (.) s assumed.</p>
 
+<p>analizo metrics-history is part of the analizo suite.</p>
+
 <h1 id="RELEVANT-COMMITS">RELEVANT COMMITS</h1>
 
 <p><b>analizo metrics-history</b> considers as relevant the commits that changed at least one source code file. Consequently, it skips all the commits where no source code file was changed, such as documentation, translations, build system changes, etc.</p>
