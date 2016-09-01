@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 18 Jan 2016 12:32:20 -0200
+Source: doxyparse
+Binary: doxyparse
+Architecture: source amd64
+Version: 1.8.11-1
+Distribution: unstable
+Urgency: low
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Changed-By: Joenio Costa <joenio@colivre.coop.br>
+Description:
+ doxyparse  - multi-language source code analyzer
+Changes:
+ doxyparse (1.8.11-1) unstable; urgency=low
+ .
+   [ Joenio Costa ]
+   * New upstream release 1.8.11
+Checksums-Sha1:
+ cbc59e25ae430c99b4a386f5ed3a9ee1980a8baa 1213 doxyparse_1.8.11-1.dsc
+ 9eb6dba997db25eac8149e423e5ff75acfb8f053 4815423 doxyparse_1.8.11.orig.tar.gz
+ 7ed5d0309570c41b63c2e10cfe2ffad080957111 674 doxyparse_1.8.11-1.diff.gz
+ 26923adc7811e4fa509d0ad7b32526b27249932b 3208316 doxyparse_1.8.11-1_amd64.deb
+Checksums-Sha256:
+ ec1a4d5914e9bdc7c3853fa1fcd28ae21f190d71b85bfcd66221ad04a68b1c7a 1213 doxyparse_1.8.11-1.dsc
+ 3a0a5ad68ec1d1759e6f61ecf968f1b6aeef4b8daa862fab143a8796befe654d 4815423 doxyparse_1.8.11.orig.tar.gz
+ 1554d5770c6a315343b1e45925c93864499951042954c91ecdfb46bd135882f8 674 doxyparse_1.8.11-1.diff.gz
+ c68a733d8d5ebae3da7d7a3614ec4cf80707220bbe6f4bdeff41c91bf2adbf89 3208316 doxyparse_1.8.11-1_amd64.deb
+Files:
+ 283af3ae32d07a79d21b5859928d7acf 1213 devel extra doxyparse_1.8.11-1.dsc
+ d77eb7b4cb943c429f585c318ff278b4 4815423 devel extra doxyparse_1.8.11.orig.tar.gz
+ 36d29dc2c479f949b75cfa51bdba27b6 674 devel extra doxyparse_1.8.11-1.diff.gz
+ 229ed46a8cfadd45046bbe65dde40ba5 3208316 devel extra doxyparse_1.8.11-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAle8Y7MACgkQKpd5+dVgnL7NaQCggHdYgfhMuc+Z/J3EwUgQvKq4
+YDEAn1syZG9v9SgbOFif3fN/g3IyLA8G
+=BS9b
+-----END PGP SIGNATURE-----
