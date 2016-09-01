@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Analizo</title>
+    <title>Installation — Analizo</title>
 
     <link href="./bootstrap/css/bootstrap.min.css" rel='stylesheet'/>
     <link href="./bootswatch/cosmo/bootstrap.min.css" rel='stylesheet'/>
@@ -48,7 +48,39 @@
 
       <!-- Begin page content -->
       <div class="container" id='body'>
-        
+        <h1 id="installation">Installation</h1>
+<h2 id="debian-package">Debian package</h2>
+<p>Analizo is readily available as a Debian package. This package migth work with Ubuntu as well. Installing the Debian package has the follwing advantages:</p>
+<ol style="list-style-type: decimal">
+<li>you do not have to compile anything</li>
+<li>all dependencies are installed automatically for you</li>
+<li>new versions will be automatically available for upgrading the version on your system.</li>
+</ol>
+<p>You will find the instructions to install Analizo Debian package below. All of the steps must be performed as =root= user:</p>
+<ol style="list-style-type: decimal">
+<li>Create a file /etc/apt/sources.list.d/analizo.list file with the following contents:</li>
+</ol>
+<pre class="repository"><code>deb http://analizo.org/download/ ./
+deb-src http://analizo.org/download/ ./</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Add the repository signing key to your list of trusted keys:</li>
+</ol>
+<pre class="repository"><code># wget -O - http://analizo.org/download/signing-key.asc | apt-key add -</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>Update your package lists:</li>
+</ol>
+<pre><code>$ apt-get update</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>Install analizo:</li>
+</ol>
+<pre><code>$ apt-get install analizo</code></pre>
+<h2 id="from-sources">From sources</h2>
+<p>Download the analizo tarball linked from <span class="repository"><a href="http://analizo.org/download.html">the download page</a></span>, extract it and run the following commands inside the analizo-x.y.z directory:</p>
+<pre><code>$ perl Makefile.PL
+$ make
+$ sudo make install</code></pre>
+<p>See the HACKING file for instructions on how to install Analizo dependencies. You neeed to install the dependencies before installing Analizo.</p>
+
       </div>
     </div>
 
