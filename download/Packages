@@ -25,6 +25,33 @@ Description: multi-language source code analyzer
  doxyparses's main goal is to be used by higher-level source code analyzis
  tools.
 
+Package: libgraph-readwrite-perl
+Architecture: all
+Version: 2.09-1+analizo1
+Priority: optional
+Section: perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 132
+Depends: perl, libgraph-perl, libio-all-perl, libparse-yapp-perl, libxml-parser-perl, libxml-writer-perl
+Filename: ./libgraph-readwrite-perl_2.09-1+analizo1_all.deb
+Size: 44642
+MD5sum: b82fa6b989d3298f86174edd035ff180
+SHA1: 026cbc2e4001edad293b1cca33a335f3dcb21840
+SHA256: 29434ca55967c0327470a4944107d29c70fd4448267de3914e5f46ca17f40c23
+SHA512: b82232160d9f7a0b704cc4d24485d2e98dea7e00159e50bd0b747d347f2220c9c0b4498986464288ed127cfdbcebdaf54a702d50c2cc9be32b2dce2e20c7a0b3
+Homepage: https://metacpan.org/release/Graph-ReadWrite
+Description: module for reading and writing directed graphs
+ Graph::ReadWrite is a collection of perl classes for reading and writing
+ directed graphs in a variety of file formats. The graphs are represented in
+ Perl using Jarkko Hietaniemi's Graph classes.
+ .
+ There are two base classes, Graph::Reader which is the Base class for classes
+ which read a graph file and create an instance of the Graph class, and
+ Graph::Writer which is the Base class for classes which take an instance of
+ the Graph class and write it out in a specific file format.
+ .
+ Supported formats: XML, Dot, VCG, daVinci, HTK
+
 Package: analizo
 Architecture: all
 Version: 1.18.1
