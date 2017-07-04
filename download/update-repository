@@ -18,7 +18,7 @@ compress Sources
 # generate and sign Release file
 ${ARCHIVETOOL} release . > Release
 rm -f Release.gpg
-gpg --no-use-agent --local-user ${DEBSIGN_KEYID} -abs -o Release.gpg Release
+gpg --use-agent --local-user ${DEBSIGN_KEYID} -abs -o Release.gpg Release
 
 # Publish the signing key
-gpg --no-use-agent --armor --export-options export-minimal --export ${DEBSIGN_KEYID} > signing-key.asc
+gpg --use-agent --armor --export-options export-minimal --export ${DEBSIGN_KEYID} > signing-key.asc
