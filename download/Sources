@@ -28,6 +28,32 @@ Checksums-Sha512:
  dd832c8e1636d90cfe446f5f036c2670354e0038230a13f1678a98908f4b16a509d7258319acb9f375286dafe37b00ed008a86d41b06017ce7fc1d642d9a91cb 4815423 doxyparse_1.8.11.orig.tar.gz
  402f969d02d14b421428b41b219790e1ab47a3b10a26c8d50d05809a17fc81a657e47fd93d88f2c5a856f91015eb8550c4434b145a41720bd537022d8851fc02 674 doxyparse_1.8.11-1.diff.gz
 
+Package: doxyparse
+Format: 1.0
+Binary: doxyparse
+Architecture: any
+Version: 1.8.14~rc1
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Standards-Version: 3.9.6
+Build-Depends: cdbs, debhelper (>= 7), autotools-dev, flex, bison, g++ (>= 4.6), cmake, python
+Homepage: http://analizo.org/Site/Doxyparse
+Vcs-Browser: http://github.com/analizo/doxyparse
+Vcs-Git: https://github.com/analizo/doxyparse.git
+Package-List:
+ doxyparse deb devel extra arch=any
+Files:
+ 1ddd43d0ef4744488ce272993600edc7 1016 doxyparse_1.8.14~rc1.dsc
+ ee324a30834555b7f4af1ee22efb5c1b 4874483 doxyparse_1.8.14~rc1.tar.gz
+Checksums-Sha1:
+ 0360439c247a7d8636308f7f354806a36e3591f4 1016 doxyparse_1.8.14~rc1.dsc
+ fa0363ae3a27f762947e0d33f127ac28f3bf9b61 4874483 doxyparse_1.8.14~rc1.tar.gz
+Checksums-Sha256:
+ 9b08b7647e1e652ed4d07889697e1741475f849348f58563b34f8bacc8834a9d 1016 doxyparse_1.8.14~rc1.dsc
+ 89360e03cb85ed888464bf5b981ade78b82cb7c9e8aa03000cdbc52ab3985487 4874483 doxyparse_1.8.14~rc1.tar.gz
+Checksums-Sha512:
+ b11012f271c439b7514af1829cb920437bd15d6fae7e31f3721ab9d178b3b0a6a74a3535533edca8add017d3c88aadbf1673ef07643d96dd7411d54eb0ea4047 1016 doxyparse_1.8.14~rc1.dsc
+ 89461d059b85458e9c826fe6eb2c424ffe989dfdea1f556ea9fd53b3cb5d2a8f9bd3511f5fb83ba9c1e970f42277228cde8d331dc20f1685997cf7acfba03103 4874483 doxyparse_1.8.14~rc1.tar.gz
+
 Package: analizo
 Format: 3.0 (native)
 Binary: analizo
@@ -158,6 +184,38 @@ Checksums-Sha512:
  ef6403e8481671803452c730c4cf34e644a4e84447cf1799d1a1a505fcfe0e0799eeef47b44966bb8926f565adc0e26d7f194702d9eeaa60467eecdaeee131ec 1227 doxyparse_1.5.9-1.dsc
  55723e3edb99902e494560a11effaea1a635bc7cc909f078b39b0ab809d13bb56d6fae6b06cdc4ac0e47a88d79fe70da3679e7cd8af6d541baf03a97ff194bbc 3273859 doxyparse_1.5.9.orig.tar.gz
  34398505fba7f45916c189f2185bc922ba79b2a76508ef9c721deadb8c38dcaabed34215e4e2392ce65adf329107803ef893f6e911f437b5cbf4e98304100505 526 doxyparse_1.5.9-1.diff.gz
+
+Package: libgraph-readwrite-perl
+Format: 3.0 (quilt)
+Binary: libgraph-readwrite-perl
+Architecture: all
+Version: 2.09-1+analizo1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: libgraph-perl, libparse-yapp-perl, libxml-parser-perl, libxml-writer-perl, perl
+Testsuite: autopkgtest-pkg-perl
+Homepage: https://metacpan.org/release/Graph-ReadWrite
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libgraph-readwrite-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libgraph-readwrite-perl.git
+Package-List:
+ libgraph-readwrite-perl deb perl optional arch=all
+Files:
+ 7c60029aded27ad2d95822c21bd290de 1570 libgraph-readwrite-perl_2.09-1+analizo1.dsc
+ 3f76bd8bbacf8a7d83de709ebfe858ec 30181 libgraph-readwrite-perl_2.09.orig.tar.gz
+ c53e21044c995d7f6b0a91c2faa7ee20 2872 libgraph-readwrite-perl_2.09-1+analizo1.debian.tar.xz
+Checksums-Sha1:
+ 684ea39935e7fc9561960101bc3415d0c47dc77f 1570 libgraph-readwrite-perl_2.09-1+analizo1.dsc
+ a642540ddeb6dbc0a3ec7792e2010e43beae365f 30181 libgraph-readwrite-perl_2.09.orig.tar.gz
+ f99e212dfb689e0a03eb7849ff28f10da1c9c08b 2872 libgraph-readwrite-perl_2.09-1+analizo1.debian.tar.xz
+Checksums-Sha256:
+ d0ef254bc31a1aadd80ddee4c7cbae6fe412e47384c7e9358fdd0cb76081ec49 1570 libgraph-readwrite-perl_2.09-1+analizo1.dsc
+ 597b3da263b2fc6a8d6a31d301f3b7dddd1bd7e881ee3a446821c087647193fe 30181 libgraph-readwrite-perl_2.09.orig.tar.gz
+ 3ef36eeab826f3787622b15675ac8b4114d9722c318f84c326a5a2d7194bf678 2872 libgraph-readwrite-perl_2.09-1+analizo1.debian.tar.xz
+Checksums-Sha512:
+ 1e37ce9de166c0b9a37301ec25644954aec7632ef73cb97a0321252a2ba1c08dc6e9f17c9238cf8a977c53b426ac7747c220c007a79930d20692eec034ff307a 1570 libgraph-readwrite-perl_2.09-1+analizo1.dsc
+ 3e8e646869351475ddb914a0555babb21ce9beb4d637c193d4a26a5a5ac8662432ccd2831f6c7414faeecb466359f38e8a6d3d9c980c5c4757b9dde2a4b0f830 30521 libgraph-readwrite-perl_2.09.orig.tar.gz
+ 83535a5f3463ca70085cf86bf79affb10ee26dc53d3f46999d1eab2e2b0ded0b82985d4d6a4f5e5679f775a660608eb459aa39d0305a842af1f97c81484fd9d1 2872 libgraph-readwrite-perl_2.09-1+analizo1.debian.tar.xz
 
 Package: analizo
 Format: 3.0 (native)

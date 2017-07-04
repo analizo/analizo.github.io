@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 04 Jul 2017 14:13:58 -0300
+Source: doxyparse
+Binary: doxyparse
+Architecture: source amd64
+Version: 1.8.14~rc1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ doxyparse  - multi-language source code analyzer
+Changes:
+ doxyparse (1.8.14~rc1) UNRELEASED; urgency=medium
+ .
+   [ Joenio Costa ]
+   * Extensions .py, .pyw (python) and .cs (csharp) added as non-C files
+   * The output format now is YAML
+   * Doxyparse master branch rebased with Doxygen upstream master branch
+ .
+   [ Jonathan Moraes ]
+   * new Doxyfile option: MODIFY_SPECIAL_CHARS
+Checksums-Sha1:
+ 0360439c247a7d8636308f7f354806a36e3591f4 1016 doxyparse_1.8.14~rc1.dsc
+ fa0363ae3a27f762947e0d33f127ac28f3bf9b61 4874483 doxyparse_1.8.14~rc1.tar.gz
+ 3b67035c1b31d30b229bbd6df24da43a6700eb0d 428920 doxyparse-dbgsym_1.8.14~rc1_amd64.deb
+ 0704a22c1d498b16ea96406dfd358df60b1f112f 6512 doxyparse_1.8.14~rc1_amd64.buildinfo
+ feeb951cbabbbf49a45d7b8f140b3ca320ac2101 3365686 doxyparse_1.8.14~rc1_amd64.deb
+Checksums-Sha256:
+ 9b08b7647e1e652ed4d07889697e1741475f849348f58563b34f8bacc8834a9d 1016 doxyparse_1.8.14~rc1.dsc
+ 89360e03cb85ed888464bf5b981ade78b82cb7c9e8aa03000cdbc52ab3985487 4874483 doxyparse_1.8.14~rc1.tar.gz
+ c1616a7fdac6bc5cf87a4e630b188a815c5ca9ad7e928b7e50da67f0b7553992 428920 doxyparse-dbgsym_1.8.14~rc1_amd64.deb
+ 0d5d2f9b53573fbe8364c30bf3aced6329735515dd1ecd6806c30e53b7a79d40 6512 doxyparse_1.8.14~rc1_amd64.buildinfo
+ b5632e650328b606618c0242af96d2d4981433bd162a4aae107cba7e86c81c07 3365686 doxyparse_1.8.14~rc1_amd64.deb
+Files:
+ 1ddd43d0ef4744488ce272993600edc7 1016 devel extra doxyparse_1.8.14~rc1.dsc
+ ee324a30834555b7f4af1ee22efb5c1b 4874483 devel extra doxyparse_1.8.14~rc1.tar.gz
+ 7a4d1673e1411f26910f1d44855e0819 428920 debug extra doxyparse-dbgsym_1.8.14~rc1_amd64.deb
+ 5d066358921d2929d261f0155ef9dbce 6512 devel extra doxyparse_1.8.14~rc1_amd64.buildinfo
+ cd9a4423b64ba0ec48446ea25a891fb0 3365686 devel extra doxyparse_1.8.14~rc1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iG8EARECAC8WIQSAJ7WAtnU0VDj55wgql3n51WCcvgUCWVvTIxEcam9lbmlvQGpv
+ZW5pby5tZQAKCRAql3n51WCcvja8AJsHrmpU1efL3951yoyNonXXlm31TwCeI9GL
+cN0JoAjn89BsYO5JD/U7SyI=
+=XNND
+-----END PGP SIGNATURE-----
