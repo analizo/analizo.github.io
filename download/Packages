@@ -7,11 +7,11 @@ Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
 Installed-Size: 15025
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
 Filename: ./doxyparse_1.8.14~rc1_amd64.deb
-Size: 3365686
-MD5sum: cd9a4423b64ba0ec48446ea25a891fb0
-SHA1: feeb951cbabbbf49a45d7b8f140b3ca320ac2101
-SHA256: b5632e650328b606618c0242af96d2d4981433bd162a4aae107cba7e86c81c07
-SHA512: 631e825dd0451af06bb20936864710642f367a31e4951c42a275fa45c028e4d8b69a9cde24ad9e930b75085f5eb891cfd041c1b78b6c08b33ac655e6ff9e42de
+Size: 3365680
+MD5sum: 94dd29a2513ac5050e547d2ef32b224f
+SHA1: 37e2b5e0a9b1997be364c67184445ab9b0a3e41e
+SHA256: aeec6d35850c39f9efc8df6db163fcf9645e88b83b7d4562000eefd5ec029117
+SHA512: 098fcd3467993430b60be22a7ab8bf2dccb0089a4f840be2ec2858ba6ce32ab5bbb9782b83762024725b41a7845fa379f075794e0ad11d888ccff9a56fa51940
 Homepage: http://analizo.org/Site/Doxyparse
 Description: multi-language source code analyzer
  doxyparse builts on doxygen's great source code parsing infrastructure and

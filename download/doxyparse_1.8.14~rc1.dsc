@@ -15,16 +15,16 @@ Build-Depends: cdbs, debhelper (>= 7), autotools-dev, flex, bison, g++ (>= 4.6),
 Package-List:
  doxyparse deb devel extra arch=any
 Checksums-Sha1:
- fa0363ae3a27f762947e0d33f127ac28f3bf9b61 4874483 doxyparse_1.8.14~rc1.tar.gz
+ 4c66e5c734a64fe02f944a03efc886d245f11710 4874820 doxyparse_1.8.14~rc1.tar.gz
 Checksums-Sha256:
- 89360e03cb85ed888464bf5b981ade78b82cb7c9e8aa03000cdbc52ab3985487 4874483 doxyparse_1.8.14~rc1.tar.gz
+ f1c665b89e7f14427bcdfb207ce4491668c36305d01867fb5fad483d0213f9ce 4874820 doxyparse_1.8.14~rc1.tar.gz
 Files:
- ee324a30834555b7f4af1ee22efb5c1b 4874483 doxyparse_1.8.14~rc1.tar.gz
+ 5a873d9e2fe58b11e311723411ba3301 4874820 doxyparse_1.8.14~rc1.tar.gz
 
 -----BEGIN PGP SIGNATURE-----
 
-iG8EARECAC8WIQSAJ7WAtnU0VDj55wgql3n51WCcvgUCWVvTFhEcam9lbmlvQGpv
-ZW5pby5tZQAKCRAql3n51WCcvi3aAJ9UHf8ebTeRa/2qlAcvBvQsD2SbugCfe/OQ
-ttSkRr7n19hHVc3BHP3gJxs=
-=/dZW
+iG8EARECAC8WIQSAJ7WAtnU0VDj55wgql3n51WCcvgUCWVvr/hEcam9lbmlvQGpv
+ZW5pby5tZQAKCRAql3n51WCcvrUCAJ9k3TimfhFmWcNLsioZ0tEsifiVSwCfRMIJ
+3am9zwcF2rQbGsEyEj2Cvdo=
+=sOYI
 -----END PGP SIGNATURE-----
