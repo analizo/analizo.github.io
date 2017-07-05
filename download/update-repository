@@ -16,8 +16,8 @@ ${ARCHIVETOOL} sources . > Sources
 compress Sources
 
 # generate and sign Release file
+rm -f Release Release.gpg
 ${ARCHIVETOOL} release . > Release
-rm -f Release.gpg
 gpg --use-agent --local-user ${DEBSIGN_KEYID} -abs -o Release.gpg Release
 
 # Publish the signing key
