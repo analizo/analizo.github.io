@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Tue, 04 Jul 2017 14:13:58 -0300
+Source: doxyparse
+Binary: doxyparse
+Architecture: source i386
+Version: 1.8.14~rc1
+Distribution: unstable
+Urgency: medium
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ doxyparse  - multi-language source code analyzer
+Changes:
+ doxyparse (1.8.14~rc1) unstable; urgency=medium
+ .
+   [ Joenio Costa ]
+   * Extensions .py, .pyw (python) and .cs (csharp) added as non-C files
+   * The output format now is YAML
+   * Doxyparse master branch rebased with Doxygen upstream master branch
+ .
+   [ Jonathan Moraes ]
+   * new Doxyfile option: MODIFY_SPECIAL_CHARS
+Checksums-Sha1:
+ 5f7ab5915b80bd10ef9ddf5a8edb402515fde642 748 doxyparse_1.8.14~rc1.dsc
+ a15f78f1b43a34e9b0688943f1898018aca72b41 4874788 doxyparse_1.8.14~rc1.tar.gz
+ 4c27ac5dfaf3d78ceb6c1a227492ddec7434d324 429314 doxyparse-dbgsym_1.8.14~rc1_i386.deb
+ 9c735c5d72736db476c738877348db637770f7b5 6078 doxyparse_1.8.14~rc1_i386.buildinfo
+ 6b98535ea927756e6bb54ac7025b070a69c15a44 3326828 doxyparse_1.8.14~rc1_i386.deb
+Checksums-Sha256:
+ d6f00e3567f58e9d44dcaffcd01f1d04b91ea390385080e4df3acf3548620369 748 doxyparse_1.8.14~rc1.dsc
+ 1fab07ad5e630e3bfe17b3992c4ca964e169e3a88dbeb95a247c7acce8148626 4874788 doxyparse_1.8.14~rc1.tar.gz
+ 3021897de89edc3851c124421081c9aff0115da9ba5b8927912878ef81e0c64b 429314 doxyparse-dbgsym_1.8.14~rc1_i386.deb
+ e58b163447a5bb196f93be85e59297679c07a5ae78fb47d1bd3f85adbc029e42 6078 doxyparse_1.8.14~rc1_i386.buildinfo
+ 30a1aafa66d6ebb3a6cb1af856334c3e87fcab675b748898ec161d611cb295fb 3326828 doxyparse_1.8.14~rc1_i386.deb
+Files:
+ bd06c4d079ef1cb0af114488701bc96a 748 devel extra doxyparse_1.8.14~rc1.dsc
+ daefe2f13a02c706d16571b96a3ee15f 4874788 devel extra doxyparse_1.8.14~rc1.tar.gz
+ ae9d744cbcd20f436227ba8a9e6a41d1 429314 debug extra doxyparse-dbgsym_1.8.14~rc1_i386.deb
+ e1729f24be26f7f6f030f26e2787d2e4 6078 devel extra doxyparse_1.8.14~rc1_i386.buildinfo
+ 7e62c37b62a3bb4e633d79867fb76e9e 3326828 devel extra doxyparse_1.8.14~rc1_i386.deb
