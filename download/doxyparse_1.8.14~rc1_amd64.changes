@@ -1,5 +1,5 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
+Hash: SHA256
 
 Format: 1.8
 Date: Tue, 04 Jul 2017 14:13:58 -0300
@@ -24,28 +24,38 @@ Changes:
    [ Jonathan Moraes ]
    * new Doxyfile option: MODIFY_SPECIAL_CHARS
 Checksums-Sha1:
- 530fd294786b027196f03a8f3fcc8ac493bb62ab 1016 doxyparse_1.8.14~rc1.dsc
- 4c66e5c734a64fe02f944a03efc886d245f11710 4874820 doxyparse_1.8.14~rc1.tar.gz
+ 1b78cbf46dcb9e8d30e01ab28c7773e6c89a9ddd 1656 doxyparse_1.8.14~rc1.dsc
+ a15f78f1b43a34e9b0688943f1898018aca72b41 4874788 doxyparse_1.8.14~rc1.tar.gz
  3b67035c1b31d30b229bbd6df24da43a6700eb0d 428920 doxyparse-dbgsym_1.8.14~rc1_amd64.deb
- d8089699cd0041a09e2ec977ac5f784c46f36b0b 6512 doxyparse_1.8.14~rc1_amd64.buildinfo
- 37e2b5e0a9b1997be364c67184445ab9b0a3e41e 3365680 doxyparse_1.8.14~rc1_amd64.deb
+ 0981fb4a99214642a35845b4b1eee5670aa727a0 7158 doxyparse_1.8.14~rc1_amd64.buildinfo
+ 49af1931caa09759596ff80772398f21351435f8 3365718 doxyparse_1.8.14~rc1_amd64.deb
 Checksums-Sha256:
- f3eaa76ef7b0c85183994f9c4ab1c3ca6c21498342ad8b0dcfc65c8db1409d20 1016 doxyparse_1.8.14~rc1.dsc
- f1c665b89e7f14427bcdfb207ce4491668c36305d01867fb5fad483d0213f9ce 4874820 doxyparse_1.8.14~rc1.tar.gz
+ b0ac6a6668fb2d51188f5ed7cb55bf8371cdc3ae04c9f2a701ec922dea63fdc4 1656 doxyparse_1.8.14~rc1.dsc
+ 1fab07ad5e630e3bfe17b3992c4ca964e169e3a88dbeb95a247c7acce8148626 4874788 doxyparse_1.8.14~rc1.tar.gz
  c1616a7fdac6bc5cf87a4e630b188a815c5ca9ad7e928b7e50da67f0b7553992 428920 doxyparse-dbgsym_1.8.14~rc1_amd64.deb
- 0a374697bdde9be82796d0854a05eb92f129cd12bbd962a8621a945fbdd9b4c7 6512 doxyparse_1.8.14~rc1_amd64.buildinfo
- aeec6d35850c39f9efc8df6db163fcf9645e88b83b7d4562000eefd5ec029117 3365680 doxyparse_1.8.14~rc1_amd64.deb
+ 8a2023e521d89d47869c3e288e065d71a54505ff43b94885c81151c7af834f1f 7158 doxyparse_1.8.14~rc1_amd64.buildinfo
+ b36c7d58884d8b71c06f4bebb6f47aaece1378fcd13c810b8fe4f41f6b83498d 3365718 doxyparse_1.8.14~rc1_amd64.deb
 Files:
- eb9e361bf7d003f8c9dcc3e9879fd787 1016 devel extra doxyparse_1.8.14~rc1.dsc
- 5a873d9e2fe58b11e311723411ba3301 4874820 devel extra doxyparse_1.8.14~rc1.tar.gz
+ 3e64725ffd0d7d02f5e3e3f6183c172f 1656 devel extra doxyparse_1.8.14~rc1.dsc
+ daefe2f13a02c706d16571b96a3ee15f 4874788 devel extra doxyparse_1.8.14~rc1.tar.gz
  7a4d1673e1411f26910f1d44855e0819 428920 debug extra doxyparse-dbgsym_1.8.14~rc1_amd64.deb
- 391fbe7ef81a452cace0ab4c4a4773a7 6512 devel extra doxyparse_1.8.14~rc1_amd64.buildinfo
- 94dd29a2513ac5050e547d2ef32b224f 3365680 devel extra doxyparse_1.8.14~rc1_amd64.deb
+ cc1869bc426bc3777047a141772939a7 7158 devel extra doxyparse_1.8.14~rc1_amd64.buildinfo
+ 2978ef587a1e8bfddf0cff6ae0ec6c96 3365718 devel extra doxyparse_1.8.14~rc1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iG8EARECAC8WIQSAJ7WAtnU0VDj55wgql3n51WCcvgUCWVvsCREcam9lbmlvQGpv
-ZW5pby5tZQAKCRAql3n51WCcvtlKAJ9h5Lb+PXvyRas2DfETGPZop8f83ACfc2wO
-IK0Tky/cHoSL0pptvkZ5xVU=
-=0Sel
+iQJFBAEBCAAvFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAlleyqsRHGpvZW5pb0Bq
+b2VuaW8ubWUACgkQLjHT/ebQj/Q9HRAAmMhDR8NVViljVgl9Qxjy1WxOduycJ+5B
+Wcik7F3kHX6NV1BkKJx6n/B1pn0WTGAdrlOxJ8k+v6PDP+uHBrYajaBB6WgxC5nL
+vFhGX3hakXN2G+Y4XUr/RPwfnmfdcXcqwqgw+yMdi0gAFjHg0Nx9qe76Dr/jh9px
+prSRMExOKmrrpfeK4Yct/XIcHwnTL2aQy6N4olLR8XXsObQXQftaENYvHQpQqlJ+
+KOEohmBA4REkYvW+Efj91zn7c9uPVaAZHIFmI0ZZjBIGKXyCfA7idPlo9/3wPxSe
+E6yyG5xFZ5jM6oG5DucNTM3/KM6hRRg2erg38bw6Ct2HLSd8BhBGQ/8hsuR1ZQKq
+SgAsxaw6zIVdb41ygQTS8QLMGmh155///x+XFE+goErUOEQ0jTFHAHhJ4cznNPrF
+mqx89v8LWpFffhcbsxKlvCJovPQXM7aOS2v+SyTO4HwVtH/rvcNV/3qKKMlwiOaZ
+u6heroooXWo3rmM+k1ih6hHMFm7guAot/Io8nVC7ncvU9dGlT1nASIF62Y5vMMI2
+Q5V7OuvC9UrvXC+jef20zKYz9kLZ0ELayCYxrIIZZp3mhyCK46liajnVE0yCOgSo
+GG2KkMsBpdZzTsE5ISsC7gjz9lvTwxECrDAqZcxOw+BhcCNwj8nuHk6rO62ttoQv
+aEfkLp/vh/M=
+=pDKj
 -----END PGP SIGNATURE-----
