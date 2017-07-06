@@ -7,11 +7,11 @@ Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
 Installed-Size: 15025
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
 Filename: ./doxyparse_1.8.14~rc1_amd64.deb
-Size: 3365680
-MD5sum: 94dd29a2513ac5050e547d2ef32b224f
-SHA1: 37e2b5e0a9b1997be364c67184445ab9b0a3e41e
-SHA256: aeec6d35850c39f9efc8df6db163fcf9645e88b83b7d4562000eefd5ec029117
-SHA512: 098fcd3467993430b60be22a7ab8bf2dccb0089a4f840be2ec2858ba6ce32ab5bbb9782b83762024725b41a7845fa379f075794e0ad11d888ccff9a56fa51940
+Size: 3365718
+MD5sum: 2978ef587a1e8bfddf0cff6ae0ec6c96
+SHA1: 49af1931caa09759596ff80772398f21351435f8
+SHA256: b36c7d58884d8b71c06f4bebb6f47aaece1378fcd13c810b8fe4f41f6b83498d
+SHA512: e0a2df8947f41d7298e9dd2363c284b5ea52d134ab8f450bbedc1e1b23a8aace68134b32d5d69231ee58e51a7818122cffed70652e2cddf9f62d4dafa66b06d3
 Homepage: http://analizo.org/Site/Doxyparse
 Description: multi-language source code analyzer
  doxyparse builts on doxygen's great source code parsing infrastructure and
@@ -51,6 +51,26 @@ Description: multi-language source code analyzer
  .
  doxyparses's main goal is to be used by higher-level source code analyzis
  tools.
+
+Package: doxyparse-dbgsym
+Architecture: amd64
+Version: 1.8.14~rc1
+Auto-Built-Package: debug-symbols
+Priority: extra
+Section: debug
+Source: doxyparse
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Installed-Size: 2422
+Depends: doxyparse (= 1.8.14~rc1)
+Filename: ./doxyparse-dbgsym_1.8.14~rc1_amd64.deb
+Size: 428920
+MD5sum: 7a4d1673e1411f26910f1d44855e0819
+SHA1: 3b67035c1b31d30b229bbd6df24da43a6700eb0d
+SHA256: c1616a7fdac6bc5cf87a4e630b188a815c5ca9ad7e928b7e50da67f0b7553992
+SHA512: c69cef6e60c0094a347dd9137fad0c1c342eacbb5e9b289b154f23ff0bcf0b62ade2be31e9a235af185621705f017b8d4dfd0af5d30146e489b6b0de1601f225
+Homepage: http://analizo.org/Site/Doxyparse
+Description: Debug symbols for doxyparse
+Build-Ids: 4f8313718c80e9c64f5747a0871b8abd7f0f1ed5
 
 Package: libgraph-readwrite-perl
 Architecture: all
@@ -206,6 +226,26 @@ Description: multi-language source code analyzer
  doxyparses's main goal is to be used by higher-level source code analyzis
  tools.
 
+Package: doxyparse-dbgsym
+Architecture: i386
+Version: 1.8.14~rc1
+Auto-Built-Package: debug-symbols
+Priority: extra
+Section: debug
+Source: doxyparse
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Installed-Size: 2222
+Depends: doxyparse (= 1.8.14~rc1)
+Filename: ./doxyparse-dbgsym_1.8.14~rc1_i386.deb
+Size: 429314
+MD5sum: ae9d744cbcd20f436227ba8a9e6a41d1
+SHA1: 4c27ac5dfaf3d78ceb6c1a227492ddec7434d324
+SHA256: 3021897de89edc3851c124421081c9aff0115da9ba5b8927912878ef81e0c64b
+SHA512: 7a1420aa0788084a5c8aa8bcb7ec3115efcf6d7c30cba8e304cdcca6fbf99654f180b50786dca9e4b414f4a58780da4c332d812b989a3285913e975ac61e385f
+Homepage: http://analizo.org/Site/Doxyparse
+Description: Debug symbols for doxyparse
+Build-Ids: fe9176b9cb6fcba8419054e0efa9b7debe24ab86
+
 Package: analizo
 Architecture: all
 Version: 1.19.1
@@ -251,6 +291,33 @@ Description: multi-language source code analysis toolkit
  .
  Analizo uses doxyparse to parse the source code, and is currently tested and
  expected to work well with C, C++ and Java source code.
+
+Package: doxyparse
+Architecture: i386
+Version: 1.8.14~rc1
+Priority: extra
+Section: devel
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Installed-Size: 14308
+Depends: libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.2), libstdc++6 (>= 5.2)
+Filename: ./doxyparse_1.8.14~rc1_i386.deb
+Size: 3326828
+MD5sum: 7e62c37b62a3bb4e633d79867fb76e9e
+SHA1: 6b98535ea927756e6bb54ac7025b070a69c15a44
+SHA256: 30a1aafa66d6ebb3a6cb1af856334c3e87fcab675b748898ec161d611cb295fb
+SHA512: ea43230ab50faf318fe15a57d54d495c29dead908022d95d4ae2ba6d05a38572b34e09e09b59ad5b6a8c52b08ce2852f31f5e484f804569132779e8c491c6b70
+Homepage: http://analizo.org/Site/Doxyparse
+Description: multi-language source code analyzer
+ doxyparse builts on doxygen's great source code parsing infrastructure and
+ provides a command-line tool that can be used to obtain informatin from source
+ code, such as:
+ .
+  * which functions/methods and variables/attributes a module/class contains
+  * which functions/methods calls/uses which functions/methods/variables
+  * etc
+ .
+ doxyparses's main goal is to be used by higher-level source code analyzis
+ tools.
 
 Package: analizo
 Architecture: all
