@@ -58,6 +58,31 @@ Package: analizo
 Format: 3.0 (native)
 Binary: analizo
 Architecture: all
+Version: 1.20.0~rc1
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: rake, ruby-rspec, libfile-copy-recursive-perl, libfile-libmagic-perl, libfile-slurp-perl, libmethod-signatures-perl, libtest-bdd-cucumber-perl, libtest-class-perl, libtest-exception-perl, libtest-mockmodule-perl, libtest-mockobject-perl, doxyparse (>= 1.8.14~rc1), g++ (>= 4.8~), gcc (>= 4.8~), git, man, ruby, sloccount, sqlite3, libapp-cmd-perl, libchi-perl, libclass-accessor-perl, libclass-inspector-perl, libdbd-sqlite3-perl, libdbi-perl, libdigest-sha-perl, libfile-homedir-perl, libfile-share-perl, libfile-sharedir-perl, libfindbin-libs-perl, libgraph-perl, libgraph-writer-dsm-perl (>= 0.005), libgraph-readwrite-perl (>= 2.09), libjson-perl, liblist-compare-perl, libmojolicious-perl, libstatistics-descriptive-perl, libterm-progressbar-perl, libyaml-perl, libzmq-ffi-perl, libarchive-extract-perl
+Homepage: http://analizo.org
+Package-List:
+ analizo deb devel extra arch=all
+Files:
+ d6dc7b9636e093bbe21a2af78c7fbabc 2306 analizo_1.20.0~rc1.dsc
+ 910d0797871707a92ffdba0b77ea25fd 1939988 analizo_1.20.0~rc1.tar.xz
+Checksums-Sha1:
+ b092942f2af7e8f627a69ee5cbd6ee8cfba6b622 2306 analizo_1.20.0~rc1.dsc
+ 93cd5aa85629791ec94dab4d0f27a8d266fcb50d 1939988 analizo_1.20.0~rc1.tar.xz
+Checksums-Sha256:
+ df41d63868355e6315c1bfbd55a3f286c9677422f94fa0b851f2f393c0f9af0b 2306 analizo_1.20.0~rc1.dsc
+ 31eda7330a67aa03b282915163eafd56cef4e65ea9d84eb6e4e6c26b6a337825 1939988 analizo_1.20.0~rc1.tar.xz
+Checksums-Sha512:
+ 4e46c7fdfab6b444251527ea3b18530fdfbe6135ea8dcbcb6c6fa9eacece3d8d8501907cb5096932ef52390a6d6a6f5810799bf33f9da3f58a4eccff8e7dd8aa 2306 analizo_1.20.0~rc1.dsc
+ 1e9e48611280fac031362d97238e3826e98364c3170c7f69b77cf7eb8f936258a101718313a89054dc948a141b2a183d96a12f79bcc963b6be2a4f08a9b408d4 1939988 analizo_1.20.0~rc1.tar.xz
+
+Package: analizo
+Format: 3.0 (native)
+Binary: analizo
+Architecture: all
 Version: 1.19.1
 Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
 Standards-Version: 3.9.6

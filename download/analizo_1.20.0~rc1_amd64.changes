@@ -1,0 +1,64 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 07 Jul 2017 00:45:24 -0300
+Source: analizo
+Binary: analizo
+Architecture: source all
+Version: 1.20.0~rc1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ analizo    - multi-language source code analysis toolkit
+Changes:
+ analizo (1.20.0~rc1) UNRELEASED; urgency=medium
+ .
+   * Release Candidate RC1
+   * Documenting source code metrics
+   * More automated tests
+   * Dockerfile
+   * Travis continuous testing
+   * Removing CLANG
+   * Doxyparse extractor uses YAML
+   * Migrate from ZeroMQ to ZMQ::FFI
+   * Using YAML instead of YAML::Tiny
+   * Depends on doxyparse 1.8.14
+   * Fixing running of a single acceptance test
+   * Fixing development-setup.sh
+   * Standardizing the name of test files
+Checksums-Sha1:
+ b092942f2af7e8f627a69ee5cbd6ee8cfba6b622 2306 analizo_1.20.0~rc1.dsc
+ 93cd5aa85629791ec94dab4d0f27a8d266fcb50d 1939988 analizo_1.20.0~rc1.tar.xz
+ bf6bce8c6d4d719325f4bf2645540a6c932e00d6 57106 analizo_1.20.0~rc1_all.deb
+ d8024c72dee61a112e824a534272ac55f9d48a01 16596 analizo_1.20.0~rc1_amd64.buildinfo
+Checksums-Sha256:
+ df41d63868355e6315c1bfbd55a3f286c9677422f94fa0b851f2f393c0f9af0b 2306 analizo_1.20.0~rc1.dsc
+ 31eda7330a67aa03b282915163eafd56cef4e65ea9d84eb6e4e6c26b6a337825 1939988 analizo_1.20.0~rc1.tar.xz
+ ccb51e780688ec38d95057405163e565e674dc126c2eac2398c0b85b72fcc58b 57106 analizo_1.20.0~rc1_all.deb
+ eff451a68c84da931450ed43bd7a40c95ec9f56d066241e8ea7e79424a41d288 16596 analizo_1.20.0~rc1_amd64.buildinfo
+Files:
+ d6dc7b9636e093bbe21a2af78c7fbabc 2306 devel extra analizo_1.20.0~rc1.dsc
+ 910d0797871707a92ffdba0b77ea25fd 1939988 devel extra analizo_1.20.0~rc1.tar.xz
+ d2aa1e42b6ed91c7f3f72f9f0d8099df 57106 devel extra analizo_1.20.0~rc1_all.deb
+ 5db19050ae61da08504dd479277334d2 16596 devel extra analizo_1.20.0~rc1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAllfLt8RHGpvZW5pb0Bq
+b2VuaW8ubWUACgkQLjHT/ebQj/SMLQ/+OFf7KpBOQ2fnYsCWhiydWygh0nrlfWn2
+xvnIekrlJ/rF4qf+T+hzFG3CVKJtqW17CRqgBl0X+A3bjDWBJATeHENb8Gagh4dn
+LKO3wkxyeA84BAHUMt12C37lmONtvySG22i5nSQJoSaxHLWUT8682cw57KICn0nn
+cP2OeADRKcmqKx20hV34xxbBtF7iO5XfrQ772kG/Cxj4HPSY4u8B+qgTFv+NfjNe
+Pfz5aRETKSgX8dyZ3EkZGVh/zsZSp65G2LvwFUoCIb/1viuTkC71qTm5bUjMhIIu
+EZ03uPXsSG1pqroZOUSq58RWHZ750meYJydBjbVbAsNT9fRuuKAEglYovFIRGyHU
+CXCUmstRkZFnl35CjElDDl8/f7bZMlFdEN0RNXuFRop3tgNsGL8JfZPjDKLBr7Q1
+SfvWJZC93lPby8NgYYYIm3uefWj4kI+M7GKGNmpSAx7qhEvUYTbGXTMKNtNNkNiV
+3CZAnmhEFWhajXIRzugN0PJKI57UftY1g3CK24hc5HKqB5JsDu3SFAOz0kdrwRJI
+JOxuNTSBsoiBreLqFaaG9TBN5ZL2bbCnhfdkGxkBRQ7q+fz59ADMfDQlikBYDf8P
+GZ4MgLoD1U6/7MhNc373s95P6Eu5lPvVvRGg0/dpa3+HCc+FCu8fZSaVZ0cIfWjD
+MKWEHEUxBWo=
+=uohA
+-----END PGP SIGNATURE-----
