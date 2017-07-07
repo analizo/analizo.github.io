@@ -2,19 +2,19 @@
 Hash: SHA256
 
 Format: 1.8
-Date: Fri, 07 Jul 2017 00:45:24 -0300
+Date: Fri, 07 Jul 2017 04:31:07 -0300
 Source: analizo
 Binary: analizo
 Architecture: source all
 Version: 1.20.0~rc1
-Distribution: UNRELEASED
+Distribution: unstable
 Urgency: medium
 Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
 Changed-By: Joenio Costa <joenio@joenio.me>
 Description:
  analizo    - multi-language source code analysis toolkit
 Changes:
- analizo (1.20.0~rc1) UNRELEASED; urgency=medium
+ analizo (1.20.0~rc1) unstable; urgency=medium
  .
    * Release Candidate RC1
    * Documenting source code metrics
@@ -30,35 +30,35 @@ Changes:
    * Fixing development-setup.sh
    * Standardizing the name of test files
 Checksums-Sha1:
- b092942f2af7e8f627a69ee5cbd6ee8cfba6b622 2306 analizo_1.20.0~rc1.dsc
- 93cd5aa85629791ec94dab4d0f27a8d266fcb50d 1939988 analizo_1.20.0~rc1.tar.xz
- bf6bce8c6d4d719325f4bf2645540a6c932e00d6 57106 analizo_1.20.0~rc1_all.deb
- d8024c72dee61a112e824a534272ac55f9d48a01 16596 analizo_1.20.0~rc1_amd64.buildinfo
+ 452edde0138335845cee059e31d268ebc6a16f74 2306 analizo_1.20.0~rc1.dsc
+ d75307c548fa64c8dc70cc0223be3c4f44cd9d30 1940160 analizo_1.20.0~rc1.tar.xz
+ c69542c6702148830ee0e77865dcdb83a5d7da4b 57106 analizo_1.20.0~rc1_all.deb
+ 7f85eccb5e1d740a1ccda5ea62a277971a2abdf2 16596 analizo_1.20.0~rc1_amd64.buildinfo
 Checksums-Sha256:
- df41d63868355e6315c1bfbd55a3f286c9677422f94fa0b851f2f393c0f9af0b 2306 analizo_1.20.0~rc1.dsc
- 31eda7330a67aa03b282915163eafd56cef4e65ea9d84eb6e4e6c26b6a337825 1939988 analizo_1.20.0~rc1.tar.xz
- ccb51e780688ec38d95057405163e565e674dc126c2eac2398c0b85b72fcc58b 57106 analizo_1.20.0~rc1_all.deb
- eff451a68c84da931450ed43bd7a40c95ec9f56d066241e8ea7e79424a41d288 16596 analizo_1.20.0~rc1_amd64.buildinfo
+ 5a8c6180e83ed13a11031a5c4c740c6d85c6d8b0f88d45db3538bbb558a74385 2306 analizo_1.20.0~rc1.dsc
+ d8d49cc2ce12f26ee07adb10333739859dbc2a2ca0b2c50940503ef09bd0d9ad 1940160 analizo_1.20.0~rc1.tar.xz
+ 35b3e07b85dc68992aa873ccc9202d5669ee7714186d949e8455140cffafd7aa 57106 analizo_1.20.0~rc1_all.deb
+ d06396ddac6e6e1fc96973e3b5845f9f801b97c5c4bfb12c38143d561c1b1e13 16596 analizo_1.20.0~rc1_amd64.buildinfo
 Files:
- d6dc7b9636e093bbe21a2af78c7fbabc 2306 devel extra analizo_1.20.0~rc1.dsc
- 910d0797871707a92ffdba0b77ea25fd 1939988 devel extra analizo_1.20.0~rc1.tar.xz
- d2aa1e42b6ed91c7f3f72f9f0d8099df 57106 devel extra analizo_1.20.0~rc1_all.deb
- 5db19050ae61da08504dd479277334d2 16596 devel extra analizo_1.20.0~rc1_amd64.buildinfo
+ b31a8b1db2a843d303a3174d8555cf0a 2306 devel extra analizo_1.20.0~rc1.dsc
+ a2fd1c86dee704388f8bec559679223d 1940160 devel extra analizo_1.20.0~rc1.tar.xz
+ 91bcde29a28695ebf13b69ee51fa5681 57106 devel extra analizo_1.20.0~rc1_all.deb
+ 240f09384003255a758bc553376f3566 16596 devel extra analizo_1.20.0~rc1_amd64.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJFBAEBCAAvFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAllfLt8RHGpvZW5pb0Bq
-b2VuaW8ubWUACgkQLjHT/ebQj/SMLQ/+OFf7KpBOQ2fnYsCWhiydWygh0nrlfWn2
-xvnIekrlJ/rF4qf+T+hzFG3CVKJtqW17CRqgBl0X+A3bjDWBJATeHENb8Gagh4dn
-LKO3wkxyeA84BAHUMt12C37lmONtvySG22i5nSQJoSaxHLWUT8682cw57KICn0nn
-cP2OeADRKcmqKx20hV34xxbBtF7iO5XfrQ772kG/Cxj4HPSY4u8B+qgTFv+NfjNe
-Pfz5aRETKSgX8dyZ3EkZGVh/zsZSp65G2LvwFUoCIb/1viuTkC71qTm5bUjMhIIu
-EZ03uPXsSG1pqroZOUSq58RWHZ750meYJydBjbVbAsNT9fRuuKAEglYovFIRGyHU
-CXCUmstRkZFnl35CjElDDl8/f7bZMlFdEN0RNXuFRop3tgNsGL8JfZPjDKLBr7Q1
-SfvWJZC93lPby8NgYYYIm3uefWj4kI+M7GKGNmpSAx7qhEvUYTbGXTMKNtNNkNiV
-3CZAnmhEFWhajXIRzugN0PJKI57UftY1g3CK24hc5HKqB5JsDu3SFAOz0kdrwRJI
-JOxuNTSBsoiBreLqFaaG9TBN5ZL2bbCnhfdkGxkBRQ7q+fz59ADMfDQlikBYDf8P
-GZ4MgLoD1U6/7MhNc373s95P6Eu5lPvVvRGg0/dpa3+HCc+FCu8fZSaVZ0cIfWjD
-MKWEHEUxBWo=
-=uohA
+iQJFBAEBCAAvFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAllfOPwRHGpvZW5pb0Bq
+b2VuaW8ubWUACgkQLjHT/ebQj/Sk/g/5AWcg8e2GIrmLkrXFNZwezZzB5oXaxeIb
+zh3/LnFgWWjydCfkvv2a/CQUSMMJ+ukcI3F1aKpNbGqPGTKVNY0j7c48ZL0hraFC
+6hUQyF2W2LTuohClKAFnss48RsJlh//vxX6ciMxeEpF0TWRoW5cUgD21kOJoDYjc
+bOEH58YuFWeI51BMkDToPWTWRT0EC9v9DPzceOAUlh4G0d1cmhyCgaRyDgOS/gVp
+HQ45j80/Cmg6HKEJ5o6/RMae9K4hWU7lCq/jPz23i2TPIRdBq5xAsAy8el37koC4
+fCxmnmYSOS6Eh7ZcnBPpip+an+MBdWO/JyckTxBoskNFGP2QLdkyoZ8zgqhyKQHG
+JgACHPR7GXY6TFDAwRttEz+p7LCLduRSpg2ospu99lvgacNo7jr5t4nh8OIFWxnE
+yma6fYD0mDuRGEg8v2+DTQC2hhW5e+ysg+lratmRnZfqY357lPSQwwhNeRGZR33q
+rCcgg5m28tfjgdS4/OUJnn+UBk0Jy+y9HD9KOuaAky3IUMA/zUsR3ASNaR3K+AXK
+4mZp32tjuuYzkNeBrkCgp9AxAnKBu5h0trKl1kE3ltyMdwKFHpY2XpbpJS1ikGH+
+sABokdQ/YY8s2pPc4+GRph93IAjP8Ju4Z5FEbVs7+2cwLt8v9xhMmZVPeNyePtwO
+pALKr9vITZk=
+=p+tQ
 -----END PGP SIGNATURE-----

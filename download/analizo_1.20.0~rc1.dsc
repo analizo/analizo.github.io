@@ -14,26 +14,26 @@ Build-Depends-Indep: rake, ruby-rspec, libfile-copy-recursive-perl, libfile-libm
 Package-List:
  analizo deb devel extra arch=all
 Checksums-Sha1:
- 93cd5aa85629791ec94dab4d0f27a8d266fcb50d 1939988 analizo_1.20.0~rc1.tar.xz
+ d75307c548fa64c8dc70cc0223be3c4f44cd9d30 1940160 analizo_1.20.0~rc1.tar.xz
 Checksums-Sha256:
- 31eda7330a67aa03b282915163eafd56cef4e65ea9d84eb6e4e6c26b6a337825 1939988 analizo_1.20.0~rc1.tar.xz
+ d8d49cc2ce12f26ee07adb10333739859dbc2a2ca0b2c50940503ef09bd0d9ad 1940160 analizo_1.20.0~rc1.tar.xz
 Files:
- 910d0797871707a92ffdba0b77ea25fd 1939988 analizo_1.20.0~rc1.tar.xz
+ a2fd1c86dee704388f8bec559679223d 1940160 analizo_1.20.0~rc1.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJFBAEBCAAvFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAllfLt8RHGpvZW5pb0Bq
-b2VuaW8ubWUACgkQLjHT/ebQj/R7Dw//SMygfGdcm3YraW7piB9p5szL9l3C2GEm
-PIH8hcIUIK9swMiKUnXHnjPoDlltg3Q/tV7knI7fFZYAIj33hePyQs/QKXJyOGuH
-Uvxck7VcBitU0sxhCgNJxUAKsIVRdMtMNXGcfs1ixHbJuaefIijXi28Ka21/wxaR
-KExhkI+OSwTVjOHEygy90DBB+/SQ4HyjIGloyyZBbJCrlW/FncRpN0SF1/hfEFKF
-LypSBBTixOzdZLKH9BARYaXK6tLiUuEWkqm4toNQkcFVhp7UwQXjLa0Ii6pdN4hj
-W0IsLFiIesgS95tXGiUBKoUYzJmCLQljSd+D21uY2oaxPKlyqe9QtKiWXKTgpAwg
-D+LkQQIMv2wP8sJ+BtVy3qZ+YWPw/nuIdK3MzbLnarC8uYyMr2ngjldkfmyejRYg
-ryGuuXu5D28MgKdxh0I6NbsDS5ptKftkT6o0FN+/6hdNo5AUf9yf/Dtot28H7NJX
-AaofcG1NdIGjCjNEnwXY/JiimLC1JmlVlCttPhcoaxjMriea7XvyCdx1Fvna4g6G
-MY0IHQ/JUksXF4KPsqQZLTugJup/gRv5VF4zl6ITtHeYAaV2HdlRlbvzFY714mMa
-GgZIyN+C1c4OQ0becLSPdHO7pOxnKIFkCya6vMB+vfZisbnaUBXYRtCTWdyPccY/
-pigwNckosLc=
-=l4Lq
+iQJFBAEBCAAvFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAllfOPsRHGpvZW5pb0Bq
+b2VuaW8ubWUACgkQLjHT/ebQj/STzhAAtjWbX6ZUhEgWUZw0xGFoXjnO7n75MMrE
+dstxTFjUXSW+70m5xoPOW278fy/dhREso4GX0wShLuVMWnlAk8X/NCXB1M3zSm/x
+MPD53thpRFbNlPaCkxsfvOp/ZXdjX84MtZVLVZn/GSh5enDAfoKKd/OSw0HqjN/k
+FMoGEdf0QRaieG9e53QdSc5b+xGJcI5cAzt/kLy67nz+i5Us10IdeH5aP4aKgoXU
+lxb3HkeMXHOWyVHo0PbYXoL/b/Qryz5svT0MxpCXeDiMN9BjKdswmfSGbzIguTPF
+JEx40rcYfKfY9zRAzbvhhPNXiPMY7CSXYJFfOUft4NVkYzFHE7HJoLCeXHr1EGMb
+ITQWp6CwXxZyKcizTtbxrwOgMw8MDxzMz4a5NqpjXjxlBLTiWvoBPCDskpJiwzxN
+1/rY42cSENGR8yjZbo21uuWLAkuIhb8flku+wq3QKL6Lxm0WrDdW3aXSZDQBU+xf
+iK3LI5JSeizfw3bXlFeWyLd+O0iPmpQ7866APSGyyU7opmcAtTI6hJ/loAeG/YIN
+9XnOFp+RHhKlrY2s2LGDwGsdXx2dP7InVsOqvX1CjmAIirY8nwrDwMg26xaQ91WZ
+DAH1t8Ekb5sud8gs+A/ND7QfvcMPtS6q3VkWrBPPNQyFIDuDEquKa6yAuK6EnuA6
+RTD+17moAlE=
+=PWKE
 -----END PGP SIGNATURE-----
