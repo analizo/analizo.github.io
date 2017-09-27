@@ -67,17 +67,17 @@ Homepage: http://analizo.org
 Package-List:
  analizo deb devel extra arch=all
 Files:
- d6dc7b9636e093bbe21a2af78c7fbabc 2306 analizo_1.20.0~rc1.dsc
- 910d0797871707a92ffdba0b77ea25fd 1939988 analizo_1.20.0~rc1.tar.xz
+ b31a8b1db2a843d303a3174d8555cf0a 2306 analizo_1.20.0~rc1.dsc
+ a2fd1c86dee704388f8bec559679223d 1940160 analizo_1.20.0~rc1.tar.xz
 Checksums-Sha1:
- b092942f2af7e8f627a69ee5cbd6ee8cfba6b622 2306 analizo_1.20.0~rc1.dsc
- 93cd5aa85629791ec94dab4d0f27a8d266fcb50d 1939988 analizo_1.20.0~rc1.tar.xz
+ 452edde0138335845cee059e31d268ebc6a16f74 2306 analizo_1.20.0~rc1.dsc
+ d75307c548fa64c8dc70cc0223be3c4f44cd9d30 1940160 analizo_1.20.0~rc1.tar.xz
 Checksums-Sha256:
- df41d63868355e6315c1bfbd55a3f286c9677422f94fa0b851f2f393c0f9af0b 2306 analizo_1.20.0~rc1.dsc
- 31eda7330a67aa03b282915163eafd56cef4e65ea9d84eb6e4e6c26b6a337825 1939988 analizo_1.20.0~rc1.tar.xz
+ 5a8c6180e83ed13a11031a5c4c740c6d85c6d8b0f88d45db3538bbb558a74385 2306 analizo_1.20.0~rc1.dsc
+ d8d49cc2ce12f26ee07adb10333739859dbc2a2ca0b2c50940503ef09bd0d9ad 1940160 analizo_1.20.0~rc1.tar.xz
 Checksums-Sha512:
- 4e46c7fdfab6b444251527ea3b18530fdfbe6135ea8dcbcb6c6fa9eacece3d8d8501907cb5096932ef52390a6d6a6f5810799bf33f9da3f58a4eccff8e7dd8aa 2306 analizo_1.20.0~rc1.dsc
- 1e9e48611280fac031362d97238e3826e98364c3170c7f69b77cf7eb8f936258a101718313a89054dc948a141b2a183d96a12f79bcc963b6be2a4f08a9b408d4 1939988 analizo_1.20.0~rc1.tar.xz
+ 926db3ddeed0b661dd32109f953f100595ee0218fe2a4d7c9130ab377c56dc2bdef7060e9618539a6c49012413fcc6fb24a1f666d8e212fce64a1612108928d7 2306 analizo_1.20.0~rc1.dsc
+ 3011b3d571b1d3f5c7164f139d234f0335f6127955edf73f2abcc18594a22184c98ef3c9465f748ae42795d9896f033236944de9737e336936ce9f030edb0308 1940160 analizo_1.20.0~rc1.tar.xz
 
 Package: analizo
 Format: 3.0 (native)
@@ -266,4 +266,37 @@ Checksums-Sha256:
 Checksums-Sha512:
  d2b3a2d0ec2546a67c478847de1e6e09773017ec515b42f6779fb2471f504239ba045fc6ad694326f8794f2a1b67eaa4b1195944061bd9e1f36f8fc983472b3a 1606 analizo_1.19.0.dsc
  6f1a69545562e599dde68a4ddd1df90f36156a8e75b1c4883edb1496af3b78b2d00e72720c9833afcde0c54a65f8ee537edcd38a6eb30110042e19ab4c173bbc 1961128 analizo_1.19.0.tar.xz
+
+Package: libdist-zilla-plugin-requiresexternal-perl
+Format: 3.0 (quilt)
+Binary: libdist-zilla-plugin-requiresexternal-perl
+Architecture: all
+Version: 1.008-1+analizo1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Joenio Costa <joenio@joenio.me>
+Standards-Version: 4.1.0
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: libdist-zilla-perl, libenv-path-perl, liblist-moreutils-perl, libmodern-perl-perl, libmoose-perl, libmoosex-attributeshortcuts-perl, libmoosex-types-perl, libnamespace-autoclean-perl, libpath-class-perl, libtest-most-perl, libtest-output-perl, perl, perl (>= 5.11.1) | libtest-simple-perl (>= 0.94)
+Testsuite: autopkgtest-pkg-perl
+Homepage: http://metacpan.org/release/Dist-Zilla-Plugin-RequiresExternal
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libdist-zilla-plugin-requiresexternal-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libdist-zilla-plugin-requiresexternal-perl.git
+Package-List:
+ libdist-zilla-plugin-requiresexternal-perl deb perl optional arch=all
+Files:
+ 71825d4dac555435942bde899349494b 2739 libdist-zilla-plugin-requiresexternal-perl_1.008-1+analizo1.dsc
+ 7771956c14bcb4cc2f559173a0372e4b 24762 libdist-zilla-plugin-requiresexternal-perl_1.008.orig.tar.gz
+ c9e7cf25a76e0046fea1b9aa25c8545c 2200 libdist-zilla-plugin-requiresexternal-perl_1.008-1+analizo1.debian.tar.xz
+Checksums-Sha1:
+ 0cfcb2a9bc14334b91d069ae623c2b1adef8009e 2739 libdist-zilla-plugin-requiresexternal-perl_1.008-1+analizo1.dsc
+ 7046788eb4c1de750ad0ccd0af89f60249403b45 24762 libdist-zilla-plugin-requiresexternal-perl_1.008.orig.tar.gz
+ 90a3861e1696f9bc40ca38e7029e9efb754d17ba 2200 libdist-zilla-plugin-requiresexternal-perl_1.008-1+analizo1.debian.tar.xz
+Checksums-Sha256:
+ b60c32aead4718b6011cea37f129fa5ab5d3d212cc0b73289c7859ed22883145 2739 libdist-zilla-plugin-requiresexternal-perl_1.008-1+analizo1.dsc
+ 40d5edbd63c179d698142598d56769c534aae89ccaf470e4da1db36e34875192 24762 libdist-zilla-plugin-requiresexternal-perl_1.008.orig.tar.gz
+ d850d682dbde41e9bf777435396c934bd065600eb3fad39cf7f76d10d14e64af 2200 libdist-zilla-plugin-requiresexternal-perl_1.008-1+analizo1.debian.tar.xz
+Checksums-Sha512:
+ 1538fe0041abf4e0897c411cb48eb9c6bf80178b00941a0e797766910cdeb439ca0839115651551f05915cd3126edeee3ff1448fbdf5ba5a63fb33f8982543ff 2739 libdist-zilla-plugin-requiresexternal-perl_1.008-1+analizo1.dsc
+ 8eff2c20444007754af6788076572c6deb65b3d15a4352a84f2e177ae1f88b8d0bd8dfd3b15c236edd364bf6619c0609a91ac054ee034d6513f1f2229816538d 24762 libdist-zilla-plugin-requiresexternal-perl_1.008.orig.tar.gz
+ 4a46014512b5918277f610ea11ad31fd55bbb5dc097f3ae813b15301b3b48f0371ba307c445113e0c2def1d4ace75a622c097c3c31e179187cab52c202b211c3 2200 libdist-zilla-plugin-requiresexternal-perl_1.008-1+analizo1.debian.tar.xz
 

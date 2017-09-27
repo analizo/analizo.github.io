@@ -133,10 +133,10 @@ Depends: perl, doxyparse (>= 1.8.14~rc1), g++ (>= 4.8~), gcc (>= 4.8~), git, man
 Recommends: graphviz
 Filename: ./analizo_1.20.0~rc1_all.deb
 Size: 57106
-MD5sum: d2aa1e42b6ed91c7f3f72f9f0d8099df
-SHA1: bf6bce8c6d4d719325f4bf2645540a6c932e00d6
-SHA256: ccb51e780688ec38d95057405163e565e674dc126c2eac2398c0b85b72fcc58b
-SHA512: 69c627801b71b82f025aa973ea7e924dab61e638da7bc237338265a539120e191c0b7a4315f6fff9726d4c47c8d4715d93b37e85d51de917fc4421e1c58a827e
+MD5sum: 91bcde29a28695ebf13b69ee51fa5681
+SHA1: c69542c6702148830ee0e77865dcdb83a5d7da4b
+SHA256: 35b3e07b85dc68992aa873ccc9202d5669ee7714186d949e8455140cffafd7aa
+SHA512: df152e01e11c878953d5c87d7f6bec2db32c287b4bd58942cd0633961360bb43e0e0e91b4f789000786b5e5d95c114c4bd5937ff166d98abc9d28464ae829dc3
 Homepage: http://analizo.org
 Description: multi-language source code analysis toolkit
  Analizo parses source code in multiple languages and report useful information
@@ -144,6 +144,27 @@ Description: multi-language source code analysis toolkit
  .
  Analizo uses doxyparse to parse the source code, and is currently tested and
  expected to work well with C, C++ and Java source code.
+
+Package: libdist-zilla-plugin-requiresexternal-perl
+Architecture: all
+Version: 1.008-1+analizo1
+Priority: optional
+Section: perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 38
+Depends: perl, libdist-zilla-perl, libenv-path-perl, liblist-moreutils-perl, libmodern-perl-perl, libmoose-perl, libmoosex-attributeshortcuts-perl, libmoosex-types-perl, libnamespace-autoclean-perl, libpath-class-perl, libtest-most-perl
+Filename: ./libdist-zilla-plugin-requiresexternal-perl_1.008-1+analizo1_all.deb
+Size: 12356
+MD5sum: b9381418098b03cc68c6f6a5a3dca6dc
+SHA1: 431fcc9f5004700bd19b0d3d6d05789c72544f68
+SHA256: 48623c251b7c681984055a4919324b3d65385c91e29a058154d6b760a09249f4
+SHA512: df9d501dcfb6982c551038de70a19e94dbe12142fe3f62f95987867d804b96eeba98e956edc2eb6d0a768461b32a162290107cd36a7f7362b1a1a5be923cf391
+Homepage: http://metacpan.org/release/Dist-Zilla-Plugin-RequiresExternal
+Description: Dist::Zilla plugin to declare dependency on command-line tools
+ Dist::Zilla::Plugin::RequiresExternal creates a unit test in your distribution
+ to check for the existence of executable command-line tools you require.
+ Command-line tools can be declared as either an absolute path to an executable
+ or the name of a command in the user's PATH environment.
 
 Package: doxyparse
 Architecture: amd64
