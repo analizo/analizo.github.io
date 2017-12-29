@@ -1,0 +1,62 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 29 Dec 2017 00:17:02 -0200
+Source: doxyparse
+Binary: doxyparse
+Architecture: source amd64
+Version: 1.8.14-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Joenio Costa <joenio@joenio.me>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ doxyparse  - multi-language source code analyzer
+Changes:
+ doxyparse (1.8.14-1) unstable; urgency=medium
+ .
+   * install instructions from source
+   * Merge tag 'Release_1_8_14'
+   * fix doxyparse segfault for python source files
+   * removing double quotes from function arguments list
+   * added --version flag to doxyparse
+Checksums-Sha1:
+ b4b241c42dcf1301b020eb9407bd2276db1b2ad3 1884 doxyparse_1.8.14-1.dsc
+ dd2644c57473b7e0a1bc570d11446119963d69df 4889769 doxyparse_1.8.14.orig.tar.gz
+ a77920f79a321f3fc12bea6c05b02c2b18cee69d 5381 doxyparse_1.8.14-1.diff.gz
+ 1c6a4104d324fd305c3e8f4187145e381af73c48 417368 doxyparse-dbgsym_1.8.14-1_amd64.deb
+ 6e58c384443e737b0b1039d17ef8ccc2a1ff9842 7034 doxyparse_1.8.14-1_amd64.buildinfo
+ 1c3053426f0548f431b78e9803fe5cdef2d01ea2 2794648 doxyparse_1.8.14-1_amd64.deb
+Checksums-Sha256:
+ 3691132e54e28a52488089d8cb7e06d9c6a0e65aa2cb08fdc270aac850fcd6ea 1884 doxyparse_1.8.14-1.dsc
+ a46b3c536fab0b884fa91d731f59c974335db78c0dd13264f2fe2e47e49cfe9f 4889769 doxyparse_1.8.14.orig.tar.gz
+ 050e7de4ee514f366b35cd51efe499f99e8ec1b324cfb872fafc6bb0666bc7fd 5381 doxyparse_1.8.14-1.diff.gz
+ f17ed304473e1e1a1c6a71759e230a102ec86607d2467a20c14ceffcd7de8522 417368 doxyparse-dbgsym_1.8.14-1_amd64.deb
+ cf285f71b1c4481ecbfb1a778809f38a47f1bb0111c7ea334d7bcb8124dfb48c 7034 doxyparse_1.8.14-1_amd64.buildinfo
+ 9610e8ab8d86ef75bdafadce22b8cb2bdf549393428f211d9d0ab615bf4ed6b4 2794648 doxyparse_1.8.14-1_amd64.deb
+Files:
+ 8dfa74164a13e45faa712d665c4a8f3f 1884 devel optional doxyparse_1.8.14-1.dsc
+ 508ddc78bc9eb32e84b0ef75e5c36f16 4889769 devel optional doxyparse_1.8.14.orig.tar.gz
+ 14fd486d193d53071e19ed04a79b4628 5381 devel optional doxyparse_1.8.14-1.diff.gz
+ c79e2dd2ec95e1e54a451c0a7f06ebf1 417368 debug optional doxyparse-dbgsym_1.8.14-1_amd64.deb
+ c05cbbb37d3f2d4e7142bb25446e72b2 7034 devel optional doxyparse_1.8.14-1_amd64.buildinfo
+ a8e4f3c8ef10c84a8b7f845cf84fea6a 2794648 devel optional doxyparse_1.8.14-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAlpFv2oRHGpvZW5pb0Bq
+b2VuaW8ubWUACgkQLjHT/ebQj/RlzA//dATC1aFcRrZe0HCZ/TWI3ueLWvTZMVEP
+M62Xr/HK1DQfItC6E+KG3N9dR2IQUlZkZ2F4KOpbJha/2z/EQet1oeLBaOoSQnD1
+pJAWskeSJcoqfqZMysjM7Gou7sTYr9a36Y+ZrS3J56amsA772uLR02tfIxINWzSV
+t1OcDa2KnL4H4tYfFCdf8zDdSvVlUm0uEGYybMWYXSeZsJ8EIrKrPD4zBMRwt8vZ
+eKwCyX9sZSsrnhgIzN0nSKJWp3Lk/asjaTBitn4NMSriAZOaKOjhrWt8/oQhj8kn
+d5DUniJvJGu0ngFj88W3JxHIWb7CPzBIKNfAhf4q5w7opiTdS08c5lnYTG4advJN
+JdKjFAbJc0nj6QLzpEgJexPItqm5mS/AxqjTHaj4MPEyYsy09xjSJchC0YHQfxNA
+1ABeQrly3+gA44H02egJNVeMKQUMJUeiUcB/HXUMBkdkpfTriMx0baPfyRZ97EgG
+E+/mHIo62KyrBUjUkVz+9RIECwu23ilQrn/9GjTZhaWVsN1ZQmyD8sqdlgzSGvhR
+15op0mMxP8E2TKDVZ0aBKO3UdtRCmU53Q6QOTUsEssoQi4v6kTlc2iKnYa9rb+5x
+QYzCoup6F41weyzPSiim3Wts2NwlYKYjybM7wZBbvta9/EXWk9RfH456VjlVLRRJ
+LS1G75Z/dEY=
+=RHQI
+-----END PGP SIGNATURE-----
