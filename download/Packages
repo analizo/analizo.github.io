@@ -312,6 +312,33 @@ Description: multi-language source code analyzer
  tools.
 
 Package: doxyparse
+Architecture: i386
+Version: 1.8.14-1
+Priority: optional
+Section: devel
+Maintainer: Joenio Costa <joenio@joenio.me>
+Installed-Size: 12240
+Depends: libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.2), libstdc++6 (>= 5.2)
+Filename: ./doxyparse_1.8.14-1_i386.deb
+Size: 2759940
+MD5sum: dd96263813838560ee1dbc7e2d51bd41
+SHA1: 63b2abd1d91d955193ab685c8d29dbc583b972c1
+SHA256: f50f4dbd53e8bfaef062b4c5d79175effd2dcb680265d83875fce7a31d82ef2d
+SHA512: d4c1ec06c9a7df9da786d5da9ad36d38de531f9cc58b5eee9d189540e4f5d6f3c6f8cf9ce82abd78b7cf89842b1f7f096d587191d9ddfc6df520b5bd2580a887
+Homepage: http://analizo.org/Site/Doxyparse
+Description: multi-language source code analyzer
+ doxyparse builts on doxygen's great source code parsing infrastructure and
+ provides a command-line tool that can be used to obtain informatin from source
+ code, such as:
+ .
+  * which functions/methods and variables/attributes a module/class contains
+  * which functions/methods calls/uses which functions/methods/variables
+  * etc
+ .
+ doxyparses's main goal is to be used by higher-level source code analyzis
+ tools.
+
+Package: doxyparse
 Architecture: amd64
 Version: 1.8.14~rc1
 Priority: extra

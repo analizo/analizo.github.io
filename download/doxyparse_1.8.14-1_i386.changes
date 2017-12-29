@@ -1,0 +1,62 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 29 Dec 2017 00:17:02 -0200
+Source: doxyparse
+Binary: doxyparse
+Architecture: source i386
+Version: 1.8.14-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Joenio Costa <joenio@joenio.me>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ doxyparse  - multi-language source code analyzer
+Changes:
+ doxyparse (1.8.14-1) unstable; urgency=medium
+ .
+   * install instructions from source
+   * Merge tag 'Release_1_8_14'
+   * fix doxyparse segfault for python source files
+   * removing double quotes from function arguments list
+   * added --version flag to doxyparse
+Checksums-Sha1:
+ 08714a55570ac871f13da0dcff718336768fd352 1884 doxyparse_1.8.14-1.dsc
+ dd2644c57473b7e0a1bc570d11446119963d69df 4889769 doxyparse_1.8.14.orig.tar.gz
+ a77920f79a321f3fc12bea6c05b02c2b18cee69d 5381 doxyparse_1.8.14-1.diff.gz
+ 487238c4518b5ee970d026a38d416ec43b5ae2a6 424694 doxyparse-dbgsym_1.8.14-1_i386.deb
+ a4f982c1fd17ee8f6cf6b2e60a948f3fcb31c8cf 6969 doxyparse_1.8.14-1_i386.buildinfo
+ 63b2abd1d91d955193ab685c8d29dbc583b972c1 2759940 doxyparse_1.8.14-1_i386.deb
+Checksums-Sha256:
+ 16939977c50e36e16e82f67c5d3e0e79ec73d4f901c8460e217cbdb07ab88d56 1884 doxyparse_1.8.14-1.dsc
+ a46b3c536fab0b884fa91d731f59c974335db78c0dd13264f2fe2e47e49cfe9f 4889769 doxyparse_1.8.14.orig.tar.gz
+ 050e7de4ee514f366b35cd51efe499f99e8ec1b324cfb872fafc6bb0666bc7fd 5381 doxyparse_1.8.14-1.diff.gz
+ e3e118f02c4c61b9df05cd721cf64d57cb1804dc3ed5da26715d2b89bec9d7ff 424694 doxyparse-dbgsym_1.8.14-1_i386.deb
+ d006709f78590ae6ccd32c448aa21528601b69a2e7889b3d6f29e1d6f9568a66 6969 doxyparse_1.8.14-1_i386.buildinfo
+ f50f4dbd53e8bfaef062b4c5d79175effd2dcb680265d83875fce7a31d82ef2d 2759940 doxyparse_1.8.14-1_i386.deb
+Files:
+ 52d6e54aef9f4e4e9c6505b44f0d5a43 1884 devel optional doxyparse_1.8.14-1.dsc
+ 508ddc78bc9eb32e84b0ef75e5c36f16 4889769 devel optional doxyparse_1.8.14.orig.tar.gz
+ 14fd486d193d53071e19ed04a79b4628 5381 devel optional doxyparse_1.8.14-1.diff.gz
+ b6d541b4296d5519bd344fbb61a5c82f 424694 debug extra doxyparse-dbgsym_1.8.14-1_i386.deb
+ 6920e29a020dce0203c639a8bf8028de 6969 devel optional doxyparse_1.8.14-1_i386.buildinfo
+ dd96263813838560ee1dbc7e2d51bd41 2759940 devel optional doxyparse_1.8.14-1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAlpFyTQRHGpvZW5pb0Bq
+b2VuaW8ubWUACgkQLjHT/ebQj/QNIw/9EkKEkCmZuyhZJJWoAYgdDylWVLJqghNW
+eNt/1M6zqZJkk0ZoDasCLK/Fu8Q6wDVTjiIWKxPYgQohYktLbg5rRPYzbz8VrE/M
+3FrYZ96E0oe0wGzhW7j+VXrb0/oaVLZSvla1qENB5JxQfdGLs2o6fwIq9VOJAHdZ
+WuvaqajzDcayrHIS1TbhhFV+0NrRO0KMAhx6S3zM8Uren6NTsA9nmN9ifvyfjWQF
+WdmHYg8lv/cFY3AxEgQgf0m5dxCfpCpNLGy2Ut77D9RItGvBvgWz5iyI1cNxataE
+V2pno5h/8aI1qDgBaTaV7Mx5CLe1uVGcOSUiLa/6YSSZV0Qdwjoc2bsRnzEjTdiv
+ZyMoyrKTMNcVsIcx5Chgh0Lby4EkdxFxVGmVGeQMsLxWcrh7vxJ1Kqx8pxX8fowe
+UY9ufknCmmt7BTnx8W2VQwX7KMczswiodv10XVFD/FPoFwMpYoKwXHCvvA5Eh1cc
+oyCee6ngMRin3jzIQsseOqhUw1WTW1k2Iq3gG2YIjKTRcnE7B8WcfjTR3+2kAPyB
+otxbAipBTouAtLyX55dyW6yKoi4CdsARm5a4VLdHudq0RtIL5tZzbTUWP3seCJub
+9AuWlYII8iE9kfqNTAnP1+hA6gTK7em5VxuWNdh2hyLDpwso4AD+ux6KOkKg9pwW
+KPogTwc/Lpo=
+=qVva
+-----END PGP SIGNATURE-----
