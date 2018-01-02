@@ -2,6 +2,7 @@ use strict;
 use File::Basename;
 use File::Copy;
 
+mkdir 'man';
 my @index = ();
 print "analizo/lib/Analizo.pm → man/analizo.pm\n";
 copy 'analizo/lib/Analizo.pm', 'man/analizo.pm';
@@ -9,9 +10,8 @@ for my $script (glob 'analizo/lib/Analizo/Command/*.pm') {
   my $target = 'man/analizo-' . lc(basename $script);
   $target =~ s/_/-/g;
   print "$script → $target\n";
-  my $cmd = basename($target);
-  push @index, $cmd;
   copy $script, $target;
+  push @index, basename($target, '.pm');
 }
 
 print "[CREATE INDEX] → man/index.pm\n";
