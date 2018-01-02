@@ -1,6 +1,6 @@
 # Download
 
-Analizo current version is <strong>{$version}</strong>. You have more than one
+Analizo current version is <strong>{$version}</strong> (see [changelog](changelog.html)). You have more than one
 choice of download, see below.
 
 ## Source code
