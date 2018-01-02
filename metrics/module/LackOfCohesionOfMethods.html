@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>LackOfCohesionOfMethods — Analizo</title>
+
+    <link href="../../bootstrap/css/bootstrap.min.css" rel='stylesheet'/>
+    <link href="../../bootswatch/cosmo/bootstrap.min.css" rel='stylesheet'/>
+    <link href="../../site.css" rel='stylesheet'/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="../../index.html">&nbsp;</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse navbar-right" id="navbar-main">
+            <ul class="nav navbar-nav">
+              <li><a href="../../features.html">Features</a></li>
+              <li><a href="../../documentation.html">Documentation</a></li>
+              <li><a href="../../download.html">Download</a></li>
+              <li><a href="../../community.html">Community</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container" id='body'>
+        <h1>LackOfCohesionOfMethods</h1>
+
+
+
+<h1 id="NAME">NAME</h1>
+
+<p>Analizo::Metric::LackOfCohesionOfMethods - Lack of Cohesion of Methods (LCOM4) metric</p>
+
+<h1 id="DESCRIPTION">DESCRIPTION</h1>
+
+<p>The metric calculation is based on the following article and calculates the cohesion of the class.</p>
+
+<p>Article: <i>Comparison of Various Lacks of Cohesion Metrics</i> by Taranjeet Kaur and Rupinder Kaur.</p>
+
+<p>See the paragraphs about Lack of Cohesion of Methods LCOM4 in the article:</p>
+
+<p>LCOM3 varies in range between <code>[0, 1]</code>. LCOM3 indicates high cohesion and it is also a well defined class, it show simplicity of class and high reusability of class. A highly cohesive class provides high degree of encapsulation. LCOM3 formula is</p>
+
+<pre><code>  M: number of methods in a class
+  A: number of variables in a class
+  m.A: number of methods that access a variable
+  Sum(m.A): number of methods over attributes
+  a: variabes that shared may be or not
+
+  LCOM3=(m - Sum(mA) / a) / m - 1</code></pre>
+
+<p>In other words also say that consider connected components of graph or also say that if we consider undirected graph <code>G</code> where vertices are methods of a class and edge between vertices if corresponding methods at least share one instance variable.</p>
+
+<p>LCOM4 is like LCOM3 where graph <code>G</code> additionally has an edge between vertices representing methods <code>Mi</code> and <code>Mj</code> if <code>Mi</code> invokes <code>Mj</code>. In other words also say that, it measure number of components in a class. A connected component is a set of related methods.</p>
+
+
+
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="../../jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../site.js"></script>
+  </body>
+</html>
+

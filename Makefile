@@ -1,5 +1,5 @@
 SITEDOCS = $(patsubst %.md,%.html,$(wildcard *.md))
-MAN2HTML = $(patsubst %.pm,%.html,$(wildcard man/*.pm metrics/module/*.pm metrics/global/*.pm))
+MAN2HTML = $(patsubst %.pm,%.html,$(wildcard man/*.pm metrics/*.pm metrics/module/*.pm metrics/global/*.pm))
 
 html: analizo man/index.pm metrics/index.pm index.html $(MAN2HTML) $(SITEDOCS)
 

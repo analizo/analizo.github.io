@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AfferentConnections — Analizo</title>
+
+    <link href="../../bootstrap/css/bootstrap.min.css" rel='stylesheet'/>
+    <link href="../../bootswatch/cosmo/bootstrap.min.css" rel='stylesheet'/>
+    <link href="../../site.css" rel='stylesheet'/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="../../index.html">&nbsp;</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse navbar-right" id="navbar-main">
+            <ul class="nav navbar-nav">
+              <li><a href="../../features.html">Features</a></li>
+              <li><a href="../../documentation.html">Documentation</a></li>
+              <li><a href="../../download.html">Download</a></li>
+              <li><a href="../../community.html">Community</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container" id='body'>
+        <h1>AfferentConnections</h1>
+
+
+
+<h1 id="NAME">NAME</h1>
+
+<p>Analizo::Metric::AfferentConnections - Afferent Connections per Class (ACC) metric</p>
+
+<h1 id="DESCRIPTION">DESCRIPTION</h1>
+
+<p>The metric calculation is based on the following article and calculates the class conectivity.</p>
+
+<p>Article: <i>Monitoring of source code metrics in open source projects</i> by Paulo Roberto Miranda Meirelles.</p>
+
+<p>See the adaptation of the paragraph about Afferente Connections per Class in the article:</p>
+
+<p>Measures the connectivity of a class. If a class <code>Cc</code> access a method or attribute of a class <code>Cs</code>, consider <code>Cc</code> a client of the supplier class <code>Cs</code>, denoting <code>Cc =&gt; Cs</code>. Consider the follow function:</p>
+
+<pre><code>  client(Ci, Cj) = 1, if (Ci =&gt; Cj) and (Ci != Cj)
+  client(Ci, Cj) = 0, otherwise.</code></pre>
+
+<p>So <code>ACC(C) = (sum(client(Ci, Cj)), i = 1 to N)</code>, where <code>N</code> is the total number of system classes. If the value of this metric is large, a change in the class has substantially more side effects, making maintenance more difficult.</p>
+
+
+
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="../../jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../site.js"></script>
+  </body>
+</html>
+
