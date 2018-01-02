@@ -1,0 +1,6 @@
+man/*.pm
+metrics/*.pm
+metrics/*/*.pm
+analizo/
+*.tmp
+*.swp
