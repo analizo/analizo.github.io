@@ -3,7 +3,7 @@ MAN2HTML = $(patsubst %.pm,%.html,$(wildcard man/*.pm metrics/*.pm metrics/modul
 
 html: analizo man/index.pm metrics/index.pm index.html $(MAN2HTML) $(SITEDOCS)
 
-$(MAN2HTML): %.html : %.pm template.html.tt page.pl
+$(MAN2HTML): %.html : %.pm template.html.tt page.pl update
 	@echo "$< → $@"
 	((echo "<h1>$$(basename $@ | sed 's/.html//')</h1>"; pod2html --noindex $< | sed -s '1,/<body/ d; /<\/body>/,$$ d') | perl page.pl $@ > $@) || ($(RM) $@; false)
 
@@ -15,10 +15,13 @@ $(SITEDOCS): %.html : %.md template.html.tt page.pl
 analizo:
 	@git clone https://github.com/analizo/analizo.git analizo
 
-man/index.pm:
+update:
+	cd analizo/ && git pull origin master
+
+man/index.pm: update
 	@perl man.pl
 
-metrics/index.pm:
+metrics/index.pm: update
 	@perl metrics.pl
 
 upload: all publish
