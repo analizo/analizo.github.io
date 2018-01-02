@@ -3,7 +3,8 @@
 ## User documentation
 
 * [Installation](installation.html)
-* [Manual pages](man/)
+* [Manual pages](man/index.html)
+* [Source code metrics](metrics/index.html)
 * [History](history.html)
 * [Frequently Asked Questions](faq.html)
 
@@ -11,6 +12,7 @@
 
 * [Development tips](hacking.html)
 * [Profiling tips](profiling.html)
+* [Analizo Perldoc](https://metacpan.org/pod/Analizo)
 
 ## Publications
 
