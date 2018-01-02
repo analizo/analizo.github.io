@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Changelog — Analizo</title>
+
+    <link href="./bootstrap/css/bootstrap.min.css" rel='stylesheet'/>
+    <link href="./bootswatch/cosmo/bootstrap.min.css" rel='stylesheet'/>
+    <link href="./site.css" rel='stylesheet'/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="./index.html">&nbsp;</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse navbar-right" id="navbar-main">
+            <ul class="nav navbar-nav">
+              <li><a href="./features.html">Features</a></li>
+              <li><a href="./documentation.html">Documentation</a></li>
+              <li><a href="./download.html">Download</a></li>
+              <li><a href="./community.html">Community</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container" id='body'>
+        <h1 id="changelog">Changelog</h1>
+<p>All notable changes to this project will be documented in this file.</p>
+<p>The format is based on <a href="http://keepachangelog.com/en/1.0.0/">Keep a Changelog</a> and this project adheres to <a href="http://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
+<h2 id="unreleased">[Unreleased]</h2>
+<h2 id="section"><a href="https://github.com/analizo/analizo/compare/1.19.1...1.20.0">1.20.0</a> - 2017-12-29</h2>
+<h3 id="added">Added</h3>
+<ul>
+<li>Source code metrics description</li>
+<li>Dockerfile added</li>
+<li>Support for C# (CSharp)</li>
+<li>More automated tests</li>
+</ul>
+<h3 id="changed">Changed</h3>
+<ul>
+<li>Doxyparse Extractor uses YAML output</li>
+<li>Depends on Doxyparse 1.8.14+</li>
+<li>Build process migrated from Rake to Dist::Zilla</li>
+<li>Migrate from ZeroMQ to ZMQ::FFI</li>
+</ul>
+<h3 id="removed">Removed</h3>
+<ul>
+<li>CLANG Extractor removed</li>
+<li>Security metrics provided by CLANG Extractor removed</li>
+<li>Analizo site source code moved to new repository</li>
+<li>Ruby dependency removed</li>
+</ul>
+<h3 id="fixed">Fixed</h3>
+<ul>
+<li>Fixed Docker setup to run tests on Travis</li>
+<li>Script development-setup.sh fixed</li>
+<li>Running of a single acceptance Cucumber test fixed</li>
+</ul>
+
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="./jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./site.js"></script>
+  </body>
+</html>
+
