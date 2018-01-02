@@ -1,0 +1,56 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 02 Jan 2018 02:04:12 -0200
+Source: analizo
+Binary: analizo
+Architecture: source all
+Version: 1.20.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Joenio Costa <joenio@joenio.me>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ analizo    - multi-language source code analysis toolkit
+Changes:
+ analizo (1.20.1) unstable; urgency=medium
+ .
+   * Changelog based on "Keep a Changelog" project
+   * Copyright holder name and email
+   * Development documentation updated
+   * Dist::Zilla::Deb `debuild` task to build Debian package
+   * Declaring missing Debian dependencies
+Checksums-Sha1:
+ 49bbebdd22a446d539a691dc38fb9d8dbb1965a5 1768 analizo_1.20.1.dsc
+ 9c8c360c803dc7490b14561d12be65a174bdfc8b 476412 analizo_1.20.1.tar.xz
+ 0817131e80c33731592b6debb8d50fed8482deef 81228 analizo_1.20.1_all.deb
+ ca9363e8742e087ede8b8c77aa911d8b101b2779 9429 analizo_1.20.1_amd64.buildinfo
+Checksums-Sha256:
+ 31caa23614656491404f391bcb5c54f450f346ede0af5add5a3f4ead10a025dd 1768 analizo_1.20.1.dsc
+ 78fe175bf059f515687311ea78bd5ae47523881cca174dcec6019c519d123e96 476412 analizo_1.20.1.tar.xz
+ 42b11913ad7536dcad2d1ad2445c8cc13007434e02a027163c0f13b23b620f82 81228 analizo_1.20.1_all.deb
+ d492d67ed12283e8dbdb4fdf591042d1c9e71c8471d2a3d41e4ff7c1b2c94653 9429 analizo_1.20.1_amd64.buildinfo
+Files:
+ 2e319da2b4a5d56a780a27015508fdf2 1768 devel optional analizo_1.20.1.dsc
+ 607a78857cfc22b134e4e076ffd02722 476412 devel optional analizo_1.20.1.tar.xz
+ 035fe4a9bef95675d8f524759ee1af16 81228 devel optional analizo_1.20.1_all.deb
+ 5b0fd677bdac0b58d81604c58efea6de 9429 devel optional analizo_1.20.1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAlpLBp8RHGpvZW5pb0Bq
+b2VuaW8ubWUACgkQLjHT/ebQj/TsRA/+KGweLxf6UW/9zxotQlVi/K7AUQNF4npb
+Tt2sjA3D68N2jtrkGSsXEjlPkNiFTx42cvGKt+WcTU0UBVJHOxTsMc7KnYrUeJoR
+CWwhDTXWiPwAJJtZJE9Viwfnb2YfsJzWt9eUEu88c2RVVDVNcbzY3BRYHvlUaRaV
+SsL6baT4kxlGWYGCBGei1FhAXox+tUNcMr/dXBTv9mY8+3rZbXS9VMkzCrGn7zZN
+np2zaYqo/1rsJw8BcnP2q0j79vAfQFn5j4rq6lEBhgNHIGdIRl3n6BGUKGMwnJBv
+AFGBuRKWtjSfmMDRnzT/+brCq0bnM/z80GL5fkYAt2NmNKyNPj0S+cBZrFjQFyxb
+rKmPVzsaofIW43tIZQKCcRat7wAIF5HQ+tHoimylQe0jy+okzdMkdxeGwNYGPQQR
+TBva4idDxbvudTwE84o7cQBs1B78ATo2m5Qq835ITVcz30e5Tw9AJ7q9a0SYZ3iK
+1uBXcEDEGeI7e9dk9qCJX5zZCDDsVYmxqwDHyHztnOWkLorjPmRxePuogpPbcDBg
+u3MtqmZibFsGHJPq5iIZxkqwrCl9uNhp+QgJDdCAxp3sKoOL0GTYesmK6ACYm3lH
+bEe+IQHwxACWgGRbuDG2PJFSbMySt/mhSktSFzgzWuY0BMB02RfrUtwsm7hNK9/o
+a+Nqqr5b0/I=
+=aQp8
+-----END PGP SIGNATURE-----
