@@ -12,7 +12,7 @@
 
 * [Development tips](hacking.html)
 * [Profiling tips](profiling.html)
-* [Analizo Perldoc](https://metacpan.org/pod/Analizo)
+* [Analizo Perldoc on MetaCPAN.org](https://metacpan.org/pod/Analizo)
 
 ## Publications
 
