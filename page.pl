@@ -4,7 +4,13 @@ use File::Basename;
 use lib './analizo/lib';
 use Analizo;
 
+my $root = dirname($ARGV[0]);
+if ($root ne '.') {
+  $root =~ s/[^\/]+/../g;
+}
+
 my $data = {
+  root      => $root,
   version   => $Analizo::VERSION,
 };
 
