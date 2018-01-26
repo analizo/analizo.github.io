@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 07 Jan 2018 16:17:30 -0200
+Source: doxyparse
+Binary: doxyparse
+Architecture: source amd64
+Version: 1.8.14-3
+Distribution: unstable
+Urgency: medium
+Maintainer: Joenio Costa <joenio@joenio.me>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ doxyparse  - multi-language source code analyzer
+Changes:
+ doxyparse (1.8.14-3) unstable; urgency=medium
+ .
+   * properly detects package methods
+   * output inheritance as list instead of hash
+Checksums-Sha1:
+ 5b33fbad9d00ab987b2ed2903a323e419490062a 976 doxyparse_1.8.14-3.dsc
+ 951254f470a1d097049b57212e28c4008cbcc79f 5990 doxyparse_1.8.14-3.diff.gz
+ c816237fa13254d54f01d6986da982a53db22abe 3272732 doxyparse_1.8.14-3_amd64.deb
+Checksums-Sha256:
+ 6697c50ed771fa7c5c664f350fc775d671a6662133121396c5c1958d177ab788 976 doxyparse_1.8.14-3.dsc
+ 43d2013725ecd2ec85b3787c09532ccb59c13b5e577fc4c7465f356030ed4d74 5990 doxyparse_1.8.14-3.diff.gz
+ 53bec87edda28fc3ecace6178ccde98d790e51bf6b7bc5af8792c40e2cab78ce 3272732 doxyparse_1.8.14-3_amd64.deb
+Files:
+ 5078177f73c01c498c5b1289e2a14b98 976 devel optional doxyparse_1.8.14-3.dsc
+ 3c1c2a4a2dd4b64ba55fe772af42a264 5990 devel optional doxyparse_1.8.14-3.diff.gz
+ 03a32ee5ffc4d03371eeddb5261868ff 3272732 devel optional doxyparse_1.8.14-3_amd64.deb
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAlprO/oACgkQLjHT/ebQ
+j/R5SQ/+JD37PjRjP33SMUqFAf9J2nbx82iA5cQN1AOdPH39j8i7jiieWAxn+LGS
+3Phnlj6w5IbZrn/HK0dbiQ6BtmOqeJAgku5F6cuvhDEu2/D4Kho+uQDIOBucXhO7
+7xXUkRa6OYzU8HbDerOaWyraZmAOzprFRtBx1I74ULmJNWYatJ5jE9FlZU7oCr3u
+rIghLbh8dcpLalvuajo/1EG53mLGoTn6tqFbpp55wqdhI9r/1Fl+EarKkTzTImHk
+SFclj1IcNd8YyR7MZYJC97Jpa/xjaKT51fjQ5O5vGVa8GiN9PMIZifx10jkfE4uX
+iVk8V8XZ15I6R8DRa/Cz/T9dApIC/Byo3B84cPB9vKWUGT/vWSWR9WKYskb0Qm09
+ZXl1BYKnIu/8a3nWPjbiKqu6ofKYeiB7Sqj/4XrASGSIu00CakoBJUK0I8ONl1rk
+I7MfswlAePZKgXOdHEEI5TnjzHYQOuIS8Jb5Z5Xr5MdXykH35Nc3D8hkGaGFxhhe
+719tVWjqfBcPjj9lEamSCr0PTGy+LemqA6JmeWtBWP0pJsT8Z3xcIiYZ6Bk2gzPe
+eNbkZKDCZrHtaYQUMKz16wfZX6FqHT8PnMTHSq6AIYH2xar/n8cxQQxgSZ4q3v6a
+0zWicy038bMZ9Ke3vrwUAJoc2OTcAFz//zN8h6V8Tn3PiI/FaiM=
+=BLfO
+-----END PGP SIGNATURE-----
