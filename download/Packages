@@ -182,6 +182,29 @@ Description: multi-language source code analysis toolkit
  Analizo uses doxyparse to parse the source code, and is currently tested and
  expected to work well with C, C++ and Java source code.
 
+Package: analizo
+Architecture: all
+Version: 1.20.3
+Priority: optional
+Section: devel
+Maintainer: Joenio Costa <joenio@joenio.me>
+Installed-Size: 274
+Depends: perl, libapp-cmd-perl, libyaml-tiny-perl, libmojolicious-perl, libdbi-perl, libjson-perl, libfile-homedir-perl, libchi-perl, libzmq-ffi-perl, libdbd-sqlite3-perl, libstatistics-descriptive-perl, libgraph-perl, libyaml-perl, libclass-accessor-perl, libfindbin-libs-perl, libfile-copy-recursive-perl, liblist-compare-perl, libgraph-writer-dsm-perl, libterm-progressbar-perl, doxyparse, sloccount, sqlite3, man
+Recommends: graphviz
+Filename: ./analizo_1.20.3_all.deb
+Size: 82820
+MD5sum: 739d9437f2f3b93e32bfca653a0ea2c8
+SHA1: efbe20bbdc717567fc6865362f5c2677e94036e4
+SHA256: 1877c0d9a8c534f5a6086857cc01f262f13b655b4a3bd8708714204cc128bc43
+SHA512: c708cc803d8f87922e8d2862f842647bd76947883f6fdf39e60328864e32b5cab8da6ef40df234424f45631e67bb6cd97162911758332a39242c3ee5c8164eae
+Homepage: http://analizo.org
+Description: multi-language source code analysis toolkit
+ Analizo parses source code in multiple languages and report useful information
+ about it, such as module dependency, source code metrics and more.
+ .
+ Analizo uses doxyparse to parse the source code, and is currently tested and
+ expected to work well with C, C++ and Java source code.
+
 Package: doxyparse-dbgsym
 Architecture: amd64
 Version: 1.8.14~rc1
@@ -425,6 +448,60 @@ MD5sum: 77013445ef774edaca356a6d3e02a715
 SHA1: 74e176841406a4f5894509bb4c66be47e73adc79
 SHA256: c8ca6dbb92a9fc520a36b62ca683423b3925167fadef961cd699430bfa0cf7df
 SHA512: 9dd8c27d236fa9424fe7b12546c9bab1df769acfcb0602e487ccf34515b63cf6925b6c82fae76ea98c5da7b1f936fc91f26ea0c06adeab161a1cf341e0da23f3
+Homepage: http://analizo.org/Site/Doxyparse
+Description: multi-language source code analyzer
+ doxyparse builts on doxygen's great source code parsing infrastructure and
+ provides a command-line tool that can be used to obtain informatin from source
+ code, such as:
+ .
+  * which functions/methods and variables/attributes a module/class contains
+  * which functions/methods calls/uses which functions/methods/variables
+  * etc
+ .
+ doxyparses's main goal is to be used by higher-level source code analyzis
+ tools.
+
+Package: doxyparse
+Architecture: amd64
+Version: 1.8.14-3
+Priority: optional
+Section: devel
+Maintainer: Joenio Costa <joenio@joenio.me>
+Installed-Size: 14378
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Filename: ./doxyparse_1.8.14-3_amd64.deb
+Size: 3272732
+MD5sum: 03a32ee5ffc4d03371eeddb5261868ff
+SHA1: c816237fa13254d54f01d6986da982a53db22abe
+SHA256: 53bec87edda28fc3ecace6178ccde98d790e51bf6b7bc5af8792c40e2cab78ce
+SHA512: 03916954810a62d63fdff36356fdbfddf28bc22cf6797dd1a92911da5a08ec9186273f8b3e8743deec4994c56acbadfd7ec7df8267906fffe8a5d9fb75130729
+Homepage: http://analizo.org/Site/Doxyparse
+Description: multi-language source code analyzer
+ doxyparse builts on doxygen's great source code parsing infrastructure and
+ provides a command-line tool that can be used to obtain informatin from source
+ code, such as:
+ .
+  * which functions/methods and variables/attributes a module/class contains
+  * which functions/methods calls/uses which functions/methods/variables
+  * etc
+ .
+ doxyparses's main goal is to be used by higher-level source code analyzis
+ tools.
+
+Package: doxyparse
+Architecture: i386
+Version: 1.8.14-3
+Priority: optional
+Section: devel
+Maintainer: Joenio Costa <joenio@joenio.me>
+Installed-Size: 12232
+Depends: libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.2), libstdc++6 (>= 5.2)
+Filename: ./doxyparse_1.8.14-3_i386.deb
+Size: 2758980
+MD5sum: 1a22d90ce1b2a79804b414a411161a32
+SHA1: 9abcd3385037c0fe650edbd1b5de6be10b4320e0
+SHA256: b4b2374af80ab069cbe0b27441adf1042fade924e625fba68394fb63602868be
+SHA512: 42fff4258d59940ade9256a9ba212cfff0a40c010e19aeeef58978302b900553b9b9485042632d731c42c2dbf484afd898ad755492867e1d2c2511e2975f15e6
 Homepage: http://analizo.org/Site/Doxyparse
 Description: multi-language source code analyzer
  doxyparse builts on doxygen's great source code parsing infrastructure and

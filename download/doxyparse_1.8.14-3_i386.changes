@@ -1,0 +1,54 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 07 Jan 2018 16:17:30 -0200
+Source: doxyparse
+Binary: doxyparse
+Architecture: source i386
+Version: 1.8.14-3
+Distribution: unstable
+Urgency: medium
+Maintainer: Joenio Costa <joenio@joenio.me>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ doxyparse  - multi-language source code analyzer
+Changes:
+ doxyparse (1.8.14-3) unstable; urgency=medium
+ .
+   * properly detects package methods
+   * output inheritance as list instead of hash
+Checksums-Sha1:
+ 4caf52ebd971871650b7ef5d831f3f6a3ebb800a 976 doxyparse_1.8.14-3.dsc
+ fa3449ccabb39638e0939743dd5640327589d16b 6013 doxyparse_1.8.14-3.diff.gz
+ ce06cda288693e9441735ef18cfa1f187e5ef1af 420596 doxyparse-dbgsym_1.8.14-3_i386.deb
+ de9aac3e63ad8cdaa540158c14601eed0dfc133c 5926 doxyparse_1.8.14-3_i386.buildinfo
+ 9abcd3385037c0fe650edbd1b5de6be10b4320e0 2758980 doxyparse_1.8.14-3_i386.deb
+Checksums-Sha256:
+ 017bb1ede7d0a7be967edfffedbfdb3b52a15ffbea9d5945c3dea539460d0f63 976 doxyparse_1.8.14-3.dsc
+ 03cefd07405a38753f906ebed24e742b25a91eaa0e58301cf05ca450e81813af 6013 doxyparse_1.8.14-3.diff.gz
+ eb307a3288b20c85bd57bb0f4ce1feecf3e81661ca3ffaad61c14fece24915dc 420596 doxyparse-dbgsym_1.8.14-3_i386.deb
+ 20aa4afacdcf220394dd1dfc0091248330c5fe49e24b12881f5acb346d840201 5926 doxyparse_1.8.14-3_i386.buildinfo
+ b4b2374af80ab069cbe0b27441adf1042fade924e625fba68394fb63602868be 2758980 doxyparse_1.8.14-3_i386.deb
+Files:
+ 951518ef25b34636b671c29036e3da56 976 devel optional doxyparse_1.8.14-3.dsc
+ a185d65cbe3d0485c39ff8870938d24d 6013 devel optional doxyparse_1.8.14-3.diff.gz
+ 5d8dc6d3af616bd157d475efcdca007d 420596 debug optional doxyparse-dbgsym_1.8.14-3_i386.deb
+ 3547b81a655cea1349a0ad96b11bcfee 5926 devel optional doxyparse_1.8.14-3_i386.buildinfo
+ 1a22d90ce1b2a79804b414a411161a32 2758980 devel optional doxyparse_1.8.14-3_i386.deb
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAlprPAcACgkQLjHT/ebQ
+j/TMBBAAnxtl71LfrQnSDzSR81u0zq+0ZzoCAghfjnDh89wBCbmk/uE7AsD8IZLh
+tQzw5eYwPDG3hKX/oqO+BWvQMZ8+B0Qj+4Fd40rw0UNEJTerlboLt3QnpGYVrhqU
+7RbTsyT0OzHlJ54h8nlgfLVTEUHMMVlIYi7AENyCVy6Up2zvz4e5ZckYaVWAHmng
+d5nK6/asdWA5v8Oge3xRilfgwVHGtWezstYQJ9Kq8zM1dldBXAJQesNZ7Oe8RKAL
+s1Bl7MdQU6N0UmBTSnCTFtBUlycEkeqEpchemKXDLVix0PpKoJMBdOs6BwZQT/X+
+o1WCojaDFLtVy9VMIc7iwKFyG5PfNsf5v741wEenaULBgAAB03i0S5IsZzPIf/7C
+16WCT2IYl9V8re241T7t/2pH6Y29qz1sJeHRmfRlm14Wx6aYYy/z0KYv3q+QSiNB
+7C0haEusAr+XBvbw3hCkpNktmWfv6lP7+vm/vC9pZ46eX2LYjyKA9ledMeGRMb4O
+Cyvm5xjA4TvdUbtcb4nvA+50qpbIi7VORIzWk3vqasRG+CjE7Hjvi67PEWQq63bz
+sYcM21ugsVfCaxTxX46vjwBzmibb3Y/DfQIl4isR9APPuCBSp5TKYxUMmB5V7ouk
+rdAQZtq6YGSArG5wtLVRItloR73VvVz1TabV6NZTBzHbBxBx7+U=
+=FM5M
+-----END PGP SIGNATURE-----

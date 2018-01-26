@@ -59,6 +59,10 @@
 <h2 id="running-the-test-suite">Running the test suite</h2>
 <p>Just run <code>dzil test</code> in the root of the sources:</p>
 <pre class="console"><code>dzil test</code></pre>
+<p>To run a single unit test use <code>prove</code>:</p>
+<pre class="console"><code>prove t/Analizo/Metrics.t</code></pre>
+<p>Features can also be executed with <code>pherkin</code> as:</p>
+<pre class="console"><code>pherkin t/features/metrics-batch.feature</code></pre>
 <p>See &quot;Installing Dependencies&quot; above for a guide to install all the software that's needed to run Analizo tests.</p>
 <h2 id="building">Building</h2>
 <pre class="console"><code>dzil build</code></pre>
@@ -74,10 +78,14 @@
 <p>Use 2 indentation of 2 spaces.</p>
 <p>Please always put the opening curly brace of a block in the same line of the corresponding instruction (e.g. if, for etc).</p>
 <p>Good:</p>
-<pre><code>if (...) Program fragment delivered error ``Unimplemented at template line 29, <STDIN> line 63.''</code></pre>
+<pre><code>if (...) {
+  ...
+}</code></pre>
 <p>Bad:</p>
 <pre><code>if (...)
-Program fragment delivered error ``Unimplemented at template line 34, <STDIN> line 63.''</code></pre>
+{
+  ...
+}</code></pre>
 <p>Always &quot;use strict&quot; in the top of new modules.</p>
 <p>Don't bother changing the AUTHORS file. It's automatically generated as part of the release process. See the dist.ini for more information.</p>
 <h1 id="sending-patches">Sending patches</h1>
