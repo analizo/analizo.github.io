@@ -1,0 +1,55 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 02 Feb 2018 11:53:05 -0200
+Source: doxyparse
+Binary: doxyparse
+Architecture: source i386
+Version: 1.8.14-4
+Distribution: unstable
+Urgency: medium
+Maintainer: Joenio Costa <joenio@joenio.me>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ doxyparse  - multi-language source code analyzer
+Changes:
+ doxyparse (1.8.14-4) unstable; urgency=medium
+ .
+   * don't report same module/class more than once analizo/analizo#112
+   * add missing key "defines:" to all modules analizo/analizo#111
+   * check if string is larger than 1 before removing surrounding quotes analizo/analizo#110
+Checksums-Sha1:
+ b3b47301b9568141a55e3dc234d318ced62ea665 976 doxyparse_1.8.14-4.dsc
+ a91d558d98164737cc5ec6f2d895c3d7f4fa3b51 6459 doxyparse_1.8.14-4.diff.gz
+ ddd9a2de08797c7b0dda801d2453ecb88cc8d854 419328 doxyparse-dbgsym_1.8.14-4_i386.deb
+ eb7a430040d749e2e2411c2f375bb3fa0b007e2e 5926 doxyparse_1.8.14-4_i386.buildinfo
+ 3c5e3e29e46d3a13c95edeefc9767d788a423789 2751000 doxyparse_1.8.14-4_i386.deb
+Checksums-Sha256:
+ 3a2da35d37c608e29c05b44cba470e1b8a4c6679a39f87aab562626998276b0f 976 doxyparse_1.8.14-4.dsc
+ bb221dc03779d351f0612016e35dab44c2688f6bc6efdbcb8fcec30a2b9267c7 6459 doxyparse_1.8.14-4.diff.gz
+ 4eb9412287af656af19b5323d078b289e43fe694e1ec64df830a5688d026d58f 419328 doxyparse-dbgsym_1.8.14-4_i386.deb
+ 47ad366fe8e7afc0cb22aac23b4bdba698a0d011c42cc1ee45daaca185af5951 5926 doxyparse_1.8.14-4_i386.buildinfo
+ 7d27bdc9d4efa79a58fb991467e5937e379e838ace37ea5f8186bc05d02c3ccd 2751000 doxyparse_1.8.14-4_i386.deb
+Files:
+ 46a9f6f177d9b9bb30f370e798e9c44f 976 devel optional doxyparse_1.8.14-4.dsc
+ 5637a335b5cd47c857598b7b02d844bf 6459 devel optional doxyparse_1.8.14-4.diff.gz
+ 7b29c96729f71c1d510b59439a874be3 419328 debug optional doxyparse-dbgsym_1.8.14-4_i386.deb
+ 3ff41bbbb6bf9c6743612e7c5cfead59 5926 devel optional doxyparse_1.8.14-4_i386.buildinfo
+ 960b6709be72652bf43c2ca313760aca 2751000 devel optional doxyparse_1.8.14-4_i386.deb
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAlp0cXkACgkQLjHT/ebQ
+j/RIjw/+MMMm5hbt8ERfxLJ5SMRGrVbIzN4JphRqWtsNlhJEhQ5iUMe91JD1O41C
+cVEBe1PUjMK5xI+02rAXF9Fsxg2kkjsD+yAX+PEez5Kpot/Z0Km8bOPjEYx87oxM
+hKGcFEBwGsi3oGatDmQs3wq3oQ0evZB/fnDI/9n5wCjHiepzWTzgCOjB+Yc0ZU1N
+ORcOgAvGvIY1dnkGpq/vkur1U3okmTvZ47xEKX+te4AZDgkQ23bNPa+SOxToHZDd
+o9otIIXZZ5XBb+LUnQMtzFWe77oodmXC7bzlrToFdpjsjZPgYPOwHhnTAquMt7pE
+G9RArmNiGM7NXcH48jWh0hXnmVQHOhxOJfFpdv3NUJYTqKHfBw0erRKV6mI3Pz4/
+9FyKf00ZY/jGriaEMCNzzvX9Qy/shCBW+ke2VyI3hwKHWbQH6TY/Pr+9xEe3r7SU
+E/uNyZncfC51kCLqXGDIToQIReYGIZQIKZze8dE+twDeoub/UZuIXwW3iwJBdY/w
+eRmfr4bf4Nx6eZI+7O5Nifd9/mGGSctBpfg9F2x8q3j+n6SVQ8BIukmzAtrb4lJM
+zR9S6vwhysqWCWf7oS4F/VbZK9BlpS59QgOg5djBJxKlJI4Og9WHvRCeP91AAFMv
+Kh8UKC6HbAtNNJ6Y3RH2/Q/pSm/wHFidjM6DFg5CwIVQ/dl1AWM=
+=WW+0
+-----END PGP SIGNATURE-----

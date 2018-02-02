@@ -1,0 +1,55 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 02 Feb 2018 11:53:05 -0200
+Source: doxyparse
+Binary: doxyparse
+Architecture: source amd64
+Version: 1.8.14-4
+Distribution: unstable
+Urgency: medium
+Maintainer: Joenio Costa <joenio@joenio.me>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ doxyparse  - multi-language source code analyzer
+Changes:
+ doxyparse (1.8.14-4) unstable; urgency=medium
+ .
+   * don't report same module/class more than once analizo/analizo#112
+   * add missing key "defines:" to all modules analizo/analizo#111
+   * check if string is larger than 1 before removing surrounding quotes analizo/analizo#110
+Checksums-Sha1:
+ b3b47301b9568141a55e3dc234d318ced62ea665 976 doxyparse_1.8.14-4.dsc
+ a91d558d98164737cc5ec6f2d895c3d7f4fa3b51 6459 doxyparse_1.8.14-4.diff.gz
+ fd2e95c0efd20dd97e32a01b2d9712aa43c37935 417956 doxyparse-dbgsym_1.8.14-4_amd64.deb
+ d4bcf3d05d482bac6c4f2cb322af9db7f26912fa 6155 doxyparse_1.8.14-4_amd64.buildinfo
+ 44ff682d20d0c6d45613d0e7db3c857a2baad4aa 2782860 doxyparse_1.8.14-4_amd64.deb
+Checksums-Sha256:
+ 3a2da35d37c608e29c05b44cba470e1b8a4c6679a39f87aab562626998276b0f 976 doxyparse_1.8.14-4.dsc
+ bb221dc03779d351f0612016e35dab44c2688f6bc6efdbcb8fcec30a2b9267c7 6459 doxyparse_1.8.14-4.diff.gz
+ 1eb1b532151868de19032f17ef5e76eb18fb4b1b2ab1f9c5d24cf3634f0329ae 417956 doxyparse-dbgsym_1.8.14-4_amd64.deb
+ 7bca73357b413144569b827ce4357986e37a7d2d0a32ecccfef4e973fb6ee1e0 6155 doxyparse_1.8.14-4_amd64.buildinfo
+ 1fac848944f5d09f0940c264da806dca1242ddc32fa7b1e7745e821346cc526a 2782860 doxyparse_1.8.14-4_amd64.deb
+Files:
+ 46a9f6f177d9b9bb30f370e798e9c44f 976 devel optional doxyparse_1.8.14-4.dsc
+ 5637a335b5cd47c857598b7b02d844bf 6459 devel optional doxyparse_1.8.14-4.diff.gz
+ e6d906f91e514f96c72105b7e9e6a2f4 417956 debug optional doxyparse-dbgsym_1.8.14-4_amd64.deb
+ 2b96572544b0de8f4ca1ed29f45fd9ac 6155 devel optional doxyparse_1.8.14-4_amd64.buildinfo
+ 92c24130ca2f5ee497412ac0215015e2 2782860 devel optional doxyparse_1.8.14-4_amd64.deb
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAlp0cWsACgkQLjHT/ebQ
+j/TOyRAAl6ob/SNzxgzzA/n5GQJICWQWOihDXXaAHaLdITOocVbNgU9w9Ao+cs4z
+wWPbLU2jwoywvRgIH9lBUzAcv1sQPCMrxPfQqxJMAVaKnelOg+laAnNZ29UMFasr
+Ap78apvcmli8VIDeBt9SacLFBNF0sbDOzQVxKTRklTKTqB2uv1X5CSAok0495aR1
+7KjTfwb40QpB7jhmpuhAvUrrEQVNlbvW2ZpKYD1b1jiTAGXCZPF8SudaP4mFpei1
+pUZT7OOYk0OoLWyZN0by0Qjm7tV3NTr6+8vwYPazSlRn5iLHdgFFim4RRCpWDIr/
+JdcbrWoGo5sKAtXsGWIPm8Ab3xMLhM112XTI+hR/w5J/DwhnW95JoQ4GSGgPO9a1
+7S25dD/PBUqtKVbZvMIpwygPcRzfGEPjC6DJouNH5aZgSgs41EpIhcUEQ6yAXJQA
+Fw1CfXNBKt6/YueRhAUnZs72jOX0cMP5FGW0t+IwKZWvN2Y3bplFZHxNmd5ssjmX
+a3GpXV035Isg4lQcJAeKGU2p6rkNQEHFgqAdZ+duZl0jzPBxHabgFvs5Eyr8lUlq
+RUEkSi1g+1B37fRuiSRI15943CUYT9OhEYf3kpCiHLfLPWqpNoguD6Y4q1wdqcYQ
+iGVAVRDaOCPZuDR9AhZm00HiNJLgA4OLxGSKvMsj1Ba1nShvdCs=
+=PITR
+-----END PGP SIGNATURE-----
