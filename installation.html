@@ -75,9 +75,8 @@ deb-src http://analizo.org/download/ ./</code></pre>
 </ol>
 <pre class="console"><code>apt-get install analizo</code></pre>
 <h2 id="from-cpan">From CPAN</h2>
-<p>Install <a href="https://metacpan.org/pod/App::cpanminus">cpanminus</a> and building dependencies then run <code>cpanm Analizo</code>.</p>
-<pre class="console"><code>sudo apt install cpanminus wget cmake bison flex python build-essential libssl-dev git libmagic-dev libzmq3-dev libexpat1-dev sqlite3 man
-cpanm Analizo</code></pre>
+<p>Install <a href="https://metacpan.org/pod/App::cpanminus">cpanminus</a> and building dependencies (see &quot;Installing dependencies on non-Debian systems&quot; on HACKING.md) then run <code>cpanm</code>:</p>
+<pre class="console"><code>cpanm Analizo</code></pre>
 <h2 id="from-sources">From sources</h2>
 <p>Download the analizo tarball linked from <span class="repository"><a href="http://analizo.org/download.html">the download page</a></span>, extract it and run the following commands inside the analizo-x.y.z directory:</p>
 <pre class="console"><code>perl Makefile.PL
