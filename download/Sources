@@ -483,6 +483,36 @@ Package: doxyparse
 Format: 1.0
 Binary: doxyparse
 Architecture: any
+Version: 1.8.14-5
+Maintainer: Joenio Costa <joenio@joenio.me>
+Standards-Version: 4.1.2
+Build-Depends: cdbs, debhelper (>= 7), autotools-dev, flex, bison, g++ (>= 4.6), cmake, python
+Homepage: http://analizo.org/Site/Doxyparse
+Vcs-Browser: http://github.com/analizo/doxyparse
+Vcs-Git: https://github.com/analizo/doxyparse.git
+Package-List:
+ doxyparse deb devel optional arch=any
+Files:
+ dbd9eba8a57d85c96008422defc5db1c 976 doxyparse_1.8.14-5.dsc
+ 508ddc78bc9eb32e84b0ef75e5c36f16 4889769 doxyparse_1.8.14.orig.tar.gz
+ c6e1f8c57b7b263241d64731127c2ba4 6750 doxyparse_1.8.14-5.diff.gz
+Checksums-Sha1:
+ 0946ff3d8f2a48acb0c1532081817fee90881428 976 doxyparse_1.8.14-5.dsc
+ dd2644c57473b7e0a1bc570d11446119963d69df 4889769 doxyparse_1.8.14.orig.tar.gz
+ 5a27110399aef0fbef8b2d0c4f64042a4178f28c 6750 doxyparse_1.8.14-5.diff.gz
+Checksums-Sha256:
+ 0f9ff3c27754283a6e10f4a4a9d37f04fe1d8c5403ed465676e865ad9f999413 976 doxyparse_1.8.14-5.dsc
+ a46b3c536fab0b884fa91d731f59c974335db78c0dd13264f2fe2e47e49cfe9f 4889769 doxyparse_1.8.14.orig.tar.gz
+ c697ea9e0e75d28054d40e245a0ee04d70e876bce453c335a6effaa8db7490e3 6750 doxyparse_1.8.14-5.diff.gz
+Checksums-Sha512:
+ af6ed11c96e8d452135d8b22f024a2d0bcfc3bf6e793e93b8ecbcebf583c6679fa3c7dd5795e4486e14e0552e432198401120306616c91d6ada5db02b403fd42 976 doxyparse_1.8.14-5.dsc
+ a8e754d663a0988f9a6ed9966da98c83533762e5cf30130eebc3a980a4c591d86eb92a4bc7a42a98daff5278f75c06dbf6c828f9a7ba96ef6911ce00586a9bfc 4889769 doxyparse_1.8.14.orig.tar.gz
+ a1b2802cfee7ded25461359bb5864d6538f3be6c38422d8fc124101ee59bfa0ffd64820e89cb2d23a7156c1a53866edc14248a754bdce53b887631ff512baee6 6788 doxyparse_1.8.14-5.diff.gz
+
+Package: doxyparse
+Format: 1.0
+Binary: doxyparse
+Architecture: any
 Version: 1.8.14~rc1
 Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
 Standards-Version: 3.9.6
