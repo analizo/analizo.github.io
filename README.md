@@ -10,7 +10,7 @@
 rough instructions for releasing and publishing packages to the site
 
 * build analizo and doxyparse packages
-* copy package files (.deb, .dsc, .changes and .tar.gz) into download/
+* copy package files (.deb, .dsc, .changes, .tar.gz and .diff.gz) into download/
 * ensure that .changes files are gpg-signed
   ```
   gpg --clear-sign <file>.changes
