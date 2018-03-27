@@ -1,6 +1,5 @@
-man/*.pm
-metrics/*.pm
-metrics/*/*.pm
-analizo/
 *.tmp
 *.swp
+_site
+.sass-cache
+.jekyll-metadata

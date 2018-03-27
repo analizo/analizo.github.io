@@ -1,10 +1,5 @@
 # Analizo site source code
 
-### Pre-requisites
-
-* Text::Template
-* pandoc
-
 ### Releasing
 
 rough instructions for releasing and publishing packages to the site
