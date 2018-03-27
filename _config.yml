@@ -2,7 +2,7 @@ title: Analizo
 email: your-email@example.com
 description: multi-language source code analysis suite
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.analizo.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
