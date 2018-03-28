@@ -11,9 +11,10 @@ rough instructions for releasing and publishing packages to the site
   gpg --clear-sign <file>.changes
   ```
 * cd download && ./update-repository
-* build the site locally if you haven't yet:
+* update `analizo_version` on `_config.yml` file
+* test the site locally if you haven't yet:
   ```
-  make && make html
+  jekyll s
   ```
-* cd site/publish && git add . && git commit -m 'update repository'
-* cd site && make upload
+* git add . && git commit -m 'update repository and site'
+* git push
