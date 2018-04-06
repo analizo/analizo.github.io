@@ -2,7 +2,7 @@
 title: Features
 ---
 
-* Analyze source code in C, C++ and Java. Support for other languages is
+* Analyze source code in C, C++, Java and C#. Support for other languages is
   relatively easy to add. Currently this task is executed by the Doxyparse.
 
 * Extract source code metrics. analizo supports 15+ modules metrics, 7+ project
