@@ -413,6 +413,44 @@ Build-Ids: 0dd0f87346368725c76339da41dc45b458c28c4f
 
 Package: doxyparse-dbgsym
 Architecture: amd64
+Version: 1.8.14-6
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: doxyparse
+Maintainer: Joenio Costa <joenio@joenio.me>
+Installed-Size: 2407
+Depends: doxyparse (= 1.8.14-6)
+Filename: ./doxyparse-dbgsym_1.8.14-6_amd64.deb
+Size: 414628
+MD5sum: c30161114a6af7018b4c6b275757ca09
+SHA1: ee2184d7385d8a440ec6f26d68a6a661f248a734
+SHA256: 9911311c106addbcffbf2a81c4f04636a9b2aa494139a5e67965c1b9c0f4c751
+SHA512: d642dce73059e37e32f2fe712a7c454adc9045c7fe57a3d087d48a2648ed581ece3f8975c775d7daebe64e8ef55f3bd07309f71122f85a92f59d0cdaa3670055
+Description: debug symbols for doxyparse
+Build-Ids: 05c642bca63fbaf8cc820325604d439d0bbafe46
+
+Package: doxyparse-dbgsym
+Architecture: i386
+Version: 1.8.14-6
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: doxyparse
+Maintainer: Joenio Costa <joenio@joenio.me>
+Installed-Size: 2207
+Depends: doxyparse (= 1.8.14-6)
+Filename: ./doxyparse-dbgsym_1.8.14-6_i386.deb
+Size: 419308
+MD5sum: c071f882ef553b7caba07309d3eec2b6
+SHA1: 11e6fb86fd5d837cc1187fa5d45662a79a2a4ea2
+SHA256: cbf133b6f66523eb063c474ee3668f38186dbc6e3506e73ab74578846e8d410b
+SHA512: c20cafb4f6cc3ab6d5de8d777ac3e19e0cbe9954a7ac914c064719afe25d0c2a9d37a03a1670244726d61c5f605b0a5a2a51eb73723f1b05ab007cf963353a29
+Description: debug symbols for doxyparse
+Build-Ids: 5c11d3b0b7b497c594ae940a60ef4c5f1328fc81
+
+Package: doxyparse-dbgsym
+Architecture: amd64
 Version: 1.8.14~rc1
 Auto-Built-Package: debug-symbols
 Priority: extra
@@ -816,6 +854,60 @@ MD5sum: 73c4c4116087440fd0243485054aabca
 SHA1: de59846f5e6c0131f9c102a2f353cffe9b39939f
 SHA256: ef66e80dcd2bebf49154c2d0ef3cf563443ed04f8ab7bf5969ff0b19fc03face
 SHA512: be51fcade8067c64afcdb1bf09f944733b7b4b253efbb3a74e7e3e2999bbbf4948e3dabb278df04eb1b62f0f0549dea1e13dc898fde68b35f4af1fd5befdbf94
+Homepage: http://analizo.org/Site/Doxyparse
+Description: multi-language source code analyzer
+ doxyparse builts on doxygen's great source code parsing infrastructure and
+ provides a command-line tool that can be used to obtain informatin from source
+ code, such as:
+ .
+  * which functions/methods and variables/attributes a module/class contains
+  * which functions/methods calls/uses which functions/methods/variables
+  * etc
+ .
+ doxyparses's main goal is to be used by higher-level source code analyzis
+ tools.
+
+Package: doxyparse
+Architecture: amd64
+Version: 1.8.14-6
+Priority: optional
+Section: devel
+Maintainer: Joenio Costa <joenio@joenio.me>
+Installed-Size: 12661
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./doxyparse_1.8.14-6_amd64.deb
+Size: 2779932
+MD5sum: 7ef84b79fb09753f28f04f813c892996
+SHA1: 0f50c5a5178d11ba8de77f28352e4fa1fe8b8ea1
+SHA256: 8f67ee94e50b06ffc0de61b12f4a4f81e2a33857ec4e7efdc29056a42bde01c7
+SHA512: 49ea9b21e772fc572a4f3a7e46c047e2ed1ec7cf99d35af4086c343b10e988a109a8fa01b84564b3e855896baa0b0712528eb1b01171caaf852740e017396d35
+Homepage: http://analizo.org/Site/Doxyparse
+Description: multi-language source code analyzer
+ doxyparse builts on doxygen's great source code parsing infrastructure and
+ provides a command-line tool that can be used to obtain informatin from source
+ code, such as:
+ .
+  * which functions/methods and variables/attributes a module/class contains
+  * which functions/methods calls/uses which functions/methods/variables
+  * etc
+ .
+ doxyparses's main goal is to be used by higher-level source code analyzis
+ tools.
+
+Package: doxyparse
+Architecture: i386
+Version: 1.8.14-6
+Priority: optional
+Section: devel
+Maintainer: Joenio Costa <joenio@joenio.me>
+Installed-Size: 12208
+Depends: libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.2), libstdc++6 (>= 5.2)
+Filename: ./doxyparse_1.8.14-6_i386.deb
+Size: 2752748
+MD5sum: 5918056b593a5aeeaf1807c539d0e912
+SHA1: cdb8b65cfb64a32bb30d9cb2129b9c50a8430f0c
+SHA256: 2663b8a66cd273332f84a2330e2052724c73c0de5d2c5323c8679ed9f3b3c148
+SHA512: a6b2b776a579d2ded4d1bd4e21e1145ba68b166f38f50ddc479cbcf713f7b8045ba5aeeb70f30bcbcab52c4cb64cc96253c02a454eddd5fbe22ec303363ac65e
 Homepage: http://analizo.org/Site/Doxyparse
 Description: multi-language source code analyzer
  doxyparse builts on doxygen's great source code parsing infrastructure and
