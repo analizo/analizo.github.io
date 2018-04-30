@@ -324,6 +324,31 @@ Checksums-Sha512:
  8310709d6df43401379d16671b18c3e62f0d771c0ee77fa1de56b76805d2c9771ce711bc3a89f26c426191f450e4ca3c60a1738113453944932adb0eccb9811d 1761 analizo_1.20.8.dsc
  33e3ca6ca7ad2033f7344ef4ef9fe521e2c8b604f7c1d593dfd1ae6dd7c04f2729b3a897799e8b99534acf8ae4587e57b08eb82626d0097417e246462b5ff872 133084 analizo_1.20.8.tar.xz
 
+Package: analizo
+Format: 3.0 (native)
+Binary: analizo
+Architecture: all
+Version: 1.21.0
+Maintainer: Joenio Marques da Costa <joenio@joenio.me>
+Standards-Version: 4.1.2
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: libterm-ui-perl, libfile-sharedir-perl, liblist-moreutils-perl, libfile-share-perl, libgit-wrapper-perl, libtest-exception-perl, libtest-mockmodule-perl, libfile-libmagic-perl, libtest-class-perl, libarchive-extract-perl, libtest-bdd-cucumber-perl, libfile-slurp-perl, libtest-mockobject-perl
+Homepage: http://analizo.org
+Package-List:
+ analizo deb devel optional arch=all
+Files:
+ 1fa579191f4ee7e322843c667bc85d93 1772 analizo_1.21.0.dsc
+ 57816d80fce8f6197cd450d7fda6cab1 137468 analizo_1.21.0.tar.xz
+Checksums-Sha1:
+ 73266c02572b2df8cb6e8c71aae229ab3b2f8e0e 1772 analizo_1.21.0.dsc
+ bc233b28761b30896ccc0e493090097151d89624 137468 analizo_1.21.0.tar.xz
+Checksums-Sha256:
+ 49c7e4481eda2051c9c02b107d1d9a67cdd74405ea468ec2fd83c1eae832c38b 1772 analizo_1.21.0.dsc
+ 5a2f64b1f96c6e8c448e3ba2ecc167453cafa85ceed9521aa5cb40de0827b9c4 137468 analizo_1.21.0.tar.xz
+Checksums-Sha512:
+ 967bddf7f3bc33c7a45d4e3ec9990f8e0c3f0db4b9f3c5d2631dcf0b0d6ddf3f95f3bf59a19eb42c883ee944f9338c2dd6c853732fa1b72ab7f04bdda90fe9b8 1772 analizo_1.21.0.dsc
+ 50605ef727a55da83109cf30a1dccdde9814327f8aa75a6c44aa755f8a5b2fe28b6c1c98c9059cecac2374d92c3c60bb62e65023dc85da930018e8fde4b6729b 137468 analizo_1.21.0.tar.xz
+
 Package: doxyparse
 Format: 1.0
 Binary: doxyparse

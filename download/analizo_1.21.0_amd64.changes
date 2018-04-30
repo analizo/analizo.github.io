@@ -1,0 +1,64 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 30 Apr 2018 19:42:08 -0300
+Source: analizo
+Binary: analizo
+Architecture: source all
+Version: 1.21.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Joenio Marques da Costa <joenio@joenio.me>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ analizo    - multi-language source code analysis toolkit
+Changes:
+ analizo (1.21.0) unstable; urgency=medium
+ .
+   * Added documentation about the meaning of 0 (zero) value for metrics
+   * Added documentation for C# language support
+   * Added tests for Java Enumerations and Java Generics with Wildcards<?>
+   * Added tests for Doxyparse bug parsing mlpack source-code
+   * authors listed on 'Signed-off-by' added to AUTHORS file
+   * Improving performance by using module `YAML::XS` instead of `YAML`
+   * Improving performance avoid calculating `Graph` every time
+   * Global metric `total_eloc` (Total Effective Lines of Code) is going to be removed next release
+   * Removed dependency for module `Moo`
+   * Removed dependency for pragma `base`
+   * Fix documentation for LCOM4 metric
+   * Fix missing dependency for `Class::Inspector`
+   * Removing cache after every test execution
+Checksums-Sha1:
+ 73266c02572b2df8cb6e8c71aae229ab3b2f8e0e 1772 analizo_1.21.0.dsc
+ bc233b28761b30896ccc0e493090097151d89624 137468 analizo_1.21.0.tar.xz
+ 26028d41345d147e9f1de7ac5d6dc6bdc6948227 86100 analizo_1.21.0_all.deb
+ a9a9fbedd0cb2dc59bd85b03366d857676d12c40 8642 analizo_1.21.0_amd64.buildinfo
+Checksums-Sha256:
+ 49c7e4481eda2051c9c02b107d1d9a67cdd74405ea468ec2fd83c1eae832c38b 1772 analizo_1.21.0.dsc
+ 5a2f64b1f96c6e8c448e3ba2ecc167453cafa85ceed9521aa5cb40de0827b9c4 137468 analizo_1.21.0.tar.xz
+ e48ef4007769051284788a2e0e646f6d9541dcb00ec0fd1118260593bf137384 86100 analizo_1.21.0_all.deb
+ c0dcc303ac69ece61e9a3e819c6718faa4738a99073826966681a01f01588a57 8642 analizo_1.21.0_amd64.buildinfo
+Files:
+ 1fa579191f4ee7e322843c667bc85d93 1772 devel optional analizo_1.21.0.dsc
+ 57816d80fce8f6197cd450d7fda6cab1 137468 devel optional analizo_1.21.0.tar.xz
+ b016f860cfa24f8f674f837d964b1ef3 86100 devel optional analizo_1.21.0_all.deb
+ 3e122895936b74cc203d77c5713b10b8 8642 devel optional analizo_1.21.0_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAlrnnEwRHGpvZW5pb0Bq
+b2VuaW8ubWUACgkQLjHT/ebQj/R/Zw//T3PWSEdnm/536xpk/NvFtAulc4KFw3wd
+k6DnaYPPKbm+DQDMUCM/YDYKiXVJ/vIYc77UzI68mr3P4Ea/QYrwCFG1inlUL6V3
+LGnESkj1G2JVW+Q5ADMkYcUJ1KQd/e7Mb7oZjmwLoGHY8/um1wUhHoMjbaZCp2i2
+Y2Z3MABHj2dhMgiR74Ecsa1Iy8AIJq8wixg8zvWbMzt1HCsuYK9wMKg3WDMeYdyu
+DSesOP66josLz/hyqEWSXmdViPKPYDvhzO3eLmisJdo47PucGKb6WZJmhklPkksX
+SNB3iJ5FueB7SY+06EKt9mdkZzKBPTDCNXqS1qp7xsgbe6r7ixKMIBHGAKxYrt5i
+F1bEUilum55WM4Kxr3NFDaZbcb9bOjcQgk4fexakD7U16lXczFCERDkfkJiu549w
+9TfgcxH+213sgdY8MDIvpeB6f3X2tbaA3/PNcLg4MgL8xDlxepT5aTtP+PrBTXmy
+F5JuDL3zy0hOmlb5DoJ2ACubDQjCmR8ykqu4kU9XbC61cxPZVAY+F129KzzPK4RJ
+G1zUvLgqZdqlwqO/GP0jnd372GFdisGbYzNBXt+/YG+fiXgNSaBi1kiI8sygZtMw
+1HMrcpQkxIrbCQxpyqRC75fuI4oLRySS2d4jcy0KFze4wVaM22jGIDsYSlLJVbV1
+a+n7P/HraqQ=
+=eqEB
+-----END PGP SIGNATURE-----
