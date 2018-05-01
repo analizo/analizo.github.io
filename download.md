@@ -2,18 +2,12 @@
 title: Download
 ---
 
-Analizo current version is <strong>{{ site.analizo_version }}</strong> (see [CHANGELOG][changelog]). You have more than one
-choice of download, see below.
+Analizo latest version can be obtained from [CPAN][cpan] or [GitHub][github],
+see [installation instructions][install] for details how to install.
 
-## Source code
-
-Analizo source code can be obtained by downloading
-<a href="http://analizo.org/download/analizo_{{ site.analizo_version }}.tar.xz">analizo_{{ site.analizo_version }}.tar.xz</a>.
-To perform the installation, check the [installation instructions][install].
-
-## Debian package
-
-Check the [installation instructions][install].
+You can see what's new latest version in the [CHANGELOG][changelog] file.
 
 [changelog]: {{ site.analizo_github }}/blob/master/CHANGELOG.md
 [install]: {{ site.analizo_github }}/blob/master/INSTALL.md
+[cpan]: https://metacpan.org/release/Analizo
+[github]: {{ site.analizo_github }}/releases/latest
