@@ -18,8 +18,9 @@ Report bugs [at Github]({{ site.analizo_github }}/issues).
 ## Contributing
 
 Source code is available [at Github]({{ site.analizo_github }}).
-
-See the "developer documentation" section at the [Documentation
-page](documentation.html).
+See [development tips][hacking] and
+[profiling tips][profiling].
 
 [list]: https://groups.google.com/forum/#!forum/analizo
+[hacking]: {{ site.analizo_github }}/blob/master/HACKING.md
+[profiling]: {{ site.analizo_github }}/blob/master/PROFILING.md
