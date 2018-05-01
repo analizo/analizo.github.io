@@ -13,4 +13,4 @@ $ analizo metrics --list
 ```
 
 The above command will list all metrics supported, both module-level and
-project-level metrics, see the [supported source code metrics](metrics/index.html).
+project-level metrics.
