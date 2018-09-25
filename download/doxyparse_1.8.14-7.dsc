@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: doxyparse
 Binary: doxyparse
@@ -20,3 +23,21 @@ Checksums-Sha256:
 Files:
  508ddc78bc9eb32e84b0ef75e5c36f16 4889769 doxyparse_1.8.14.orig.tar.gz
  622f48ef520bb479f7a95d7cfa961495 7500 doxyparse_1.8.14-7.diff.gz
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAluqfkcRHGpvZW5pb0Bq
+b2VuaW8ubWUACgkQLjHT/ebQj/Rf+g//SK5NzNOewqVRraMi+yNNp9y/a33Ct424
+cchu9RtHIDUB8RNVTbNnH54iNnDbxmFM92U8969+c1a8W7pT5jHzeakx3ThRkT1U
+75T33X8EeZcyfV+P/S26AhtqXRbaNmgCIc5cR+p9KzWt+bmEnVhbSkK27F2ISSqX
+ocQ9tyMRArjH2ckKL0VLJ9vVjUaI5etGXORrWP2OebfjcXV1jdwQ7Tk+m91zPQF3
+9FHor05MQnbikJTOqhusJTITQFO4sCYmOlhvAAve4EC2TheAm/xmHbUOkfElttU/
+HOvCRgRWgHYZLFUruT9T+s0tzKkSJ/9FJH+J5A9wyytFh/tjtvH4htJf0Wt38h4E
+7uHKzBVOTgWRCg5edNUStjlKiOgoV7WdSMBkppXgs4q7/65aTiYPHzXpVykAxRwg
+OcrnsoYABpoVNST8fDKdS48eyEh2SpT3LnTlTE53NWrPOZgOXfwkDcReosWp2Vjs
+ThqRSq6xq9UPTWnPSf5vWcScTgo4wOeTqNRFLmk/4A/YdghbfiPZoZmkG6DJWe09
+Z8eIDs/1h/efyNfIwARJrtmfZ7yJjlUsf1Bf6vkmmPWB8yiujxbhZh8qQZleRTOU
+BBiaozKOEEmeNA2LUQusWzJbhd9HGaVZobldkKDmeThh1WOp5bDzccZq0hb9kFJ0
+Gvji6/zTACw=
+=whRr
+-----END PGP SIGNATURE-----
