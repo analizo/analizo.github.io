@@ -1,0 +1,58 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 25 Sep 2018 14:21:18 -0300
+Source: doxyparse
+Binary: doxyparse
+Architecture: source amd64
+Version: 1.8.14-7
+Distribution: unstable
+Urgency: medium
+Maintainer: Joenio Costa <joenio@joenio.me>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ doxyparse  - multi-language source code analyzer
+Changes:
+ doxyparse (1.8.14-7) unstable; urgency=medium
+ .
+   * limit identifiers to 1024 chars
+   * avoiding defined_in empty keys
+   * removing "\" from function signatures
+   * fix override args references
+Checksums-Sha1:
+ 63f7b78139ff275e69d4bcb511f9895517cc1505 1884 doxyparse_1.8.14-7.dsc
+ 20fb4eaea2a5ba349f75d3abcfb182ead4c1002e 7478 doxyparse_1.8.14-7.diff.gz
+ eedf577ac8bb6a26001fbdf876d52da16f1c8084 417084 doxyparse-dbgsym_1.8.14-7_amd64.deb
+ a504f1fe18e0835f94a9ccedf00b88007a640610 7333 doxyparse_1.8.14-7_amd64.buildinfo
+ 2e67dd7465898ccf0eaef9e14bc9195d2a292f6d 2781512 doxyparse_1.8.14-7_amd64.deb
+Checksums-Sha256:
+ 00b06097d49ab472858d9f62e52e148f4e8eb569256041e09332c84722eb1fda 1884 doxyparse_1.8.14-7.dsc
+ 04b9f03df12a71508ee0ddbcaa405f1fcbf71beea91d3f4fc4886a27073d6cd0 7478 doxyparse_1.8.14-7.diff.gz
+ 3f4761a5eb2fb59d16d000fc2c5d847a992b87890fc2868ba27cea473d6f8160 417084 doxyparse-dbgsym_1.8.14-7_amd64.deb
+ ddcbfdffae65a002dfccd69fd994e56125f05583ee46d3cb951850a2a8f03ac6 7333 doxyparse_1.8.14-7_amd64.buildinfo
+ b27ad5193cce19627561b84cb320b823a438b698c8fd0898e56d6f2dde47e65d 2781512 doxyparse_1.8.14-7_amd64.deb
+Files:
+ 1a5cf45d356c89226b4dd5f5264eaf86 1884 devel optional doxyparse_1.8.14-7.dsc
+ 3ca45c965efd524c91cedb4058d9925e 7478 devel optional doxyparse_1.8.14-7.diff.gz
+ d6789d9b2c09369acf23b7525db4ade4 417084 debug optional doxyparse-dbgsym_1.8.14-7_amd64.deb
+ c7c1989823210689782fdaad9bfa1dd6 7333 devel optional doxyparse_1.8.14-7_amd64.buildinfo
+ 37bf8b9edf1966834df9a57b27702e1c 2781512 devel optional doxyparse_1.8.14-7_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAluqekMRHGpvZW5pb0Bq
+b2VuaW8ubWUACgkQLjHT/ebQj/QteQ//YoUWoMqcxH1NPFPai/gjgCed2qyh6JWG
+03Isqu9PHsoQ/htjJ0gPVcgT989pJgkb6C0eR8wrqOooILC1dP6j7zT/5OsHS+s0
+GTKKFmz0zUj8OoOgETilCCuK7vwFAW4zV7ymCjuPVDpBBqXha+o8xRTHjgx0PaqO
+9jD2TfgDVes/b61ANLjAYXzcuvp6Pdq5OLwi7ksFytReSNjah1Kpgnb2rTn7v9nm
+Y4yj4IG/UH8GW5I89fdjlrWsLQcOuP9IxR8oR0QMULu50T2nC9LKTsL1hCr5MWOj
+ucnywgaMlBBktGgXQ0APOfdRr0stsO84f3/dNlXFdG5hF64L0pLZlgotUa+KKNJn
+3a2E/VWF+m8j787iPGCQLbEs5AGikq/Ui7qBlI0Kab+Y30prIQsV+5xtBR3ECdhX
+f1I8qfj8uUJarX9a9HtzO8EXz0/Kblnd/ksDJi7HCR0X/pawY8yC4MG1SXE16kKK
+QsgKiiJNb6048XeQR6YaB+SzxYmrLE4cPfX/eYyvyA+soIHa1uRTLlIlAy5tUIbd
+aZ1ss6Tl6KYeyJRndcDc1MDmwQQbVsTxpSGGGak21xDbq3V/ftq1qNVcjnqGiYpB
+WF+7uUUXp6tIfa9xd1xQGMrJ91Ah0hBv6HqbnLMXpe64m00jPHcadVLlx0PQzUF6
+uKJswiGKJkY=
+=HFY6
+-----END PGP SIGNATURE-----
