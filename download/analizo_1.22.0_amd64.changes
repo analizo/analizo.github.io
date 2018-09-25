@@ -1,0 +1,58 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 25 Sep 2018 14:27:17 -0300
+Source: analizo
+Binary: analizo
+Architecture: source all
+Version: 1.22.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Joenio Marques da Costa <joenio@joenio.me>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ analizo    - multi-language source code analysis toolkit
+Changes:
+ analizo (1.22.0) unstable; urgency=medium
+ .
+   * Removed global metric `total_eloc`
+   * Removed dependency for `sloccount` external tool
+   * Development setup installs Doxyarse from latest source master branch
+   * Improved the performance for ACC metric calculation
+   * Update to the newer Doxyparse 1.8.14-7 (fix invalid YAML with "\" char)
+   * Invalid references to function
+   * Limit Doxyparse YAML output identifiers to 1024 chars
+Checksums-Sha1:
+ be5a5573ff6856bd5e566710188cc78c2f298645 1772 analizo_1.22.0.dsc
+ 9a37aebd8fdf87166f98ab0491ca87397332d1c9 139484 analizo_1.22.0.tar.xz
+ 9995451be240e46288b88ce9a14f7d7fdde0400d 86060 analizo_1.22.0_all.deb
+ a3feb2827d6578f288d4bbb0debcd57568b51e3a 8754 analizo_1.22.0_amd64.buildinfo
+Checksums-Sha256:
+ 20970a61da8229f2c06751433f6d8d436481a97a8d53bde744cd3dd39ba31300 1772 analizo_1.22.0.dsc
+ 7d00759d94f87c82db46a53952a92c00617745c0f7650182edc3f9484fc6c014 139484 analizo_1.22.0.tar.xz
+ 82d98a616cbbfaeaa8b995dfa2061505767c605f35e693dd6ac7b65aa16f5b5c 86060 analizo_1.22.0_all.deb
+ 3a9cb485d33279dc402d991578465da9a374462c9ebc52bc089132360e07c7cc 8754 analizo_1.22.0_amd64.buildinfo
+Files:
+ 339e1d3658f37ffd3a741f29ca299ce6 1772 devel optional analizo_1.22.0.dsc
+ 056a3aba651f5f35d664b83266992fb6 139484 devel optional analizo_1.22.0.tar.xz
+ 06451c068a09d609de7522e0731fbe3d 86060 devel optional analizo_1.22.0_all.deb
+ 277f2806966b39acf67613164234b4b4 8754 devel optional analizo_1.22.0_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAluqltoRHGpvZW5pb0Bq
+b2VuaW8ubWUACgkQLjHT/ebQj/RH8xAAk8lIq14p9rofk/QpegqgBmq/f6aHPmyK
+Pm4wfWIALsqZ1sUHFB71OVhLMacdT/aLqzaV9MhM027n4hJihrbbeeWiDPY6NHm+
+OYTtaesjGczeSb0fzufd0zIMezzL86g9Fqppbq8ju0JMMJx726SnnTMBz5ds+xSK
+lhR+4cxRoC/VogQ8GF0yBttdvrxm/DAzu1BLfEPTob+smm5tO8FfjT0xrmHtzeqK
+LFFfYiUKmFNINxioIcI7IE/pFa9/na2WFp5/atX7Y67kFSlFgHxVziA0GzbOs3GJ
+WDIl8EdkGPg6nlDqrpL8EZNKvtNvsF3T8wrPwuzAAIMe+8z3rAd2UHZiMdfZcWAE
+fzbOHvs8KG9WcYgMUdlKlknBrnZOaaBk3EQ53npGL0dGrNdom7Fyk74zR9yw0mio
+qR7Ihh1fRvBGLLETXY0ujWhspHlRISh50SMnYUG50cxRx6SU29H3ygwuv3xCcDAl
+y0fOiYULJakv1uGUmq9s1sM33sRFEJEQWNv++J42KXnsyLJc7UgBflqcGqiYewJ1
+JZ1pm71euOyc2QErvoLEEKe++m/OBKW/K9jeEcaEtB3lygkaWKTycQbTUl0HklRr
+qKrCIqIA9YRPPeLHXNyygGQzZxMn7vepPK+8pjAebdn34+N5Y2r/UK+zDV7wPiqN
+6pdmLKqo12A=
+=pGWL
+-----END PGP SIGNATURE-----
