@@ -1,0 +1,63 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 10 Aug 2019 13:45:08 -0300
+Source: doxyparse
+Binary: doxyparse doxyparse-dbgsym
+Architecture: source amd64
+Version: 1.8.15-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Joenio Costa <joenio@joenio.me>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ doxyparse  - multi-language source code analyzer
+Changes:
+ doxyparse (1.8.15-1) unstable; urgency=medium
+ .
+   * new upstream 1.8.15
+   * doxyparse bugfixes and minor improvements
+   * fix debian/maintainer name
+   * pointing to build debian package instructions
+   * print missing module name for some C code
+   * Revert "new Doxyfile option: MODIFY_SPECIAL_CHARS"
+   * workarounding strings replaced by doxygen core
+   * do not count/print 'void' as a function argument.
+Checksums-Sha1:
+ d6158aa9efb3ce0666f6b3833c56bd5a551ef2d6 976 doxyparse_1.8.15-1.dsc
+ 5c7994316d644dc4c21bccb9e61da1ea7ffc43d2 5106333 doxyparse_1.8.15.orig.tar.gz
+ 89380c5e8ae95414adc3c59e88b869fba04f66ec 6159 doxyparse_1.8.15-1.diff.gz
+ f75cd6f32f3671534980915e71837dd5a2a53628 425336 doxyparse-dbgsym_1.8.15-1_amd64.deb
+ 234cd7bb034dcae1de35307695fbea6bb44cba3c 6700 doxyparse_1.8.15-1_amd64.buildinfo
+ 2d478460edc7e64f4f10a162807e045fd71aee00 2981016 doxyparse_1.8.15-1_amd64.deb
+Checksums-Sha256:
+ 3dd9ca26157e1164c05afca006dab97a62aa4d552218508d90cafcd0904db76d 976 doxyparse_1.8.15-1.dsc
+ 76771feb889a60c81b76121f4eb95aa72e1ed238181909134f8bf474ff9aad78 5106333 doxyparse_1.8.15.orig.tar.gz
+ 9f6e3221f82e8d318353d145df1543976b56b8dbb6f945e7aa4170159678ab19 6159 doxyparse_1.8.15-1.diff.gz
+ 4190c79e6c2c030e44bf3755e97cadc3f20b2b09f1b8b56df73d9f8503a97fd4 425336 doxyparse-dbgsym_1.8.15-1_amd64.deb
+ a8b3dc3c3a070f0b040e67546b9e1048c7b6b956b14b3f0a7fa478839cd04938 6700 doxyparse_1.8.15-1_amd64.buildinfo
+ 68c3ea79cf2a9d36e99d372bfc7c9ef8e2a458feeacf525f57d6405c0033c5be 2981016 doxyparse_1.8.15-1_amd64.deb
+Files:
+ 619e261b2c9b67fa6e225e25dbc9e20b 976 devel optional doxyparse_1.8.15-1.dsc
+ c09b1ca5e1c2024b770431733be1eb1a 5106333 devel optional doxyparse_1.8.15.orig.tar.gz
+ b74a2a1e8e35ddbf27f6df688950d41a 6159 devel optional doxyparse_1.8.15-1.diff.gz
+ ddc5b9dc3dccdd0dc8d22ae5b730efa5 425336 debug optional doxyparse-dbgsym_1.8.15-1_amd64.deb
+ 6129dc0c8313d3e6c3496cd9413df5a2 6700 devel optional doxyparse_1.8.15-1_amd64.buildinfo
+ db2741c8c777f11a2c0d0e4fb25ab3b2 2981016 devel optional doxyparse_1.8.15-1_amd64.deb
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAl1PMLMACgkQLjHT/ebQ
+j/RGRA//VddrtLLY6Y4q31tYs2SOFgMNnbsCWyH9fNZz3jAsrKJZO4Ln/QKCj8AD
+kHM0oLCxyuiCXhxlS6KY6d8kE2tsGsBOTZUkcBz3krzJBjaG9QjaNt1r07FS3K8s
+ViCxOsTh6iIBIwJF9PIFmgrOgtCoE2J1yrmDSHpI69cOlJdlf2q5WRPof+vmyx5M
+IqO3sW42Yis1bXT6spz8ZCHfx0Cvk1qI+/Nc1a2fcyIgwIXwrL7KmAsE/mlfGpMM
+cmlKVx1XfHwyvqdw5XlLGGDOAI2j6t5uU4kRb+M7Y0CTZp8F9aiig56Chv/b1A6q
+jfl6CtG8KjO66akbqbrJn3wi+QkdRNcKWSxDFYZNHWW5sS3ZBt84yytj4WcM4Ae5
+lLO/4TPZLY0o8szNHSwg68zqz+MdQK6Bh9ByaYMM4nlliSlUQiWMXHOBDDtdGgd6
+tmeIjVhedPegACzB0EBdu4/qAyeRxQ2xF2daQXN6ULHx48tv6jjScpRRPzKmXhOZ
+A8idHqBrqVc9NkQyAFmjHzkTN2+5XUoiTqQyG0Cad7rzBl89XouyB1U/+rgHX5E9
+pV+m1+Mo+AjKbzgC+c6jTEcwSLAU9djAke5Sk5WwqNOVoUuN0sOSfwD5LAsSTcE5
+ulnCce8uqbLI/u7PGwXLfcnT05jX4hY7denvG66B9aHkbAQ35hQ=
+=4UtE
+-----END PGP SIGNATURE-----

@@ -1113,6 +1113,60 @@ Description: multi-language source code analyzer
  doxyparses's main goal is to be used by higher-level source code analyzis
  tools.
 
+Package: doxyparse
+Architecture: amd64
+Version: 1.8.15-1
+Priority: optional
+Section: devel
+Maintainer: Joenio Costa <joenio@joenio.me>
+Installed-Size: 14758
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./doxyparse_1.8.15-1_amd64.deb
+Size: 2981016
+MD5sum: db2741c8c777f11a2c0d0e4fb25ab3b2
+SHA1: 2d478460edc7e64f4f10a162807e045fd71aee00
+SHA256: 68c3ea79cf2a9d36e99d372bfc7c9ef8e2a458feeacf525f57d6405c0033c5be
+SHA512: 60b1b72d63ec097ed3cb62dbf905c9081e6468c9ee8bb278f9359ace782e40154b76ae5034445e9aed22e89cea60b0111ed5865bfea23b4c20c746f25c38cfd5
+Homepage: http://analizo.org/Site/Doxyparse
+Description: multi-language source code analyzer
+ doxyparse builts on doxygen's great source code parsing infrastructure and
+ provides a command-line tool that can be used to obtain informatin from source
+ code, such as:
+ .
+  * which functions/methods and variables/attributes a module/class contains
+  * which functions/methods calls/uses which functions/methods/variables
+  * etc
+ .
+ doxyparses's main goal is to be used by higher-level source code analyzis
+ tools.
+
+Package: doxyparse
+Architecture: i386
+Version: 1.8.15-1
+Priority: optional
+Section: devel
+Maintainer: Joenio Costa <joenio@joenio.me>
+Installed-Size: 14189
+Depends: libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.2), libstdc++6 (>= 5.2)
+Filename: ./doxyparse_1.8.15-1_i386.deb
+Size: 2949576
+MD5sum: 3c279ea002b09db2351f20d6c5fa7a10
+SHA1: 2a6ecb602af26372263a13f8faa99f46305842ae
+SHA256: cd2b7a8b46a9321b41dea0809f5c9d3e0459458c16be19fc9afed089589dc005
+SHA512: d4e94cbd7e77aa22f3c33eb08694eb5d44157ac1e92e3b09744af872217bd46dd13507815b18f11444494dfce46c06d12e3714a406683031540449bbb8726e5f
+Homepage: http://analizo.org/Site/Doxyparse
+Description: multi-language source code analyzer
+ doxyparse builts on doxygen's great source code parsing infrastructure and
+ provides a command-line tool that can be used to obtain informatin from source
+ code, such as:
+ .
+  * which functions/methods and variables/attributes a module/class contains
+  * which functions/methods calls/uses which functions/methods/variables
+  * etc
+ .
+ doxyparses's main goal is to be used by higher-level source code analyzis
+ tools.
+
 Package: libdist-zilla-plugin-requiresexternal-perl
 Architecture: all
 Version: 1.008-1+analizo1

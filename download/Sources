@@ -670,6 +670,36 @@ Checksums-Sha512:
  901dcbac35f4d56b8c584765c444c91e0e3e673e8a31c3927251d6b51251547942791ab8c4501777f1e533b7be79b01657927b13ff7fce1284eea910455db1eb 1656 doxyparse_1.8.14~rc1.dsc
  1f93bba877ee503880a11f1bbb9512e0a193e0a4f84a28377cf41a7358eba9ffda23237cc6e270442d131895f7330d8c47b55563612497065342aab10ffabc41 4874788 doxyparse_1.8.14~rc1.tar.gz
 
+Package: doxyparse
+Format: 1.0
+Binary: doxyparse
+Architecture: any
+Version: 1.8.15-1
+Maintainer: Joenio Costa <joenio@joenio.me>
+Standards-Version: 4.1.2
+Build-Depends: cdbs, debhelper (>= 7), autotools-dev, flex, bison, g++ (>= 4.6), cmake, python
+Homepage: http://analizo.org/Site/Doxyparse
+Vcs-Browser: http://github.com/analizo/doxyparse
+Vcs-Git: https://github.com/analizo/doxyparse.git
+Package-List:
+ doxyparse deb devel optional arch=any
+Files:
+ 4848ede6d395e525784c5884d841d4ca 1858 doxyparse_1.8.15-1.dsc
+ c09b1ca5e1c2024b770431733be1eb1a 5106333 doxyparse_1.8.15.orig.tar.gz
+ b74a2a1e8e35ddbf27f6df688950d41a 6159 doxyparse_1.8.15-1.diff.gz
+Checksums-Sha1:
+ b22d60e359fb95045dd4233a6f151ef4fce622cc 1858 doxyparse_1.8.15-1.dsc
+ 5c7994316d644dc4c21bccb9e61da1ea7ffc43d2 5106333 doxyparse_1.8.15.orig.tar.gz
+ 89380c5e8ae95414adc3c59e88b869fba04f66ec 6159 doxyparse_1.8.15-1.diff.gz
+Checksums-Sha256:
+ a0171f5447e373e0a29e1bcdc3fbdcae666cfc58a2669f2f5e5f53360690fc0c 1858 doxyparse_1.8.15-1.dsc
+ 76771feb889a60c81b76121f4eb95aa72e1ed238181909134f8bf474ff9aad78 5106333 doxyparse_1.8.15.orig.tar.gz
+ 9f6e3221f82e8d318353d145df1543976b56b8dbb6f945e7aa4170159678ab19 6159 doxyparse_1.8.15-1.diff.gz
+Checksums-Sha512:
+ cf5f422510e99c915605f5a144e53416210916ac429a62cfb2ddbeb3281d50775e5ff776ec182acb9573bdf1178ccee84aaa334d323484c40cfdbaa66b28e41a 1858 doxyparse_1.8.15-1.dsc
+ e6b9c69b35fc32edec49a7afdc6e8a0055213588b37f77a7223f1c790a33bf2c9b5f87a9010ce06c9085dc63c698fdc2c309125f5aef2a59a28908180a3160e0 5106333 doxyparse_1.8.15.orig.tar.gz
+ 80cad0d4fa9fef4b9d1b89e7454581810a8de0f8e600379e1f12fa3998fa5af43c2d5544b8d3c957000acf26e8d87f6aa5ed04f0f869ff9848d2f599232978ab 6159 doxyparse_1.8.15-1.diff.gz
+
 Package: libdist-zilla-plugin-requiresexternal-perl
 Format: 3.0 (quilt)
 Binary: libdist-zilla-plugin-requiresexternal-perl
