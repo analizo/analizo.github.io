@@ -16,4 +16,6 @@
   <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CrUobMUImDU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
   </p>
+
+  <p><script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#ff551c', 'H2H41AOOZ');kofiwidget2.draw();</script></p>
 </div>
