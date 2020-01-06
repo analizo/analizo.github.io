@@ -343,6 +343,29 @@ Description: multi-language source code analysis toolkit
  Analizo uses doxyparse to parse the source code, and is currently tested and
  expected to work well with C, C++, Java and C# source code.
 
+Package: analizo
+Architecture: all
+Version: 1.23.0
+Priority: optional
+Section: devel
+Maintainer: Joenio Costa <joenio@joenio.me>
+Installed-Size: 268
+Depends: perl, libapp-cmd-perl, libdbd-sqlite3-perl, libfile-copy-recursive-perl, libyaml-perl, libterm-progressbar-perl, libchi-perl, libclass-accessor-perl, liblist-compare-perl, libjson-perl, libstatistics-descriptive-perl, libdbi-perl, libenv-path-perl, libzmq-ffi-perl, libyaml-libyaml-perl, libfile-homedir-perl, libclass-inspector-perl, libfindbin-libs-perl, liblocal-lib-perl, libgraph-readwrite-perl, libgraph-perl, doxyparse
+Recommends: graphviz, man
+Filename: ./analizo_1.23.0_all.deb
+Size: 83864
+MD5sum: 53696ce8c44f54b33b280e3d7e654007
+SHA1: 7ec094e12fba73c7c196d06acfa2078b1117b305
+SHA256: d7ed1d0b69b8cddac0700cc3c78f6d07e8d9acb4a88c3b2e3dc5926c55a29107
+SHA512: 5f5cea88b85c500b532f0635b12f9e264269a1ae3fc0250aa01b5efd754399e31776d187e2a7247b0e7cbcb9d1d18fa36ab026e35263bd9df8bf712ff873bd62
+Homepage: http://analizo.org
+Description: multi-language source code analysis toolkit
+ Analizo parses source code in multiple languages and report useful information
+ about it, such as module dependency, source code metrics and more.
+ .
+ Analizo uses doxyparse to parse the source code, and is currently tested and
+ expected to work well with C, C++, Java and C# source code.
+
 Package: doxyparse-dbgsym
 Architecture: amd64
 Version: 1.8.14-3

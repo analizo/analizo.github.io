@@ -1,0 +1,61 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 06 Jan 2020 00:40:42 -0300
+Source: analizo
+Binary: analizo
+Architecture: source all
+Version: 1.23.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Joenio Costa <joenio@joenio.me>
+Changed-By: Joenio Costa <joenio@joenio.me>
+Description:
+ analizo    - multi-language source code analysis toolkit
+Changes:
+ analizo (1.23.0) unstable; urgency=medium
+ .
+   * Added new tool files-graph to output graph among files in DOT format
+   * Add Ubuntu 16 install instructions on documentation
+   * Depends on doxyparse 1.8.15 provided by Alien::Doxyparse 0.13
+   * Stores cache on distinct dirs for each Analizo version
+   * Improve ACC metric description on documentation
+   * Added test for void arguments on C code
+   * Fix tests to run on right place `t/samples/sample_basic/c/`
+   * Added missing prereq Graph::Writer::Dot as suggested by CPANTS
+   * Added atomated tests for httpd-2.4.38 errors
+   * Added samples for bug parsing kdelibs project
+   * Removed the evolution-matrix visualization tool
+   * Removed the dsm visualization tool
+Checksums-Sha1:
+ e4a1d1e079e1bb5afee947a5bc57d2f5ee01570e 853 analizo_1.23.0.dsc
+ af9560da99c13fda1a4d39646f4e21dbce81103e 154048 analizo_1.23.0.tar.xz
+ 7ec094e12fba73c7c196d06acfa2078b1117b305 83864 analizo_1.23.0_all.deb
+ 26ec7bd57bae410888ec25b0ae32ccb04e5f16e6 7552 analizo_1.23.0_amd64.buildinfo
+Checksums-Sha256:
+ 9b12016c41344d756d90fb68bcac08d94cf707014dc05548f1e2a42fac8122d6 853 analizo_1.23.0.dsc
+ 8faaabdfdb5caadb52915674075940fd0a332230da217e5815e7c4734e16ede6 154048 analizo_1.23.0.tar.xz
+ d7ed1d0b69b8cddac0700cc3c78f6d07e8d9acb4a88c3b2e3dc5926c55a29107 83864 analizo_1.23.0_all.deb
+ 2e678d7e2b03ef1881b04e198c42760a27d07fbd26ad3c1bff8b068d2221cf47 7552 analizo_1.23.0_amd64.buildinfo
+Files:
+ a3f8225f9b5084a22a9fec3a60205aec 853 devel optional analizo_1.23.0.dsc
+ 71cba321dfa5a04d9996bbc7cbb1d43e 154048 devel optional analizo_1.23.0.tar.xz
+ 53696ce8c44f54b33b280e3d7e654007 83864 devel optional analizo_1.23.0_all.deb
+ c7f9b8e856aeac3b5f5e58dbc696f523 7552 devel optional analizo_1.23.0_amd64.buildinfo
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEmy1kv4Q9bcHYwXUsLjHT/ebQj/QFAl4SrOwACgkQLjHT/ebQ
+j/TDlxAAmXm7401BhnIOw04qi5xlP+WOwdrrGh7DWWZzIUJ/qkxivhUZW4xLM11X
+xnmJJLO8567Ixz6F0VBkerOOln3wwXxr2I/H/JFhQSl3GORptmemJaIw8kBGu/KW
+GndcVuI4oSl8+lB9QRw6q2KFFZqDHqxu0zGPueFJssegpUXH3TZHulH+davB/NDb
+cTvY12SPZGgGviuPrFwINqawWHK1A36+sv/aTzR6FkLqH3JQRzujD4WIlTtgGUAg
+eehfAFPcOWEtV8/JhrcHzqI5YRbEP7hY05HDKWc14UDRSXvWsSKhyfLnF635/Nop
+ot4Ka13t6qHBBjDybwWJICoYdKrmGzYDW+w7kDaNvZem6c4vsb2YGA6VEXKuyoRo
+yxy7yWVWnnf3EE8oy5IvwdiGO0REpQZ3Caay57+uoGr4dGMkVJ/6O5GW9v8nMPiu
+0y0WFkUi4f++GygwdPu+N9x2jN5DWkVL3+j4qDt6Z/w7HRz+490FTaO5iDox1jlQ
+Q6V41L61fWMLyjL5MR2VLqwRFb093uaVLPiUmCYBlAl7pHpCGmxaZXrzAjPixvs6
+zVwbcuDRHaoBD93f1WGGinPxWwnEPTgvKB1zqYWawajZbG2nhHiLhBh9nacoQjy9
+kRG4qsR6lA+KnHDexYGX8hsFKIF1bHoytERSoherU3fcoYvKwlM=
+=xggk
+-----END PGP SIGNATURE-----
