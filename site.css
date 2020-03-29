@@ -1,3 +1,7 @@
+body {
+  font-size: 18px;
+}
+
 .container {
   max-width: 960px;
 }
