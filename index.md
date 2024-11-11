@@ -85,6 +85,9 @@ Or buy a Coffee to support me keep working on Analizo.
 ## Works citing Analizo
 
 - Z. Mushtaq, G. Rasool and B. Shehzad, "Multilingual Source Code Analysis: A Systematic Literature Review," in IEEE Access, vol. 5, pp. 11307-11336, 2017, doi: 10.1109/ACCESS.2017.2710421. https://doi.org/10.1109/ACCESS.2017.2710421
+- Nuñez-Varela, A. S., Pérez-Gonzalez, H. G., Martínez-Perez, F. E., & Soubervielle-Montalvo, C. (2017). Source code metrics: A systematic mapping study. Journal of Systems and Software, 128, 164-197. https://doi.org/10.1016/j.jss.2017.03.044
+
+&nbsp;
 
 [cpan]: https://metacpan.org/release/Analizo
 [changelog]: {{ site.analizo_github }}/blob/master/CHANGELOG.md
