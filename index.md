@@ -82,6 +82,10 @@ See [development tips][hacking] and
 
 Or buy a Coffee to support me keep working on Analizo.
 
+## Works citing Analizo
+
+- Z. Mushtaq, G. Rasool and B. Shehzad, "Multilingual Source Code Analysis: A Systematic Literature Review," in IEEE Access, vol. 5, pp. 11307-11336, 2017, doi: 10.1109/ACCESS.2017.2710421. https://doi.org/10.1109/ACCESS.2017.2710421
+
 [cpan]: https://metacpan.org/release/Analizo
 [changelog]: {{ site.analizo_github }}/blob/master/CHANGELOG.md
 [install]: {{ site.analizo_github }}/blob/master/INSTALL.md
